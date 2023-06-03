@@ -1,4 +1,4 @@
-# Alper ŞAHİN - Hüseyin YAŞAR
+# Alper SAHIN - Huseyin YASAR
 
 # Overview
 
