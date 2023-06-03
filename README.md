@@ -4,6 +4,15 @@
 
 You will generate eclipse maven project with Junit4 from CLI and. Also you will generate jar and then you will run your application. For more information you can check examples [Maven – Maven in 5 Minutes](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html) and [TheNEXUS | A Community Project](https://books.sonatype.com/mvnref-book/reference/index.html)
 
+ce204-hw4-app Package
+
+![App](https://github.com/alpersahin38/ce204-hw4-alper-sahin/assets/93208734/122bcb7f-c9d2-46e7-8be2-fb62cde9c196)
+
+ce204-hw4-app Package
+
+![Lib](https://github.com/alpersahin38/ce204-hw4-alper-sahin/assets/93208734/25ee6a0a-bd4e-457c-b7e1-2573aac8c309)
+
+
 ## Releases
 
 - [![GitHub release badge](https://badgen.net/github/release/ucoruh/eclipse-java-maven-template)](https://github.com/ucoruh/eclipse-java-maven-template/releases/latest)
