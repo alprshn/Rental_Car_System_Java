@@ -8,7 +8,7 @@ ce204-hw4-app Package
 
 ![App](https://github.com/alpersahin38/ce204-hw4-alper-sahin/assets/93208734/122bcb7f-c9d2-46e7-8be2-fb62cde9c196)
 
-ce204-hw4-app Package
+ce204-hw4-lib Package
 
 ![Lib](https://github.com/alpersahin38/ce204-hw4-alper-sahin/assets/93208734/25ee6a0a-bd4e-457c-b7e1-2573aac8c309)
 
