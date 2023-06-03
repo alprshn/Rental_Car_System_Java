@@ -1,4 +1,4 @@
-# eclipse-java-maven-template
+# Alper SAHIN - Huseyin YASAR
 
 # Overview
 
