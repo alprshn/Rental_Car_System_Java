@@ -2,7 +2,7 @@
 @setlocal enableextensions
 @cd /d "%~dp0"
 
-cd calculator-app
+cd ce204-hw4-alper-sahin
 
 echo Run Web Site
 echo to Exit Use CTRL+Z CTRL+C
