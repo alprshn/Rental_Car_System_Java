@@ -170,6 +170,7 @@ public class Main {
     do {
       System.out.println();
       MENU_DISPLAY_SERVICES.designMainMenu();
+      System.out.println("Username for Admin: admin, password:0000 /// Username for Customer: ugur, password:1234");
       System.out.println("If you don't have an account yet, register now for free!");
       System.out.println("Please, choose your option from down below: ");
       int option = INPUT.nextInt();
