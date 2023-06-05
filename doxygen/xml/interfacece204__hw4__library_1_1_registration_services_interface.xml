@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfacece204__hw4__library_1_1_registration_services_interface" kind="interface" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::RegistrationServicesInterface</compoundname>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_registration_services" prot="public" virt="non-virtual">ce204_hw4_library.RegistrationServices</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_registration_services_interface_1a0d0f48134278d17fdb5ac41753db49db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.RegistrationServicesInterface.displayRegistrationMenu</definition>
+        <argsstring>()</argsstring>
+        <name>displayRegistrationMenu</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_registration_services_1a0f69ab84d6ea179dcb47d5fbe232a168">displayRegistrationMenu</reimplementedby>
+        <briefdescription>
+<para>Displays the registration menu. This method displays the registration menu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java" line="28" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_registration_services_interface_1a3565cddd3b1675fba5853117f98f9499" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.RegistrationServicesInterface.customerRegistration</definition>
+        <argsstring>(Customer customer)</argsstring>
+        <name>customerRegistration</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_registration_services_1aedcb509b9518b3559e13fe7eb467f163">customerRegistration</reimplementedby>
+        <param>
+          <type><ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref></type>
+          <declname>customer</declname>
+        </param>
+        <briefdescription>
+<para>Performs the customer registration. This method performs the customer registration. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>customer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Customer object representing the customer registration form. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java" line="37" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_registration_services_interface_1a15523bc8345af64a800fd1db362f68ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref></type>
+        <definition>Customer ce204_hw4_library.RegistrationServicesInterface.customerRegistrationForm</definition>
+        <argsstring>(String Name, String lastName, String userName, String password, String licenceObtained)</argsstring>
+        <name>customerRegistrationForm</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_registration_services_1a75edcca8db0ce412fa6429cc999a082b">customerRegistrationForm</reimplementedby>
+        <param>
+          <type>String</type>
+          <declname>Name</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>lastName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>licenceObtained</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new customer registration form. This method creates a new customer registration form. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first name of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last name of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>licenceObtained</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The date the driver&apos;s license was obtained by the customer. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A Customer object representing the customer registration form. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java" line="51" column="12"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_registration_services_interface_1acfd4590d0b6add1ddaddcfe555647fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.RegistrationServicesInterface.initiateRegistration</definition>
+        <argsstring>(LoginServices loginImpService)</argsstring>
+        <name>initiateRegistration</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_registration_services_1aec01823a9f1440aa1e989e28c7eef942">initiateRegistration</reimplementedby>
+        <param>
+          <type><ref refid="classce204__hw4__library_1_1_login_services" kindref="compound">LoginServices</ref></type>
+          <declname>loginImpService</declname>
+        </param>
+        <briefdescription>
+<para>Initiates the registration process. This method initiates the registration process. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loginService</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="classce204__hw4__library_1_1_login_services" kindref="compound">LoginServices</ref> object used for the registration process. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java" line="61" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the interface for registration services. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   The RegistrationServicesInterface defines the methods for handling
+   user registration and managing the registration process.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_library.RegistrationServices</label>
+        <link refid="classce204__hw4__library_1_1_registration_services"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.RegistrationServicesInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_registration_services_interface"/>
+      </node>
+    </inheritancegraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java" line="22" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java" bodystart="22" bodyend="63"/>
+    <listofallmembers>
+      <member refid="interfacece204__hw4__library_1_1_registration_services_interface_1a3565cddd3b1675fba5853117f98f9499" prot="public" virt="non-virtual"><scope>ce204_hw4_library::RegistrationServicesInterface</scope><name>customerRegistration</name></member>
+      <member refid="interfacece204__hw4__library_1_1_registration_services_interface_1a15523bc8345af64a800fd1db362f68ed" prot="public" virt="non-virtual"><scope>ce204_hw4_library::RegistrationServicesInterface</scope><name>customerRegistrationForm</name></member>
+      <member refid="interfacece204__hw4__library_1_1_registration_services_interface_1a0d0f48134278d17fdb5ac41753db49db" prot="public" virt="non-virtual"><scope>ce204_hw4_library::RegistrationServicesInterface</scope><name>displayRegistrationMenu</name></member>
+      <member refid="interfacece204__hw4__library_1_1_registration_services_interface_1acfd4590d0b6add1ddaddcfe555647fcb" prot="public" virt="non-virtual"><scope>ce204_hw4_library::RegistrationServicesInterface</scope><name>initiateRegistration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

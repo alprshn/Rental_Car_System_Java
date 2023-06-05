@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PayPalSystem.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ce204-hw4-alper-sahin</a> &gt; <a href="index.source.html" class="el_package">ce204_hw4_library</a> &gt; <span class="el_source">PayPalSystem.java</span></div><h1>PayPalSystem.java</h1><pre class="source lang-java linenums">
+/**
+
+@file PayPalSystem.java
+@brief This file contains the implementation of the PayPalSystem class.
+The PayPalSystem class is a part of the CE204_HW4_Library package and provides methods for handling PayPal payments
+for car rentals.
+*/
+package ce204_hw4_library;
+
+/**
+ *
+ * @class PayPalSystem
+ *
+ * @brief Represents the PayPal payment system for car rentals.
+ *
+ *        The PayPalSystem class provides methods for handling PayPal payments
+ *        for car rentals. It stores the email and password
+ *
+ *        associated with the PayPal account used for payments.
+ */
+public class PayPalSystem {
+
+  private String valEmail;
+  private String valPassword;
+
+  /**
+   *
+   * @brief Constructs a PayPalSystem instance with the specified email and
+   *        password. This constructor initializes a PayPalSystem instance with
+   *        the specified email and password values.
+   * @param emailValue    The email associated with the PayPal account.
+   * @param passwordValue The password associated with the PayPal account.
+   */
+<span class="fc" id="L35">  public PayPalSystem(String emailValue, String passwordValue) {</span>
+    // TODO Auto-generated constructor stub
+<span class="fc" id="L37">    valEmail = emailValue;</span>
+<span class="fc" id="L38">    valPassword = passwordValue;</span>
+<span class="fc" id="L39">  }</span>
+
+  /**
+   *
+   * @brief Retrieves the email associated with the PayPal account. This method
+   *        retrieves the email associated with the PayPal account.
+   * @return The email associated with the PayPal account.
+   */
+  public String getEmailValue() {
+<span class="fc" id="L48">    return valEmail;</span>
+  }
+
+  /**
+   *
+   * @brief Retrieves the password associated with the PayPal account. This method
+   *        retrieves the password associated with the PayPal account.
+   * @return The password associated with the PayPal account.
+   */
+  public String getPasswordValue() {
+<span class="fc" id="L58">    return valPassword;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

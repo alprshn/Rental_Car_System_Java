@@ -1,0 +1,66 @@
+\hypertarget{classce204__hw4__app_1_1_bill}{}\doxysection{ce204\+\_\+hw4\+\_\+app.\+Bill Class Reference}
+\label{classce204__hw4__app_1_1_bill}\index{ce204\_hw4\_app.Bill@{ce204\_hw4\_app.Bill}}
+
+
+Represents a bill for a rented car.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classce204__hw4__app_1_1_bill_a65caf1282b397d671feae7eb3f0143be}{display\+Bill}} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}} car, String paymentsystem\+Type)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a bill for a rented car. 
+
+This class is responsible for displaying the bill details for a rented car, including its features and payment information. 
+
+Definition at line 14 of file Bill.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__app_1_1_bill_a65caf1282b397d671feae7eb3f0143be}\label{classce204__hw4__app_1_1_bill_a65caf1282b397d671feae7eb3f0143be}} 
+\index{ce204\_hw4\_app.Bill@{ce204\_hw4\_app.Bill}!displayBill@{displayBill}}
+\index{displayBill@{displayBill}!ce204\_hw4\_app.Bill@{ce204\_hw4\_app.Bill}}
+\doxysubsubsection{\texorpdfstring{displayBill()}{displayBill()}}
+{\footnotesize\ttfamily static void ce204\+\_\+hw4\+\_\+app.\+Bill.\+display\+Bill (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}}}]{car,  }\item[{String}]{paymentsystem\+Type }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 30 of file Bill.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{30                                                                                  \{}
+\DoxyCodeLine{31     System.out.print(\textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+\(\backslash\)n"{}} +}
+\DoxyCodeLine{32                      \textcolor{stringliteral}{"{}|                      BILL                     |\(\backslash\)n"{}} +}
+\DoxyCodeLine{33                      \textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+\(\backslash\)n\(\backslash\)n"{}} +}
+\DoxyCodeLine{34                      \textcolor{stringliteral}{"{}Car Brand: "{}} + car.getCarBrand().toUpperCase() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{35                      \textcolor{stringliteral}{"{}Car Model: "{}} + car.getCarModel().toUpperCase() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{36                      \textcolor{stringliteral}{"{}Car Year: "{}} + car.getCarModelYear() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{37                      \textcolor{stringliteral}{"{}Car Fuel: "{}} + car.getCarFuelType().toUpperCase() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{38                      \textcolor{stringliteral}{"{}Car Color: "{}} + car.getCarColor().toUpperCase() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{39                      \textcolor{stringliteral}{"{}Car Price: "{}} + car.getCarPrice() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{40                      \textcolor{stringliteral}{"{}Car Seats Number: "{}} + car.getCarSeatsNumber() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}} +}
+\DoxyCodeLine{41                      \textcolor{stringliteral}{"{}Paymet Type: "{}} + paymentsystemType + \textcolor{stringliteral}{"{}\(\backslash\)n\(\backslash\)n"{}} +}
+\DoxyCodeLine{42                      \textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+\(\backslash\)n"{}} +}
+\DoxyCodeLine{43                      \textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+\(\backslash\)n\(\backslash\)n"{}});}
+\DoxyCodeLine{44   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Brand(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Color(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Fuel\+Type(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Model(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Model\+Year(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Price(), and ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Seats\+Number().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+app/\mbox{\hyperlink{_bill_8java}{Bill.\+java}}\end{DoxyCompactItemize}

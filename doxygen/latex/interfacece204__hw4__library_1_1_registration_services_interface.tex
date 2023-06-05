@@ -1,0 +1,126 @@
+\hypertarget{interfacece204__hw4__library_1_1_registration_services_interface}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface Interface Reference}
+\label{interfacece204__hw4__library_1_1_registration_services_interface}\index{ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}}
+
+
+Represents the interface for registration services.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{interfacece204__hw4__library_1_1_registration_services_interface}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_a0d0f48134278d17fdb5ac41753db49db}{display\+Registration\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the registration menu. This method displays the registration menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_a3565cddd3b1675fba5853117f98f9499}{customer\+Registration}} (\mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}} customer)
+\begin{DoxyCompactList}\small\item\em Performs the customer registration. This method performs the customer registration. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}} \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_a15523bc8345af64a800fd1db362f68ed}{customer\+Registration\+Form}} (String Name, String last\+Name, String user\+Name, String password, String licence\+Obtained)
+\begin{DoxyCompactList}\small\item\em Creates a new customer registration form. This method creates a new customer registration form. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_acfd4590d0b6add1ddaddcfe555647fcb}{initiate\+Registration}} (\mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} login\+Imp\+Service)
+\begin{DoxyCompactList}\small\item\em Initiates the registration process. This method initiates the registration process. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the interface for registration services. 
+
+\begin{DoxyVerb}   The RegistrationServicesInterface defines the methods for handling
+   user registration and managing the registration process.
+\end{DoxyVerb}
+ 
+
+Definition at line 22 of file Registration\+Services\+Interface.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_registration_services_interface_a3565cddd3b1675fba5853117f98f9499}\label{interfacece204__hw4__library_1_1_registration_services_interface_a3565cddd3b1675fba5853117f98f9499}} 
+\index{ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}!customerRegistration@{customerRegistration}}
+\index{customerRegistration@{customerRegistration}!ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}}
+\doxysubsubsection{\texorpdfstring{customerRegistration()}{customerRegistration()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface.\+customer\+Registration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}}}]{customer }\end{DoxyParamCaption})}
+
+
+
+Performs the customer registration. This method performs the customer registration. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & The Customer object representing the customer registration form. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_aedcb509b9518b3559e13fe7eb467f163}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services}}.
+
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_registration_services_interface_a15523bc8345af64a800fd1db362f68ed}\label{interfacece204__hw4__library_1_1_registration_services_interface_a15523bc8345af64a800fd1db362f68ed}} 
+\index{ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}!customerRegistrationForm@{customerRegistrationForm}}
+\index{customerRegistrationForm@{customerRegistrationForm}!ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}}
+\doxysubsubsection{\texorpdfstring{customerRegistrationForm()}{customerRegistrationForm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}} ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface.\+customer\+Registration\+Form (\begin{DoxyParamCaption}\item[{String}]{Name,  }\item[{String}]{last\+Name,  }\item[{String}]{user\+Name,  }\item[{String}]{password,  }\item[{String}]{licence\+Obtained }\end{DoxyParamCaption})}
+
+
+
+Creates a new customer registration form. This method creates a new customer registration form. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first\+Name} & The first name of the customer. \\
+\hline
+{\em last\+Name} & The last name of the customer. \\
+\hline
+{\em user\+Name} & The username of the customer. \\
+\hline
+{\em password} & The password of the customer. \\
+\hline
+{\em licence\+Obtained} & The date the driver\textquotesingle{}s license was obtained by the customer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Customer object representing the customer registration form. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a75edcca8db0ce412fa6429cc999a082b}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services}}.
+
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_registration_services_interface_a0d0f48134278d17fdb5ac41753db49db}\label{interfacece204__hw4__library_1_1_registration_services_interface_a0d0f48134278d17fdb5ac41753db49db}} 
+\index{ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}!displayRegistrationMenu@{displayRegistrationMenu}}
+\index{displayRegistrationMenu@{displayRegistrationMenu}!ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}}
+\doxysubsubsection{\texorpdfstring{displayRegistrationMenu()}{displayRegistrationMenu()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface.\+display\+Registration\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the registration menu. This method displays the registration menu. 
+
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0f69ab84d6ea179dcb47d5fbe232a168}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services}}.
+
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_registration_services_interface_acfd4590d0b6add1ddaddcfe555647fcb}\label{interfacece204__hw4__library_1_1_registration_services_interface_acfd4590d0b6add1ddaddcfe555647fcb}} 
+\index{ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}!initiateRegistration@{initiateRegistration}}
+\index{initiateRegistration@{initiateRegistration}!ce204\_hw4\_library.RegistrationServicesInterface@{ce204\_hw4\_library.RegistrationServicesInterface}}
+\doxysubsubsection{\texorpdfstring{initiateRegistration()}{initiateRegistration()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface.\+initiate\+Registration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}}}]{login\+Imp\+Service }\end{DoxyParamCaption})}
+
+
+
+Initiates the registration process. This method initiates the registration process. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em login\+Service} & The \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} object used for the registration process. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_aec01823a9f1440aa1e989e28c7eef942}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_registration_services_interface_8java}{Registration\+Services\+Interface.\+java}}\end{DoxyCompactItemize}

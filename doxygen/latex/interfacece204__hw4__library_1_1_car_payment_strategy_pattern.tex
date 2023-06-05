@@ -1,0 +1,101 @@
+\hypertarget{interfacece204__hw4__library_1_1_car_payment_strategy_pattern}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern Interface Reference}
+\label{interfacece204__hw4__library_1_1_car_payment_strategy_pattern}\index{ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}}
+
+
+Represents the payment strategy pattern for car rental.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.291811cm]{interfacece204__hw4__library_1_1_car_payment_strategy_pattern}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}{Payment\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Verifies the payment details. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}{Pay\+System}} (int price)
+\begin{DoxyCompactList}\small\item\em Performs the payment using the specified price. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}{Collect\+Payment\+System\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Collects the payment system details from the user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the payment strategy pattern for car rental. 
+
+Definition at line 14 of file Car\+Payment\+Strategy\+Pattern.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}\label{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}} 
+\index{ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}!CollectPaymentSystemDetails@{CollectPaymentSystemDetails}}
+\index{CollectPaymentSystemDetails@{CollectPaymentSystemDetails}!ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}}
+\doxysubsubsection{\texorpdfstring{CollectPaymentSystemDetails()}{CollectPaymentSystemDetails()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern.\+Collect\+Payment\+System\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Collects the payment system details from the user. 
+
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a610a2e857c2fae3ca0d65d108cb5e54b}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal}}, \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a32824985c7d9e9065c8a6d246c17921d}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card}}, and \mbox{\hyperlink{classce204__hw4__library_1_1_pay_cash_aa7a2ba816547da24423b0d4c24eb0c83}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash}}.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+proccess\+Order().
+
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}\label{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}} 
+\index{ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}!PaymentDetails@{PaymentDetails}}
+\index{PaymentDetails@{PaymentDetails}!ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}}
+\doxysubsubsection{\texorpdfstring{PaymentDetails()}{PaymentDetails()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern.\+Payment\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Verifies the payment details. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em \mbox{[}boolean\mbox{]}} & True if the payment details are valid, false otherwise. \\
+\hline
+\end{DoxyRetVals}
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a05177243ef2fb150773456b3a04b06f1}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal}}, \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a128046bff50cf3ed09c9155701108244}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card}}, and \mbox{\hyperlink{classce204__hw4__library_1_1_pay_cash_ab3758120f4455c0b5a228497aeec6990}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash}}.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+proccess\+Order().
+
+\mbox{\Hypertarget{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}\label{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}} 
+\index{ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}!PaySystem@{PaySystem}}
+\index{PaySystem@{PaySystem}!ce204\_hw4\_library.CarPaymentStrategyPattern@{ce204\_hw4\_library.CarPaymentStrategyPattern}}
+\doxysubsubsection{\texorpdfstring{PaySystem()}{PaySystem()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern.\+Pay\+System (\begin{DoxyParamCaption}\item[{int}]{price }\end{DoxyParamCaption})}
+
+
+
+Performs the payment using the specified price. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em price} & The price of the car rental. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a3105fe05c02e2bb09383b6373c4fd987}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal}}, \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a03bd8c1be12e2d1d6ad7c647ee95ad55}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card}}, and \mbox{\hyperlink{classce204__hw4__library_1_1_pay_cash_a8ec1a1741628aeec7414a5d26f6f1363}{ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash}}.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+proccess\+Order().
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_car_payment_strategy_pattern_8java}{Car\+Payment\+Strategy\+Pattern.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__app_1_1_app" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_app::App</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classce204__hw4__app_1_1_app_1a758024d731874432fb6ac980e1b486b7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ce204_hw4_app.App.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>The main method of the application. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>   This method is the entry point of the application. It creates the
+   necessary objects, such as user lists, menu services, registration
+   services, and login services. It then initializes the main
+   functionality of the application by calling methods in the Main class.
+</verbatim> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The command-line arguments (not used in this application). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/App.java" line="31" column="22" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/App.java" bodystart="31" bodyend="44"/>
+        <references refid="classce204__hw4__app_1_1_user_database_1adbb4a89955c20900c0fc64af7ccb706d" compoundref="_user_database_8java" startline="33" endline="40">ce204_hw4_app.UserDatabase.getAdminList</references>
+        <references refid="classce204__hw4__app_1_1_user_database_1a2722f7f4221eaddabc45b04db9e2a867" compoundref="_user_database_8java" startline="48" endline="53">ce204_hw4_app.UserDatabase.getCustomerList</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the main class of the application. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   This class contains the main method and serves as the entry point of
+   the application. It initializes the necessary objects and starts the
+   main functionality of the application.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/App.java" line="20" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/App.java" bodystart="20" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__app_1_1_app_1a758024d731874432fb6ac980e1b486b7" prot="public" virt="non-virtual"><scope>ce204_hw4_app::App</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

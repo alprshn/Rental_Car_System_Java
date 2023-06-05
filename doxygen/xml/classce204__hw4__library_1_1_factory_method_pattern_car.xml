@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_factory_method_pattern_car" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::FactoryMethodPatternCar</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_factory_method_pattern_car_1aaac436da79a643c9615029a4e9206c4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interfacece204__hw4__library_1_1_rent_car_interface" kindref="compound">RentCarInterface</ref></type>
+        <definition>static RentCarInterface ce204_hw4_library.FactoryMethodPatternCar.createCar</definition>
+        <argsstring>(String rentCarType, int carSeatsNumber, int carPrice, String carColor, String carModel, String carBrand, String carFuelType, int carModelYear)</argsstring>
+        <name>createCar</name>
+        <param>
+          <type>String</type>
+          <declname>rentCarType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carSeatsNumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carPrice</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carColor</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carModel</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carBrand</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carFuelType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carModelYear</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/FactoryMethodPatternCar.java" line="25" column="34" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/FactoryMethodPatternCar.java" bodystart="25" bodyend="54"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac3d0a9e0c37cdab1480672de7e2f2dd6" compoundref="_main_8java" startline="48" endline="165">ce204_hw4_app.Main.AdminMenu</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac0c2fd16fee2dd6f8a54a6d87af45d7a" compoundref="_main_8java" startline="309" endline="314">ce204_hw4_app.Main.DefaulMainCars</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a factory for creating different types of cars using the Factory Method pattern. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/FactoryMethodPatternCar.java" line="12" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/FactoryMethodPatternCar.java" bodystart="12" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_factory_method_pattern_car_1aaac436da79a643c9615029a4e9206c4e" prot="public" virt="non-virtual"><scope>ce204_hw4_library::FactoryMethodPatternCar</scope><name>createCar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

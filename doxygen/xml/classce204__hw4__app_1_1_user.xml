@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__app_1_1_user" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_app::User</compoundname>
+    <derivedcompoundref refid="classce204__hw4__app_1_1_admin" prot="public" virt="non-virtual">ce204_hw4_app.Admin</derivedcompoundref>
+    <derivedcompoundref refid="classce204__hw4__app_1_1_customer" prot="public" virt="non-virtual">ce204_hw4_app.Customer</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.firstName</definition>
+        <argsstring></argsstring>
+        <name>firstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="17" column="20" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="17" bodyend="-1"/>
+        <referencedby refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" compoundref="_admin_8java" startline="27" endline="29">ce204_hw4_app.Admin.Admin</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_customer_1a6225f7e4555b79f7aec59da4ddf648ea" compoundref="_customer_8java" startline="39" endline="42">ce204_hw4_app.Customer.Customer</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a733ca4a4a7066d4414ef5faebd76080a" compoundref="_user_8java" startline="49" endline="51">ce204_hw4_app.User.getFirstName</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a3b175faba6aadaebc25348a25bddf9b0" compoundref="_user_8java" startline="58" endline="60">ce204_hw4_app.User.setFirstName</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" compoundref="_user_8java" startline="122" endline="125">ce204_hw4_app.User.toString</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" compoundref="_user_8java" startline="30" endline="35">ce204_hw4_app.User.User</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.lastName</definition>
+        <argsstring></argsstring>
+        <name>lastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="18" column="20" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" compoundref="_admin_8java" startline="27" endline="29">ce204_hw4_app.Admin.Admin</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_customer_1a6225f7e4555b79f7aec59da4ddf648ea" compoundref="_customer_8java" startline="39" endline="42">ce204_hw4_app.Customer.Customer</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a7a0bd9210a587dd23246a728eabc71de" compoundref="_user_8java" startline="67" endline="69">ce204_hw4_app.User.getLastName</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a9a4ae72278c069615c9e5b266a6d2031" compoundref="_user_8java" startline="76" endline="78">ce204_hw4_app.User.setLastName</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" compoundref="_user_8java" startline="122" endline="125">ce204_hw4_app.User.toString</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" compoundref="_user_8java" startline="30" endline="35">ce204_hw4_app.User.User</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.userName</definition>
+        <argsstring></argsstring>
+        <name>userName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="19" column="20" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" compoundref="_admin_8java" startline="27" endline="29">ce204_hw4_app.Admin.Admin</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_customer_1a6225f7e4555b79f7aec59da4ddf648ea" compoundref="_customer_8java" startline="39" endline="42">ce204_hw4_app.Customer.Customer</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" compoundref="_user_8java" startline="85" endline="87">ce204_hw4_app.User.getUserName</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a616d6b8e085b6b88666827d496e39f3d" compoundref="_user_8java" startline="94" endline="96">ce204_hw4_app.User.setUserName</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" compoundref="_user_8java" startline="122" endline="125">ce204_hw4_app.User.toString</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" compoundref="_user_8java" startline="30" endline="35">ce204_hw4_app.User.User</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" prot="protected" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.password</definition>
+        <argsstring></argsstring>
+        <name>password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="20" column="20" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="20" bodyend="-1"/>
+        <referencedby refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" compoundref="_admin_8java" startline="27" endline="29">ce204_hw4_app.Admin.Admin</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_customer_1a6225f7e4555b79f7aec59da4ddf648ea" compoundref="_customer_8java" startline="39" endline="42">ce204_hw4_app.Customer.Customer</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1aa2dc80c31875236d58cddb95a7961730" compoundref="_user_8java" startline="103" endline="105">ce204_hw4_app.User.getPassword</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1ae895b2fd2c925adfa7fff444bb305b27" compoundref="_user_8java" startline="112" endline="114">ce204_hw4_app.User.setPassword</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" compoundref="_user_8java" startline="122" endline="125">ce204_hw4_app.User.toString</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" compoundref="_user_8java" startline="30" endline="35">ce204_hw4_app.User.User</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_app.User.User</definition>
+        <argsstring>(String firstName, String lastName, String userName, String password)</argsstring>
+        <name>User</name>
+        <param>
+          <type>String</type>
+          <declname>firstName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>lastName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> object with the specified details. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first name of the user. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last name of the user. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username of the user. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="30" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="30" bodyend="35"/>
+        <references refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" compoundref="_user_8java" startline="17">ce204_hw4_app.User.firstName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" compoundref="_user_8java" startline="18">ce204_hw4_app.User.lastName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" compoundref="_user_8java" startline="20">ce204_hw4_app.User.password</references>
+        <references refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" compoundref="_user_8java" startline="19">ce204_hw4_app.User.userName</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a2ea7d2982ba009a9305565129b6cf0eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_app.User.User</definition>
+        <argsstring>()</argsstring>
+        <name>User</name>
+        <briefdescription>
+<para>Default constructor for the <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> class. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="41" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="41" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a733ca4a4a7066d4414ef5faebd76080a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.getFirstName</definition>
+        <argsstring>()</argsstring>
+        <name>getFirstName</name>
+        <briefdescription>
+<para>Returns the first name of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first name of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="49" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="49" bodyend="51"/>
+        <references refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" compoundref="_user_8java" startline="17">ce204_hw4_app.User.firstName</references>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1aef8c11ee92f7698e35b0c7784ba60e1c" compoundref="_login_services_8java" startline="68" endline="78">ce204_hw4_library.LoginServices.doLogIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a3b175faba6aadaebc25348a25bddf9b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_app.User.setFirstName</definition>
+        <argsstring>(String firstName)</argsstring>
+        <name>setFirstName</name>
+        <param>
+          <type>String</type>
+          <declname>firstName</declname>
+        </param>
+        <briefdescription>
+<para>Sets the first name of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first name of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="58" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="58" bodyend="60"/>
+        <references refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" compoundref="_user_8java" startline="17">ce204_hw4_app.User.firstName</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a7a0bd9210a587dd23246a728eabc71de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.getLastName</definition>
+        <argsstring>()</argsstring>
+        <name>getLastName</name>
+        <briefdescription>
+<para>Returns the last name of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last name of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="67" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="67" bodyend="69"/>
+        <references refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" compoundref="_user_8java" startline="18">ce204_hw4_app.User.lastName</references>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1aef8c11ee92f7698e35b0c7784ba60e1c" compoundref="_login_services_8java" startline="68" endline="78">ce204_hw4_library.LoginServices.doLogIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a9a4ae72278c069615c9e5b266a6d2031" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_app.User.setLastName</definition>
+        <argsstring>(String lastName)</argsstring>
+        <name>setLastName</name>
+        <param>
+          <type>String</type>
+          <declname>lastName</declname>
+        </param>
+        <briefdescription>
+<para>Sets the last name of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lastName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last name of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="76" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="76" bodyend="78"/>
+        <references refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" compoundref="_user_8java" startline="18">ce204_hw4_app.User.lastName</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.getUserName</definition>
+        <argsstring>()</argsstring>
+        <name>getUserName</name>
+        <briefdescription>
+<para>Returns the username of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="85" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="85" bodyend="87"/>
+        <references refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" compoundref="_user_8java" startline="19">ce204_hw4_app.User.userName</references>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1ae3cf24605716cd3fad778c8198934aec" compoundref="_login_services_8java" startline="115" endline="117">ce204_hw4_library.LoginServices.isLoggedInAsAdmin</referencedby>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a4e9ee6eac328bbbd30b17d16d1baa712" compoundref="_login_services_8java" startline="105" endline="107">ce204_hw4_library.LoginServices.isLoggedInAsCustomer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1a616d6b8e085b6b88666827d496e39f3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_app.User.setUserName</definition>
+        <argsstring>(String userName)</argsstring>
+        <name>setUserName</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <briefdescription>
+<para>Sets the username of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="94" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="94" bodyend="96"/>
+        <references refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" compoundref="_user_8java" startline="19">ce204_hw4_app.User.userName</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1aa2dc80c31875236d58cddb95a7961730" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.getPassword</definition>
+        <argsstring>()</argsstring>
+        <name>getPassword</name>
+        <briefdescription>
+<para>Returns the password of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="103" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="103" bodyend="105"/>
+        <references refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" compoundref="_user_8java" startline="20">ce204_hw4_app.User.password</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1ae895b2fd2c925adfa7fff444bb305b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_app.User.setPassword</definition>
+        <argsstring>(String password)</argsstring>
+        <name>setPassword</name>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Sets the password of the user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password of the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="112" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="112" bodyend="114"/>
+        <references refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" compoundref="_user_8java" startline="20">ce204_hw4_app.User.password</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_app.User.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+<para>Returns a string representation of the <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The string representation of the <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> object. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="122" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="122" bodyend="125"/>
+        <references refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" compoundref="_user_8java" startline="17">ce204_hw4_app.User.firstName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" compoundref="_user_8java" startline="18">ce204_hw4_app.User.lastName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" compoundref="_user_8java" startline="20">ce204_hw4_app.User.password</references>
+        <references refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" compoundref="_user_8java" startline="19">ce204_hw4_app.User.userName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a user in the application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_app.User</label>
+        <link refid="classce204__hw4__app_1_1_user"/>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_app.Admin</label>
+        <link refid="classce204__hw4__app_1_1_admin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ce204_hw4_app.Customer</label>
+        <link refid="classce204__hw4__app_1_1_customer"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" line="15" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/User.java" bodystart="15" bodyend="127"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>firstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a733ca4a4a7066d4414ef5faebd76080a" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>getFirstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a7a0bd9210a587dd23246a728eabc71de" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>getLastName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1aa2dc80c31875236d58cddb95a7961730" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>getPassword</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>getUserName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>lastName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>password</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a3b175faba6aadaebc25348a25bddf9b0" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>setFirstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a9a4ae72278c069615c9e5b266a6d2031" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>setLastName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1ae895b2fd2c925adfa7fff444bb305b27" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>setPassword</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a616d6b8e085b6b88666827d496e39f3d" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>setUserName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>toString</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>User</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a2ea7d2982ba009a9305565129b6cf0eb" prot="public" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>User</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::User</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

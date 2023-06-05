@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_1a6a6271756c31a6beeb2804de23627e" kind="dir">
+    <compoundname>ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app</compoundname>
+    <innerfile refid="_admin_8java">Admin.java</innerfile>
+    <innerfile refid="_app_8java">App.java</innerfile>
+    <innerfile refid="_bill_8java">Bill.java</innerfile>
+    <innerfile refid="_customer_8java">Customer.java</innerfile>
+    <innerfile refid="_main_8java">Main.java</innerfile>
+    <innerfile refid="_user_8java">User.java</innerfile>
+    <innerfile refid="_user_database_8java">UserDatabase.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/"/>
+  </compounddef>
+</doxygen>

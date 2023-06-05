@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_admin_8java" kind="file" language="Java">
+    <compoundname>Admin.java</compoundname>
+    <innerclass refid="classce204__hw4__app_1_1_admin" prot="public">ce204_hw4_app::Admin</innerclass>
+    <innernamespace refid="namespacece204__hw4__app">ce204_hw4_app</innernamespace>
+    <briefdescription>
+<para>Contains the implementation of the Admin class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespacece204__hw4__app" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_app;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classce204__hw4__app_1_1_admin" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classce204__hw4__app_1_1_admin" kindref="compound">Admin</ref><sp/></highlight><highlight class="keyword">extends</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref><sp/>{</highlight></codeline>
+<codeline lineno="27" refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" kindref="member">Admin</ref>(String<sp/><ref refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" kindref="member">firstName</ref>,<sp/>String<sp/><ref refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" kindref="member">lastName</ref>,<sp/>String<sp/><ref refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" kindref="member">userName</ref>,<sp/>String<sp/><ref refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" kindref="member">password</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>super(<ref refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" kindref="member">firstName</ref>,<sp/><ref refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" kindref="member">lastName</ref>,<sp/><ref refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" kindref="member">userName</ref>,<sp/><ref refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" kindref="member">password</ref>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Admin.java"/>
+  </compounddef>
+</doxygen>

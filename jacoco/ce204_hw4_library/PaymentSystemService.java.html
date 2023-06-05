@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>PaymentSystemService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ce204-hw4-alper-sahin</a> &gt; <a href="index.source.html" class="el_package">ce204_hw4_library</a> &gt; <span class="el_source">PaymentSystemService.java</span></div><h1>PaymentSystemService.java</h1><pre class="source lang-java linenums">/**
+
+@file PaymentSystemService.java
+@brief This file contains the implementation of the PaymentSystemService class.
+The PaymentSystemService class is a part of the CE204_HW4_Library package and provides methods for processing car rental payments.
+*/
+package ce204_hw4_library;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *
+ * @class PaymentSystemService
+ *
+ * @brief Represents a payment system service for car rentals.
+ *
+ *        The PaymentSystemService class provides methods for processing car
+ *        rental payments using different payment strategies.
+ *
+ *        It manages the payment process and keeps track of the total money
+ *        available for each car rental.
+ */
+<span class="fc" id="L24">public class PaymentSystemService {</span>
+<span class="fc" id="L25">  private List&lt;Integer&gt; money = new ArrayList&lt;&gt;();</span>
+  private int carIndex;
+  private CarPaymentStrategyPattern strategyPattern;
+
+  /**
+   *
+   * @brief Processes the car rental order. This method processes the car rental
+   *        order by collecting the payment system details and performing the
+   *        payment using the selected payment strategy. It checks if payment
+   *        details are available before making the payment.
+   */
+  public void proccessOrder() {
+<span class="fc" id="L37">    strategyPattern.CollectPaymentSystemDetails();</span>
+
+<span class="pc bpc" id="L39" title="1 of 2 branches missed.">    if (strategyPattern.PaymentDetails()) {</span>
+<span class="fc" id="L40">      strategyPattern.PaySystem(getTotalMoney());</span>
+    }
+<span class="fc" id="L42">  }</span>
+
+  /**
+   *
+   * @brief Sets the amount of money for a car rental. This method sets the amount
+   *        of money for a car rental by adding it to the list of money amounts.
+   * @param costInput The amount of money for the car rental.
+   */
+  public void setMoney(int costInput) {
+<span class="fc" id="L51">    money.add(costInput);</span>
+<span class="fc" id="L52">  }</span>
+
+  /**
+   *
+   * @brief Removes the amount of money for a car rental. This method removes the
+   *        amount of money for a car rental from the list of money amounts.
+   * @param costInput The amount of money to be removed.
+   */
+  public void removeMoney(int costInput) {
+<span class="fc" id="L61">    money.remove(costInput);</span>
+<span class="fc" id="L62">  }</span>
+
+  /**
+   *
+   * @brief Retrieves the total amount of money for the selected car rental. This
+   *        method retrieves the total amount of money for the selected car rental
+   *        based on the car index.
+   * @return The total amount of money for the selected car rental.
+   */
+  public int getTotalMoney() {
+<span class="fc" id="L72">    return money.get(carIndex);</span>
+  }
+
+  /**
+   *
+   * @brief Sets the index of the selected car. This method sets the index of the
+   *        selected car in the carIndex variable.
+   * @param carIndexInput The index of the selected car.
+   */
+  public void setSelectedCarIndex(int carIndexInput) {
+<span class="fc" id="L82">    carIndex = carIndexInput;</span>
+<span class="fc" id="L83">  }</span>
+
+  /**
+   *
+   * @brief Sets the payment strategy pattern. This method sets the payment
+   *        strategy pattern to be used for the car rental payment.
+   * @param strategyPatternSelected The selected payment strategy pattern.
+   */
+  public void setStrategyPattern(CarPaymentStrategyPattern strategyPatternSelected) {
+<span class="fc" id="L92">    strategyPattern = strategyPatternSelected;</span>
+<span class="fc" id="L93">  }</span>
+
+  /**
+   *
+   * @brief Retrieves the list of money amounts. This method retrieves the list of
+   *        money amounts.
+   * @return The list of money amounts.
+   */
+  public List&lt;Integer&gt; getMoney() {
+<span class="fc" id="L102">    return money;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

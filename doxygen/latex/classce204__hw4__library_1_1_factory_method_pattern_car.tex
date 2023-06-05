@@ -1,0 +1,74 @@
+\hypertarget{classce204__hw4__library_1_1_factory_method_pattern_car}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Factory\+Method\+Pattern\+Car Class Reference}
+\label{classce204__hw4__library_1_1_factory_method_pattern_car}\index{ce204\_hw4\_library.FactoryMethodPatternCar@{ce204\_hw4\_library.FactoryMethodPatternCar}}
+
+
+Represents a factory for creating different types of cars using the Factory Method pattern.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}} \mbox{\hyperlink{classce204__hw4__library_1_1_factory_method_pattern_car_aaac436da79a643c9615029a4e9206c4e}{create\+Car}} (String rent\+Car\+Type, int car\+Seats\+Number, int car\+Price, String car\+Color, String car\+Model, String car\+Brand, String car\+Fuel\+Type, int car\+Model\+Year)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a factory for creating different types of cars using the Factory Method pattern. 
+
+Definition at line 12 of file Factory\+Method\+Pattern\+Car.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_factory_method_pattern_car_aaac436da79a643c9615029a4e9206c4e}\label{classce204__hw4__library_1_1_factory_method_pattern_car_aaac436da79a643c9615029a4e9206c4e}} 
+\index{ce204\_hw4\_library.FactoryMethodPatternCar@{ce204\_hw4\_library.FactoryMethodPatternCar}!createCar@{createCar}}
+\index{createCar@{createCar}!ce204\_hw4\_library.FactoryMethodPatternCar@{ce204\_hw4\_library.FactoryMethodPatternCar}}
+\doxysubsubsection{\texorpdfstring{createCar()}{createCar()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}} ce204\+\_\+hw4\+\_\+library.\+Factory\+Method\+Pattern\+Car.\+create\+Car (\begin{DoxyParamCaption}\item[{String}]{rent\+Car\+Type,  }\item[{int}]{car\+Seats\+Number,  }\item[{int}]{car\+Price,  }\item[{String}]{car\+Color,  }\item[{String}]{car\+Model,  }\item[{String}]{car\+Brand,  }\item[{String}]{car\+Fuel\+Type,  }\item[{int}]{car\+Model\+Year }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Definition at line 25 of file Factory\+Method\+Pattern\+Car.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{26                                                                                                \{}
+\DoxyCodeLine{27     \textcolor{keywordflow}{switch} (rentCarType) \{}
+\DoxyCodeLine{28       \textcolor{keywordflow}{case} \textcolor{stringliteral}{"{}modelcabrio"{}}:}
+\DoxyCodeLine{29         \textcolor{keywordflow}{return} \textcolor{keyword}{new} CarModelCabrio(carSeatsNumber, carPrice, carColor, carModel, carBrand, carFuelType,}
+\DoxyCodeLine{30                                   carModelYear);}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32       \textcolor{keywordflow}{case} \textcolor{stringliteral}{"{}modelhatchback"{}}:}
+\DoxyCodeLine{33         \textcolor{keywordflow}{return} \textcolor{keyword}{new} CarModelHatchback(carSeatsNumber, carPrice, carColor, carModel, carBrand, carFuelType,}
+\DoxyCodeLine{34                                      carModelYear);}
+\DoxyCodeLine{35 }
+\DoxyCodeLine{36       \textcolor{keywordflow}{case} \textcolor{stringliteral}{"{}modelpickup"{}}:}
+\DoxyCodeLine{37         \textcolor{keywordflow}{return} \textcolor{keyword}{new} CarModelPickUp(carSeatsNumber, carPrice, carColor, carModel, carBrand, carFuelType,}
+\DoxyCodeLine{38                                   carModelYear);}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40       \textcolor{keywordflow}{case} \textcolor{stringliteral}{"{}modelsedan"{}}:}
+\DoxyCodeLine{41         \textcolor{keywordflow}{return} \textcolor{keyword}{new} CarModelSedan(carSeatsNumber, carPrice, carColor, carModel, carBrand, carFuelType,}
+\DoxyCodeLine{42                                  carModelYear);}
+\DoxyCodeLine{43 }
+\DoxyCodeLine{44       \textcolor{keywordflow}{case} \textcolor{stringliteral}{"{}modelstationwagon"{}}:}
+\DoxyCodeLine{45         \textcolor{keywordflow}{return} \textcolor{keyword}{new} CarModelStationWagon(carSeatsNumber, carPrice, carColor, carModel, carBrand,}
+\DoxyCodeLine{46                                         carFuelType, carModelYear);}
+\DoxyCodeLine{47 }
+\DoxyCodeLine{48       \textcolor{keywordflow}{case} \textcolor{stringliteral}{"{}modelsuv"{}}:}
+\DoxyCodeLine{49         \textcolor{keywordflow}{return} \textcolor{keyword}{new} CarModelSUV(carSeatsNumber, carPrice, carColor, carModel, carBrand, carFuelType,}
+\DoxyCodeLine{50                                carModelYear);}
+\DoxyCodeLine{51     \}}
+\DoxyCodeLine{52 }
+\DoxyCodeLine{53     \textcolor{keywordflow}{return} \textcolor{keyword}{null};}
+\DoxyCodeLine{54   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Defaul\+Main\+Cars().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_factory_method_pattern_car_8java}{Factory\+Method\+Pattern\+Car.\+java}}\end{DoxyCompactItemize}

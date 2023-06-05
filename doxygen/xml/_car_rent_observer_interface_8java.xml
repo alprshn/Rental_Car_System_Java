@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_car_rent_observer_interface_8java" kind="file" language="Java">
+    <compoundname>CarRentObserverInterface.java</compoundname>
+    <innerclass refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" prot="public">ce204_hw4_library::CarRentObserverInterface</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the declaration of the CarRentObserverInterface interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" kindref="compound">CarRentObserverInterface</ref><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="interfacece204__hw4__library_1_1_car_rent_observer_interface_1a37b9989bafd6825cd20993388123bd27" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_car_rent_observer_interface_1a37b9989bafd6825cd20993388123bd27" kindref="member">updateNoti</ref>(<ref refid="classce204__hw4__library_1_1_customer_observerable" kindref="compound">CustomerObserverable</ref><sp/>carObservable);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarRentObserverInterface.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__app_1_1_user_database" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_app::UserDatabase</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_database_1afcf211f5c90b8ab88180fa212aeed19d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long ce204_hw4_app.UserDatabase.getShopBalance</definition>
+        <argsstring>()</argsstring>
+        <name>getShopBalance</name>
+        <briefdescription>
+<para>Returns the shop balance. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[long]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The shop balance. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" line="23" column="22" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_database_1adbb4a89955c20900c0fc64af7ccb706d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>static List&lt;User&gt; ce204_hw4_app.UserDatabase.getAdminList</definition>
+        <argsstring>()</argsstring>
+        <name>getAdminList</name>
+        <briefdescription>
+<para>Returns a list of admin users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[List&lt;User&gt;]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of admin users. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" line="33" column="22" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" bodystart="33" bodyend="40"/>
+        <referencedby refid="classce204__hw4__app_1_1_user_database_1a6427f6e0012fa27065cbe67ef78c583a" compoundref="_user_database_8java" startline="61" endline="65">ce204_hw4_app.UserDatabase.getAllUserList</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_app_1a758024d731874432fb6ac980e1b486b7" compoundref="_app_8java" startline="31" endline="44">ce204_hw4_app.App.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_database_1a2722f7f4221eaddabc45b04db9e2a867" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>static List&lt;User&gt; ce204_hw4_app.UserDatabase.getCustomerList</definition>
+        <argsstring>()</argsstring>
+        <name>getCustomerList</name>
+        <briefdescription>
+<para>Returns a list of customer users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[List&lt;User&gt;]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of customer users. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" line="48" column="22" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" bodystart="48" bodyend="53"/>
+        <referencedby refid="classce204__hw4__app_1_1_user_database_1a6427f6e0012fa27065cbe67ef78c583a" compoundref="_user_database_8java" startline="61" endline="65">ce204_hw4_app.UserDatabase.getAllUserList</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_app_1a758024d731874432fb6ac980e1b486b7" compoundref="_app_8java" startline="31" endline="44">ce204_hw4_app.App.main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_user_database_1a6427f6e0012fa27065cbe67ef78c583a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>static List&lt;User&gt; ce204_hw4_app.UserDatabase.getAllUserList</definition>
+        <argsstring>()</argsstring>
+        <name>getAllUserList</name>
+        <briefdescription>
+<para>Returns a list of all users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[List&lt;User&gt;]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A list of all users. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" line="61" column="22" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" bodystart="61" bodyend="65"/>
+        <references refid="classce204__hw4__app_1_1_user_database_1adbb4a89955c20900c0fc64af7ccb706d" compoundref="_user_database_8java" startline="33" endline="40">ce204_hw4_app.UserDatabase.getAdminList</references>
+        <references refid="classce204__hw4__app_1_1_user_database_1a2722f7f4221eaddabc45b04db9e2a867" compoundref="_user_database_8java" startline="48" endline="53">ce204_hw4_app.UserDatabase.getCustomerList</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a database of users in the application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" line="17" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/UserDatabase.java" bodystart="17" bodyend="67"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__app_1_1_user_database_1adbb4a89955c20900c0fc64af7ccb706d" prot="public" virt="non-virtual"><scope>ce204_hw4_app::UserDatabase</scope><name>getAdminList</name></member>
+      <member refid="classce204__hw4__app_1_1_user_database_1a6427f6e0012fa27065cbe67ef78c583a" prot="public" virt="non-virtual"><scope>ce204_hw4_app::UserDatabase</scope><name>getAllUserList</name></member>
+      <member refid="classce204__hw4__app_1_1_user_database_1a2722f7f4221eaddabc45b04db9e2a867" prot="public" virt="non-virtual"><scope>ce204_hw4_app::UserDatabase</scope><name>getCustomerList</name></member>
+      <member refid="classce204__hw4__app_1_1_user_database_1afcf211f5c90b8ab88180fa212aeed19d" prot="public" virt="non-virtual"><scope>ce204_hw4_app::UserDatabase</scope><name>getShopBalance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

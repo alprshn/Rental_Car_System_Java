@@ -1,0 +1,134 @@
+\hypertarget{classce204__hw4__library_1_1_notification_time}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Notification\+Time Class Reference}
+\label{classce204__hw4__library_1_1_notification_time}\index{ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}}
+
+
+Represents a class that manages notification times for a customer.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Notification\+Time\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_notification_time}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classce204__hw4__library_1_1_notification_time_a7f1de4cce2c770343b12c1c47cfa57c1}{get\+Remaining\+Noti}} ()
+\begin{DoxyCompactList}\small\item\em Gets the remaining notification time. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_notification_time_a99f0713b93e4349cb6a9a6ec982fc51d}{set\+Remaining\+Noti}} (int remaining\+Time)
+\begin{DoxyCompactList}\small\item\em Sets the remaining notification time. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_notification_time_a6feef7f47e4b44ca7962b1c8903ae5b8}{Notification\+Time}} (int remaining\+Noti, int reservation\+Noti)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classce204__hw4__library_1_1_notification_time}{Notification\+Time}} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a class that manages notification times for a customer. 
+
+Definition at line 14 of file Notification\+Time.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_notification_time_a6feef7f47e4b44ca7962b1c8903ae5b8}\label{classce204__hw4__library_1_1_notification_time_a6feef7f47e4b44ca7962b1c8903ae5b8}} 
+\index{ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}!NotificationTime@{NotificationTime}}
+\index{NotificationTime@{NotificationTime}!ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}}
+\doxysubsubsection{\texorpdfstring{NotificationTime()}{NotificationTime()}}
+{\footnotesize\ttfamily ce204\+\_\+hw4\+\_\+library.\+Notification\+Time.\+Notification\+Time (\begin{DoxyParamCaption}\item[{int}]{remaining\+Noti,  }\item[{int}]{reservation\+Noti }\end{DoxyParamCaption})}
+
+
+
+Constructs a \mbox{\hyperlink{classce204__hw4__library_1_1_notification_time}{Notification\+Time}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em remaining\+Noti} & The remaining notification time. \\
+\hline
+{\em reservation\+Noti} & The reservation notification time. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 61 of file Notification\+Time.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{61                                                                   \{}
+\DoxyCodeLine{62     this.remainingNoti = remainingNoti;}
+\DoxyCodeLine{63     this.reservationNoti = reservationNoti;}
+\DoxyCodeLine{64   \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_notification_time_a7f1de4cce2c770343b12c1c47cfa57c1}\label{classce204__hw4__library_1_1_notification_time_a7f1de4cce2c770343b12c1c47cfa57c1}} 
+\index{ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}!getRemainingNoti@{getRemainingNoti}}
+\index{getRemainingNoti@{getRemainingNoti}!ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}}
+\doxysubsubsection{\texorpdfstring{getRemainingNoti()}{getRemainingNoti()}}
+{\footnotesize\ttfamily int ce204\+\_\+hw4\+\_\+library.\+Notification\+Time.\+get\+Remaining\+Noti (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the remaining notification time. 
+
+\begin{DoxyReturn}{Returns}
+The remaining notification time. 
+\end{DoxyReturn}
+
+
+Definition at line 23 of file Notification\+Time.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                 \{}
+\DoxyCodeLine{24     \textcolor{keywordflow}{return} remainingNoti;}
+\DoxyCodeLine{25   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), and ce204\+\_\+hw4\+\_\+library.\+Car\+Customer.\+update\+Noti().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_notification_time_a99f0713b93e4349cb6a9a6ec982fc51d}\label{classce204__hw4__library_1_1_notification_time_a99f0713b93e4349cb6a9a6ec982fc51d}} 
+\index{ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}!setRemainingNoti@{setRemainingNoti}}
+\index{setRemainingNoti@{setRemainingNoti}!ce204\_hw4\_library.NotificationTime@{ce204\_hw4\_library.NotificationTime}}
+\doxysubsubsection{\texorpdfstring{setRemainingNoti()}{setRemainingNoti()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Notification\+Time.\+set\+Remaining\+Noti (\begin{DoxyParamCaption}\item[{int}]{remaining\+Time }\end{DoxyParamCaption})}
+
+
+
+Sets the remaining notification time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em remaining\+Time} & The remaining notification time to set. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 32 of file Notification\+Time.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{32                                                   \{}
+\DoxyCodeLine{33     this.remainingNoti = remainingTime;}
+\DoxyCodeLine{34 }
+\DoxyCodeLine{35     \textcolor{keywordflow}{if} (remainingTime == 0) \{}
+\DoxyCodeLine{36     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{37       System.out.println(remainingTime);}
+\DoxyCodeLine{38     \}}
+\DoxyCodeLine{39 }
+\DoxyCodeLine{40     checkRemainingNoti();}
+\DoxyCodeLine{41   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_notification_time_8java}{Notification\+Time.\+java}}\end{DoxyCompactItemize}

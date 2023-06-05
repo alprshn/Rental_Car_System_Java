@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_login_services_interface_8java" kind="file" language="Java">
+    <compoundname>LoginServicesInterface.java</compoundname>
+    <innerclass refid="interfacece204__hw4__library_1_1_login_services_interface" prot="public">ce204_hw4_library::LoginServicesInterface</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the interface definition for menu services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="13" refid="interfacece204__hw4__library_1_1_login_services_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacece204__hw4__library_1_1_login_services_interface" kindref="compound">LoginServicesInterface</ref><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServicesInterface.java"/>
+  </compounddef>
+</doxygen>

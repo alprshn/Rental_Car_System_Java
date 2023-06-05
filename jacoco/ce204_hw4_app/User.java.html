@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>User.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ce204-hw4-alper-sahin</a> &gt; <a href="index.source.html" class="el_package">ce204_hw4_app</a> &gt; <span class="el_source">User.java</span></div><h1>User.java</h1><pre class="source lang-java linenums">
+/**
+ *
+ * @file User.java
+ * @brief This file contains the implementation of the User class.
+ */
+package ce204_hw4_app;
+
+/**
+ *
+ * @class User
+ *
+ * @brief Represents a user in the application.
+ */
+public class User {
+
+  protected String firstName;
+  protected String lastName;
+  protected String userName;
+  protected String password;
+
+  /**
+   *
+   * @brief Constructs a User object with the specified details.
+   * @param firstName The first name of the user.
+   * @param lastName  The last name of the user.
+   * @param userName  The username of the user.
+   * @param password  The password of the user.
+   */
+<span class="fc" id="L30">  public User(String firstName, String lastName, String userName, String password) {</span>
+<span class="fc" id="L31">    this.firstName = firstName;</span>
+<span class="fc" id="L32">    this.lastName = lastName;</span>
+<span class="fc" id="L33">    this.userName = userName;</span>
+<span class="fc" id="L34">    this.password = password;</span>
+<span class="fc" id="L35">  }</span>
+
+  /**
+   *
+   * @brief Default constructor for the User class.
+   */
+<span class="fc" id="L41">  public User() {</span>
+<span class="fc" id="L42">  }</span>
+
+  /**
+   *
+   * @brief Returns the first name of the user.
+   * @retval [String] The first name of the user.
+   */
+  public String getFirstName() {
+<span class="fc" id="L50">    return firstName;</span>
+  }
+
+  /**
+   *
+   * @brief Sets the first name of the user.
+   * @param firstName The first name of the user.
+   */
+  public void setFirstName(String firstName) {
+<span class="fc" id="L59">    this.firstName = firstName;</span>
+<span class="fc" id="L60">  }</span>
+
+  /**
+   *
+   * @brief Returns the last name of the user.
+   * @retval [String] The last name of the user.
+   */
+  public String getLastName() {
+<span class="fc" id="L68">    return lastName;</span>
+  }
+
+  /**
+   *
+   * @brief Sets the last name of the user.
+   * @param lastName The last name of the user.
+   */
+  public void setLastName(String lastName) {
+<span class="fc" id="L77">    this.lastName = lastName;</span>
+<span class="fc" id="L78">  }</span>
+
+  /**
+   *
+   * @brief Returns the username of the user.
+   * @retval [String] The username of the user.
+   */
+  public String getUserName() {
+<span class="fc" id="L86">    return userName;</span>
+  }
+
+  /**
+   *
+   * @brief Sets the username of the user.
+   * @param userName The username of the user.
+   */
+  public void setUserName(String userName) {
+<span class="fc" id="L95">    this.userName = userName;</span>
+<span class="fc" id="L96">  }</span>
+
+  /**
+   *
+   * @brief Returns the password of the user.
+   * @retval [String] The password of the user.
+   */
+  public String getPassword() {
+<span class="fc" id="L104">    return password;</span>
+  }
+
+  /**
+   *
+   * @brief Sets the password of the user.
+   * @param password The password of the user.
+   */
+  public void setPassword(String password) {
+<span class="fc" id="L113">    this.password = password;</span>
+<span class="fc" id="L114">  }</span>
+
+  /**
+   *
+   * @brief Returns a string representation of the User object.
+   * @retval [String] The string representation of the User object.
+   */
+  @Override
+  public String toString() {
+<span class="fc" id="L123">    return &quot;User{&quot; + &quot;firstName='&quot; + firstName + '\'' + &quot;, lastName='&quot; + lastName + '\'' + &quot;, userName='&quot; + userName</span>
+           + '\'' + &quot;, password='&quot; + password + '\'' + '}';
+  }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

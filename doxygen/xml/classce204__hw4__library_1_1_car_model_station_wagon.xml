@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_car_model_station_wagon" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::CarModelStationWagon</compoundname>
+    <basecompoundref refid="interfacece204__hw4__library_1_1_rent_car_interface" prot="public" virt="non-virtual">ce204_hw4_library.RentCarInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1ab2aad795e2b3639b4403111efb8e4aa7" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.carBrand</definition>
+        <argsstring></argsstring>
+        <name>carBrand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="15" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1a4cf48790a8c0b0802b658559c01cdd34" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.carModel</definition>
+        <argsstring></argsstring>
+        <name>carModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="16" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1a9dac73794c6b832ad27473eccb332e6a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelStationWagon.carModelYear</definition>
+        <argsstring></argsstring>
+        <name>carModelYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="17" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1a58516b61b548df5bc118ea502f416510" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.carFuelType</definition>
+        <argsstring></argsstring>
+        <name>carFuelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="18" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1a3864fab59d7659a5b42fe1ed2a4e33c3" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.carColor</definition>
+        <argsstring></argsstring>
+        <name>carColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="19" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1ac455d9eb8bf6d18a8db68fe5ec86970d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelStationWagon.carPrice</definition>
+        <argsstring></argsstring>
+        <name>carPrice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="20" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_station_wagon_1aabd62830f82330693473e641e779a2d3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelStationWagon.carSeatsNumber</definition>
+        <argsstring></argsstring>
+        <name>carSeatsNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="21" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1a90107a0253d60d771d57999c2face109" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.CarModelStationWagon.CarModelStationWagon</definition>
+        <argsstring>(int carSeatsNumber, int carPrice, String carColor, String carModel, String carBrand, String carFuelType, int carModelYear)</argsstring>
+        <name>CarModelStationWagon</name>
+        <param>
+          <type>int</type>
+          <declname>carSeatsNumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carPrice</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carColor</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carModel</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carBrand</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carFuelType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carModelYear</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classce204__hw4__library_1_1_car_model_station_wagon" kindref="compound">CarModelStationWagon</ref> object with the specified details. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>carSeatsNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of seats in the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carPrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The price of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carBrand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The brand of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carFuelType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fuel type of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carModelYear</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model year of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="34" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="34" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1ac56fb1427d32717300494935b136c5fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelStationWagon.getCarSeatsNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getCarSeatsNumber</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a26d32e9379398c3b43d105ea7cde43a8">getCarSeatsNumber</reimplements>
+        <briefdescription>
+<para>Returns the number of seats in the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[int]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of seats in the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="50" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1ac6de82690e70d2054029a467bf049580" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.getCarBrand</definition>
+        <argsstring>()</argsstring>
+        <name>getCarBrand</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a0acb635682e51d740cb3238f244896ee">getCarBrand</reimplements>
+        <briefdescription>
+<para>Returns the brand of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The brand of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="60" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1ad3a2b8e6a16d2ffc425d067d0af5d837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.getCarColor</definition>
+        <argsstring>()</argsstring>
+        <name>getCarColor</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1ae48e39e895a2d62845c8eeaf0d785102">getCarColor</reimplements>
+        <briefdescription>
+<para>Returns the color of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="70" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1a0d99a83f0613e6751ae2ba062333c4f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.getCarModel</definition>
+        <argsstring>()</argsstring>
+        <name>getCarModel</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1aaa166d195bd403eb697d5130c45300a6">getCarModel</reimplements>
+        <briefdescription>
+<para>Returns the model of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="80" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="80" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1ad0aca9e7e0306e96f77f0bf402ace65e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelStationWagon.getCarPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getCarPrice</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a3cba9efc4d5e729a60e23c3db9585d39">getCarPrice</reimplements>
+        <briefdescription>
+<para>Returns the price of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[int]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The price of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="90" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1a6ab3455d4f98383338bd895ae105456d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelStationWagon.getCarModelYear</definition>
+        <argsstring>()</argsstring>
+        <name>getCarModelYear</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a766256574d0fb0a37264d078b981c400">getCarModelYear</reimplements>
+        <briefdescription>
+<para>Returns the model year of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[int]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model year of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="100" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="100" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_station_wagon_1a8be515c8ee59c7b74e74ae257423d22c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelStationWagon.getCarFuelType</definition>
+        <argsstring>()</argsstring>
+        <name>getCarFuelType</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a4581ebeb91a0207e9b7a5dda6e067947">getCarFuelType</reimplements>
+        <briefdescription>
+<para>Returns the fuel type of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fuel type of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="110" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="110" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a station wagon car model for rental. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_library.CarModelStationWagon</label>
+        <link refid="classce204__hw4__library_1_1_car_model_station_wagon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.RentCarInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_rent_car_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ce204_hw4_library.CarModelStationWagon</label>
+        <link refid="classce204__hw4__library_1_1_car_model_station_wagon"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.RentCarInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_rent_car_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" line="14" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelStationWagon.java" bodystart="14" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1ab2aad795e2b3639b4403111efb8e4aa7" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carBrand</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a3864fab59d7659a5b42fe1ed2a4e33c3" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carColor</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a58516b61b548df5bc118ea502f416510" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carFuelType</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a4cf48790a8c0b0802b658559c01cdd34" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carModel</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a90107a0253d60d771d57999c2face109" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>CarModelStationWagon</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a9dac73794c6b832ad27473eccb332e6a" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carModelYear</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1ac455d9eb8bf6d18a8db68fe5ec86970d" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carPrice</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1aabd62830f82330693473e641e779a2d3" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>carSeatsNumber</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1ac6de82690e70d2054029a467bf049580" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarBrand</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1ad3a2b8e6a16d2ffc425d067d0af5d837" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarColor</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a8be515c8ee59c7b74e74ae257423d22c" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarFuelType</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a0d99a83f0613e6751ae2ba062333c4f6" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarModel</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1a6ab3455d4f98383338bd895ae105456d" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarModelYear</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1ad0aca9e7e0306e96f77f0bf402ace65e" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarPrice</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_station_wagon_1ac56fb1427d32717300494935b136c5fd" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelStationWagon</scope><name>getCarSeatsNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

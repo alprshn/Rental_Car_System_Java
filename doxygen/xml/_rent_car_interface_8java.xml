@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_rent_car_interface_8java" kind="file" language="Java">
+    <compoundname>RentCarInterface.java</compoundname>
+    <innerclass refid="interfacece204__hw4__library_1_1_rent_car_interface" prot="public">ce204_hw4_library::RentCarInterface</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the interface definition for the RentCarInterface. The RentCarInterface is a part of the CE204_HW4_Library package and provides the contract for the rental car information. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="17" refid="interfacece204__hw4__library_1_1_rent_car_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacece204__hw4__library_1_1_rent_car_interface" kindref="compound">RentCarInterface</ref><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="interfacece204__hw4__library_1_1_rent_car_interface_1a26d32e9379398c3b43d105ea7cde43a8" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1a26d32e9379398c3b43d105ea7cde43a8" kindref="member">getCarSeatsNumber</ref>();</highlight></codeline>
+<codeline lineno="31" refid="interfacece204__hw4__library_1_1_rent_car_interface_1a0acb635682e51d740cb3238f244896ee" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1a0acb635682e51d740cb3238f244896ee" kindref="member">getCarBrand</ref>();</highlight></codeline>
+<codeline lineno="38" refid="interfacece204__hw4__library_1_1_rent_car_interface_1ae48e39e895a2d62845c8eeaf0d785102" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1ae48e39e895a2d62845c8eeaf0d785102" kindref="member">getCarColor</ref>();</highlight></codeline>
+<codeline lineno="45" refid="interfacece204__hw4__library_1_1_rent_car_interface_1aaa166d195bd403eb697d5130c45300a6" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1aaa166d195bd403eb697d5130c45300a6" kindref="member">getCarModel</ref>();</highlight></codeline>
+<codeline lineno="52" refid="interfacece204__hw4__library_1_1_rent_car_interface_1a3cba9efc4d5e729a60e23c3db9585d39" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1a3cba9efc4d5e729a60e23c3db9585d39" kindref="member">getCarPrice</ref>();</highlight></codeline>
+<codeline lineno="59" refid="interfacece204__hw4__library_1_1_rent_car_interface_1a766256574d0fb0a37264d078b981c400" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1a766256574d0fb0a37264d078b981c400" kindref="member">getCarModelYear</ref>();</highlight></codeline>
+<codeline lineno="66" refid="interfacece204__hw4__library_1_1_rent_car_interface_1a4581ebeb91a0207e9b7a5dda6e067947" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>String<sp/><ref refid="interfacece204__hw4__library_1_1_rent_car_interface_1a4581ebeb91a0207e9b7a5dda6e067947" kindref="member">getCarFuelType</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RentCarInterface.java"/>
+  </compounddef>
+</doxygen>

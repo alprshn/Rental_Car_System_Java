@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_pay_pal_system" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::PayPalSystem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_pay_pal_system_1af89b1e51f4a19c4e16eef1740fd51f12" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.PayPalSystem.valEmail</definition>
+        <argsstring></argsstring>
+        <name>valEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" line="24" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_pay_pal_system_1acee63cdf796fc9f497d0c5958d370f9f" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.PayPalSystem.valPassword</definition>
+        <argsstring></argsstring>
+        <name>valPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" line="25" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pal_system_1a23330f0a5631edf75125ae220f43df5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.PayPalSystem.PayPalSystem</definition>
+        <argsstring>(String emailValue, String passwordValue)</argsstring>
+        <name>PayPalSystem</name>
+        <param>
+          <type>String</type>
+          <declname>emailValue</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>passwordValue</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref> instance with the specified email and password. This constructor initializes a <ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref> instance with the specified email and password values. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>emailValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The email associated with the PayPal account. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>passwordValue</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password associated with the PayPal account. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" line="35" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pal_system_1aba818cf685111d4d57ca3662160fd431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.PayPalSystem.getEmailValue</definition>
+        <argsstring>()</argsstring>
+        <name>getEmailValue</name>
+        <briefdescription>
+<para>Retrieves the email associated with the PayPal account. This method retrieves the email associated with the PayPal account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The email associated with the PayPal account. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" line="47" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pal_system_1a54584f4a749b60e2e7b76db34088fac5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.PayPalSystem.getPasswordValue</definition>
+        <argsstring>()</argsstring>
+        <name>getPasswordValue</name>
+        <briefdescription>
+<para>Retrieves the password associated with the PayPal account. This method retrieves the password associated with the PayPal account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The password associated with the PayPal account. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" line="57" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the PayPal payment system for car rentals. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   The PayPalSystem class provides methods for handling PayPal payments
+   for car rentals. It stores the email and password
+
+   associated with the PayPal account used for payments.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" line="22" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPalSystem.java" bodystart="22" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_pay_pal_system_1aba818cf685111d4d57ca3662160fd431" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPalSystem</scope><name>getEmailValue</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pal_system_1a54584f4a749b60e2e7b76db34088fac5" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPalSystem</scope><name>getPasswordValue</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pal_system_1a23330f0a5631edf75125ae220f43df5d" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPalSystem</scope><name>PayPalSystem</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pal_system_1af89b1e51f4a19c4e16eef1740fd51f12" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PayPalSystem</scope><name>valEmail</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pal_system_1acee63cdf796fc9f497d0c5958d370f9f" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PayPalSystem</scope><name>valPassword</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

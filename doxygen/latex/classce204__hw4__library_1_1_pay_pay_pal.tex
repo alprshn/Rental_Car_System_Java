@@ -1,0 +1,211 @@
+\hypertarget{classce204__hw4__library_1_1_pay_pay_pal}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal Class Reference}
+\label{classce204__hw4__library_1_1_pay_pay_pal}\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_pay_pay_pal}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a05177243ef2fb150773456b3a04b06f1}{Payment\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the payment details. This method retrieves the payment details for the Pay\+Pal payment strategy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a3105fe05c02e2bb09383b6373c4fd987}{Pay\+System}} (int price)
+\begin{DoxyCompactList}\small\item\em Performs the Pay\+Pal payment. This method performs the Pay\+Pal payment for the car rental. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a610a2e857c2fae3ca0d65d108cb5e54b}{Collect\+Payment\+System\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Collects the payment system details. This method collects the necessary details for the Pay\+Pal payment system. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a317ffd4bdaecfb20c4b0904c197b4cc5}{get\+Money}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the total amount of money available in the Pay\+Pal account. This method retrieves the total amount of money available in the Pay\+Pal account. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a6e268acd6241c5e5b13b3b5d4ea5a941}{set\+Money}} (int i)
+\begin{DoxyCompactList}\small\item\em Sets the total amount of money available in the Pay\+Pal account. This method sets the total amount of money available in the Pay\+Pal account. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_pay_pal_system}{Pay\+Pal\+System}} \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a686e720b83bebacf3aa5fd8336eb223c}{get\+Pay\+Pal\+Card}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the Pay\+Pal system. This method retrieves the Pay\+Pal system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 11 of file Pay\+Pay\+Pal.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_pay_pal_a610a2e857c2fae3ca0d65d108cb5e54b}\label{classce204__hw4__library_1_1_pay_pay_pal_a610a2e857c2fae3ca0d65d108cb5e54b}} 
+\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}!CollectPaymentSystemDetails@{CollectPaymentSystemDetails}}
+\index{CollectPaymentSystemDetails@{CollectPaymentSystemDetails}!ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+\doxysubsubsection{\texorpdfstring{CollectPaymentSystemDetails()}{CollectPaymentSystemDetails()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+Collect\+Payment\+System\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Collects the payment system details. This method collects the necessary details for the Pay\+Pal payment system. 
+
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 58 of file Pay\+Pay\+Pal.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{58                                             \{}
+\DoxyCodeLine{59     payPal = \textcolor{keyword}{new} PayPalSystem(\textcolor{stringliteral}{"{}abc@gmail.com"{}}, \textcolor{stringliteral}{"{}password123"{}});}
+\DoxyCodeLine{60   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_pay_pal_a317ffd4bdaecfb20c4b0904c197b4cc5}\label{classce204__hw4__library_1_1_pay_pay_pal_a317ffd4bdaecfb20c4b0904c197b4cc5}} 
+\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}!getMoney@{getMoney}}
+\index{getMoney@{getMoney}!ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+\doxysubsubsection{\texorpdfstring{getMoney()}{getMoney()}}
+{\footnotesize\ttfamily int ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+get\+Money (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the total amount of money available in the Pay\+Pal account. This method retrieves the total amount of money available in the Pay\+Pal account. 
+
+\begin{DoxyReturn}{Returns}
+The total amount of money available in the Pay\+Pal account. 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file Pay\+Pay\+Pal.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{69                         \{}
+\DoxyCodeLine{70     \textcolor{keywordflow}{return} totalMoney;}
+\DoxyCodeLine{71   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+Pay\+System().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_pay_pal_a686e720b83bebacf3aa5fd8336eb223c}\label{classce204__hw4__library_1_1_pay_pay_pal_a686e720b83bebacf3aa5fd8336eb223c}} 
+\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}!getPayPalCard@{getPayPalCard}}
+\index{getPayPalCard@{getPayPalCard}!ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+\doxysubsubsection{\texorpdfstring{getPayPalCard()}{getPayPalCard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pal_system}{Pay\+Pal\+System}} ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+get\+Pay\+Pal\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the Pay\+Pal system. This method retrieves the Pay\+Pal system. 
+
+\begin{DoxyReturn}{Returns}
+The Pay\+Pal system. 
+\end{DoxyReturn}
+
+
+Definition at line 89 of file Pay\+Pay\+Pal.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{89                                       \{}
+\DoxyCodeLine{90     \textcolor{keywordflow}{return} payPal;}
+\DoxyCodeLine{91   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_pay_pal_a05177243ef2fb150773456b3a04b06f1}\label{classce204__hw4__library_1_1_pay_pay_pal_a05177243ef2fb150773456b3a04b06f1}} 
+\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}!PaymentDetails@{PaymentDetails}}
+\index{PaymentDetails@{PaymentDetails}!ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+\doxysubsubsection{\texorpdfstring{PaymentDetails()}{PaymentDetails()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+Payment\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the payment details. This method retrieves the payment details for the Pay\+Pal payment strategy. 
+
+\begin{DoxyReturn}{Returns}
+true, indicating that payment details are available. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 34 of file Pay\+Pay\+Pal.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                                   \{}
+\DoxyCodeLine{35     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{36   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_pay_pal_a3105fe05c02e2bb09383b6373c4fd987}\label{classce204__hw4__library_1_1_pay_pay_pal_a3105fe05c02e2bb09383b6373c4fd987}} 
+\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}!PaySystem@{PaySystem}}
+\index{PaySystem@{PaySystem}!ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+\doxysubsubsection{\texorpdfstring{PaySystem()}{PaySystem()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+Pay\+System (\begin{DoxyParamCaption}\item[{int}]{price }\end{DoxyParamCaption})}
+
+
+
+Performs the Pay\+Pal payment. This method performs the Pay\+Pal payment for the car rental. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em price} & The amount of money used for the payment. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 45 of file Pay\+Pay\+Pal.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{45                                    \{}
+\DoxyCodeLine{46     System.out.println(\textcolor{stringliteral}{"{}Paying "{}} + price + \textcolor{stringliteral}{"{} using Credit Card."{}});}
+\DoxyCodeLine{47     \mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a6e268acd6241c5e5b13b3b5d4ea5a941}{setMoney}}(\mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a317ffd4bdaecfb20c4b0904c197b4cc5}{getMoney}}() -\/ price);}
+\DoxyCodeLine{48     System.out.println(\mbox{\hyperlink{classce204__hw4__library_1_1_pay_pay_pal_a317ffd4bdaecfb20c4b0904c197b4cc5}{getMoney}}() + \textcolor{stringliteral}{"{} remanined in the card."{}});}
+\DoxyCodeLine{49     System.out.println(\textcolor{stringliteral}{"{}You rented the car"{}});}
+\DoxyCodeLine{50   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+get\+Money(), and ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+set\+Money().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_pay_pal_a6e268acd6241c5e5b13b3b5d4ea5a941}\label{classce204__hw4__library_1_1_pay_pay_pal_a6e268acd6241c5e5b13b3b5d4ea5a941}} 
+\index{ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}!setMoney@{setMoney}}
+\index{setMoney@{setMoney}!ce204\_hw4\_library.PayPayPal@{ce204\_hw4\_library.PayPayPal}}
+\doxysubsubsection{\texorpdfstring{setMoney()}{setMoney()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+set\+Money (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Sets the total amount of money available in the Pay\+Pal account. This method sets the total amount of money available in the Pay\+Pal account. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & The total amount of money to be set in the Pay\+Pal account. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 79 of file Pay\+Pay\+Pal.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{79                               \{}
+\DoxyCodeLine{80     \textcolor{comment}{// TODO Auto-\/generated method stub}}
+\DoxyCodeLine{81     totalMoney = i;}
+\DoxyCodeLine{82   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Pay\+Pay\+Pal.\+Pay\+System().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_pay_pay_pal_8java}{Pay\+Pay\+Pal.\+java}}\end{DoxyCompactItemize}

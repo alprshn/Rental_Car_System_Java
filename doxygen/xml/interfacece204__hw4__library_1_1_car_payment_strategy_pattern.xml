@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" kind="interface" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::CarPaymentStrategyPattern</compoundname>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_pay_cash" prot="public" virt="non-virtual">ce204_hw4_library.PayCash</derivedcompoundref>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_pay_credit_card" prot="public" virt="non-virtual">ce204_hw4_library.PayCreditCard</derivedcompoundref>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_pay_pay_pal" prot="public" virt="non-virtual">ce204_hw4_library.PayPayPal</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.CarPaymentStrategyPattern.PaymentDetails</definition>
+        <argsstring>()</argsstring>
+        <name>PaymentDetails</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_cash_1ab3758120f4455c0b5a228497aeec6990">PaymentDetails</reimplementedby>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_credit_card_1a128046bff50cf3ed09c9155701108244">PaymentDetails</reimplementedby>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_pay_pal_1a05177243ef2fb150773456b3a04b06f1">PaymentDetails</reimplementedby>
+        <briefdescription>
+<para>Verifies the payment details. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[boolean]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the payment details are valid, false otherwise. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarPaymentStrategyPattern.java" line="20" column="11"/>
+        <referencedby refid="classce204__hw4__library_1_1_payment_system_service_1a5d1d8a03798a78d5ca9509f192c6ffd7" compoundref="_payment_system_service_8java" startline="36" endline="42">ce204_hw4_library.PaymentSystemService.proccessOrder</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.CarPaymentStrategyPattern.PaySystem</definition>
+        <argsstring>(int price)</argsstring>
+        <name>PaySystem</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_cash_1a8ec1a1741628aeec7414a5d26f6f1363">PaySystem</reimplementedby>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_credit_card_1a03bd8c1be12e2d1d6ad7c647ee95ad55">PaySystem</reimplementedby>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987">PaySystem</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>Performs the payment using the specified price. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The price of the car rental. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarPaymentStrategyPattern.java" line="27" column="8"/>
+        <referencedby refid="classce204__hw4__library_1_1_payment_system_service_1a5d1d8a03798a78d5ca9509f192c6ffd7" compoundref="_payment_system_service_8java" startline="36" endline="42">ce204_hw4_library.PaymentSystemService.proccessOrder</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.CarPaymentStrategyPattern.CollectPaymentSystemDetails</definition>
+        <argsstring>()</argsstring>
+        <name>CollectPaymentSystemDetails</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_cash_1aa7a2ba816547da24423b0d4c24eb0c83">CollectPaymentSystemDetails</reimplementedby>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_credit_card_1a32824985c7d9e9065c8a6d246c17921d">CollectPaymentSystemDetails</reimplementedby>
+        <reimplementedby refid="classce204__hw4__library_1_1_pay_pay_pal_1a610a2e857c2fae3ca0d65d108cb5e54b">CollectPaymentSystemDetails</reimplementedby>
+        <briefdescription>
+<para>Collects the payment system details from the user. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarPaymentStrategyPattern.java" line="33" column="8"/>
+        <referencedby refid="classce204__hw4__library_1_1_payment_system_service_1a5d1d8a03798a78d5ca9509f192c6ffd7" compoundref="_payment_system_service_8java" startline="36" endline="42">ce204_hw4_library.PaymentSystemService.proccessOrder</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the payment strategy pattern for car rental. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>ce204_hw4_library.PayPayPal</label>
+        <link refid="classce204__hw4__library_1_1_pay_pay_pal"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+      <node id="3">
+        <label>ce204_hw4_library.PayCreditCard</label>
+        <link refid="classce204__hw4__library_1_1_pay_credit_card"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.PayCash</label>
+        <link refid="classce204__hw4__library_1_1_pay_cash"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarPaymentStrategyPattern.java" line="14" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarPaymentStrategyPattern.java" bodystart="14" bodyend="35"/>
+    <listofallmembers>
+      <member refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarPaymentStrategyPattern</scope><name>CollectPaymentSystemDetails</name></member>
+      <member refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarPaymentStrategyPattern</scope><name>PaymentDetails</name></member>
+      <member refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarPaymentStrategyPattern</scope><name>PaySystem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

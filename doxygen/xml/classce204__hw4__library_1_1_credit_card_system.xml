@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_credit_card_system" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::CreditCardSystem</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_credit_card_system_1a056db07e8a611273eca0b4683f001789" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CreditCardSystem.cardNumberSystem</definition>
+        <argsstring></argsstring>
+        <name>cardNumberSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="15" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_credit_card_system_1a7ac2248672d70cc317203ef4c0503cdb" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CreditCardSystem.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="16" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_credit_card_system_1a388416cf59eff5cbdcfe141f7462bfb4" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CreditCardSystem.cvvSystem</definition>
+        <argsstring></argsstring>
+        <name>cvvSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="17" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_credit_card_system_1afae008c06aa8eb4806bceaf220088dfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.CreditCardSystem.CreditCardSystem</definition>
+        <argsstring>(String cardNumberInput, String expiryDateInput, String cvvInput)</argsstring>
+        <name>CreditCardSystem</name>
+        <param>
+          <type>String</type>
+          <declname>cardNumberInput</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>expiryDateInput</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>cvvInput</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classce204__hw4__library_1_1_credit_card_system" kindref="compound">CreditCardSystem</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>cardNumberInput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The credit card number. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>expiryDateInput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The expiry date of the credit card. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cvvInput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The CVV code of the credit card. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="26" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_credit_card_system_1a23aa70aa43e5aa1c8bd717d605b8cfae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CreditCardSystem.getDate</definition>
+        <argsstring>()</argsstring>
+        <name>getDate</name>
+        <briefdescription>
+<para>Retrieves the expiry date of the credit card. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The expiry date. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="38" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="38" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_credit_card_system_1a42b21b8189e807f7848cf56e286a989a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CreditCardSystem.getCvvSystem</definition>
+        <argsstring>()</argsstring>
+        <name>getCvvSystem</name>
+        <briefdescription>
+<para>Retrieves the CVV code of the credit card. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The CVV code. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="47" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_credit_card_system_1ad76c55269975b9d0b28cf853a75f157a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CreditCardSystem.getCardNumberSystem</definition>
+        <argsstring>()</argsstring>
+        <name>getCardNumberSystem</name>
+        <briefdescription>
+<para>Retrieves the credit card number. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The credit card number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="56" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the credit card payment system. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" line="14" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CreditCardSystem.java" bodystart="14" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1a056db07e8a611273eca0b4683f001789" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>cardNumberSystem</name></member>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1afae008c06aa8eb4806bceaf220088dfd" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>CreditCardSystem</name></member>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1a388416cf59eff5cbdcfe141f7462bfb4" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>cvvSystem</name></member>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1a7ac2248672d70cc317203ef4c0503cdb" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>Date</name></member>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1ad76c55269975b9d0b28cf853a75f157a" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>getCardNumberSystem</name></member>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1a42b21b8189e807f7848cf56e286a989a" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>getCvvSystem</name></member>
+      <member refid="classce204__hw4__library_1_1_credit_card_system_1a23aa70aa43e5aa1c8bd717d605b8cfae" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CreditCardSystem</scope><name>getDate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

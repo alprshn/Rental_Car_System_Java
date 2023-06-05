@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfacece204__hw4__library_1_1_login_services_interface" kind="interface" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::LoginServicesInterface</compoundname>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_login_services" prot="public" virt="non-virtual">ce204_hw4_library.LoginServices</derivedcompoundref>
+    <briefdescription>
+<para>Represents an interface for login services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_library.LoginServicesInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_login_services_interface"/>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.LoginServices</label>
+        <link refid="classce204__hw4__library_1_1_login_services"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServicesInterface.java" line="13" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServicesInterface.java" bodystart="13" bodyend="15"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

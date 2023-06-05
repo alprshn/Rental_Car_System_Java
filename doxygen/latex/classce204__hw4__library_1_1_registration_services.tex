@@ -1,0 +1,295 @@
+\hypertarget{classce204__hw4__library_1_1_registration_services}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services Class Reference}
+\label{classce204__hw4__library_1_1_registration_services}\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+
+
+Represents a registration service for user registration.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_registration_services}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a455a0b1b7c387dbf75f9edaa97df3d60}{Registration\+Services}} (List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$ user\+List)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{Registration\+Services}} instance with the specified user list. This constructor initializes a \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{Registration\+Services}} instance with the specified user list. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}} \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a75edcca8db0ce412fa6429cc999a082b}{customer\+Registration\+Form}} (String first\+Name, String last\+Name, String user\+Name, String password, String licence\+Obtained)
+\begin{DoxyCompactList}\small\item\em Creates a new customer registration form. This method creates a new customer registration form with the provided user details. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_aedcb509b9518b3559e13fe7eb467f163}{customer\+Registration}} (\mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}} customer)
+\begin{DoxyCompactList}\small\item\em Performs the customer registration. This method performs the customer registration by adding the customer to the user list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0f69ab84d6ea179dcb47d5fbe232a168}{display\+Registration\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the registration menu. This method displays the registration menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_aec01823a9f1440aa1e989e28c7eef942}{initiate\+Registration}} (\mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} login\+Service)
+\begin{DoxyCompactList}\small\item\em Initiates the registration process. This method initiates the registration process by prompting the user to enter their registration details and performs the necessary validation and registration steps. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Scanner \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}{input}} = new Scanner(System.\+in)
+\item 
+double \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0a151ee6184caa4a33e01aeec2390d73}{diff}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a registration service for user registration. 
+
+\begin{DoxyVerb}   The RegistrationServices class implements the
+   RegistrationServicesInterface and provides methods for handling
+   customer
+
+   registration and managing the registration process.
+\end{DoxyVerb}
+ 
+
+Definition at line 31 of file Registration\+Services.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_a455a0b1b7c387dbf75f9edaa97df3d60}\label{classce204__hw4__library_1_1_registration_services_a455a0b1b7c387dbf75f9edaa97df3d60}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!RegistrationServices@{RegistrationServices}}
+\index{RegistrationServices@{RegistrationServices}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{RegistrationServices()}{RegistrationServices()}}
+{\footnotesize\ttfamily ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+Registration\+Services (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$}]{user\+List }\end{DoxyParamCaption})}
+
+
+
+Constructs a \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{Registration\+Services}} instance with the specified user list. This constructor initializes a \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{Registration\+Services}} instance with the specified user list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+List} & The list of users to be managed by the registration service. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file Registration\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{45                                                    \{}
+\DoxyCodeLine{46     this.userList = userList;}
+\DoxyCodeLine{47   \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_aedcb509b9518b3559e13fe7eb467f163}\label{classce204__hw4__library_1_1_registration_services_aedcb509b9518b3559e13fe7eb467f163}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!customerRegistration@{customerRegistration}}
+\index{customerRegistration@{customerRegistration}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{customerRegistration()}{customerRegistration()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+customer\+Registration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}}}]{customer }\end{DoxyParamCaption})}
+
+
+
+Performs the customer registration. This method performs the customer registration by adding the customer to the user list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & The Customer object representing the customer registration form. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_a3565cddd3b1675fba5853117f98f9499}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface}}.
+
+
+
+Definition at line 75 of file Registration\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{75                                                       \{}
+\DoxyCodeLine{76     System.out.println(\textcolor{stringliteral}{"{}Registration complete!"{}});}
+\DoxyCodeLine{77     userList.add(customer);}
+\DoxyCodeLine{78   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_a75edcca8db0ce412fa6429cc999a082b}\label{classce204__hw4__library_1_1_registration_services_a75edcca8db0ce412fa6429cc999a082b}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!customerRegistrationForm@{customerRegistrationForm}}
+\index{customerRegistrationForm@{customerRegistrationForm}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{customerRegistrationForm()}{customerRegistrationForm()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}} ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+customer\+Registration\+Form (\begin{DoxyParamCaption}\item[{String}]{first\+Name,  }\item[{String}]{last\+Name,  }\item[{String}]{user\+Name,  }\item[{String}]{password,  }\item[{String}]{licence\+Obtained }\end{DoxyParamCaption})}
+
+
+
+Creates a new customer registration form. This method creates a new customer registration form with the provided user details. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em first\+Name} & The first name of the customer. \\
+\hline
+{\em last\+Name} & The last name of the customer. \\
+\hline
+{\em user\+Name} & The username of the customer. \\
+\hline
+{\em password} & The password of the customer. \\
+\hline
+{\em licence\+Obtained} & The date the driver\textquotesingle{}s license was obtained by the customer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A Customer object representing the customer registration form. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_a15523bc8345af64a800fd1db362f68ed}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface}}.
+
+
+
+Definition at line 62 of file Registration\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{63                               \{}
+\DoxyCodeLine{64     \textcolor{keywordflow}{return} \textcolor{keyword}{new} \mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}}(firstName, lastName, userName, password, licenceObtained);}
+\DoxyCodeLine{65   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_a0f69ab84d6ea179dcb47d5fbe232a168}\label{classce204__hw4__library_1_1_registration_services_a0f69ab84d6ea179dcb47d5fbe232a168}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!displayRegistrationMenu@{displayRegistrationMenu}}
+\index{displayRegistrationMenu@{displayRegistrationMenu}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{displayRegistrationMenu()}{displayRegistrationMenu()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+display\+Registration\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the registration menu. This method displays the registration menu. 
+
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_a0d0f48134278d17fdb5ac41753db49db}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface}}.
+
+
+
+Definition at line 86 of file Registration\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{86                                         \{}
+\DoxyCodeLine{87     System.out.println(\textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+"{}});}
+\DoxyCodeLine{88     System.out.println(\textcolor{stringliteral}{"{}|                   REGISTER                   |"{}});}
+\DoxyCodeLine{89     System.out.println(\textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+"{}});}
+\DoxyCodeLine{90   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_aec01823a9f1440aa1e989e28c7eef942}\label{classce204__hw4__library_1_1_registration_services_aec01823a9f1440aa1e989e28c7eef942}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!initiateRegistration@{initiateRegistration}}
+\index{initiateRegistration@{initiateRegistration}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{initiateRegistration()}{initiateRegistration()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}}}]{login\+Service }\end{DoxyParamCaption})}
+
+
+
+Initiates the registration process. This method initiates the registration process by prompting the user to enter their registration details and performs the necessary validation and registration steps. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em login\+Service} & The \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} object used for the registration process. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_registration_services_interface_acfd4590d0b6add1ddaddcfe555647fcb}{ce204\+\_\+hw4\+\_\+library.\+Registration\+Services\+Interface}}.
+
+
+
+Definition at line 101 of file Registration\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{101                                                                \{}
+\DoxyCodeLine{102     System.out.println();}
+\DoxyCodeLine{103     \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0f69ab84d6ea179dcb47d5fbe232a168}{displayRegistrationMenu}}();}
+\DoxyCodeLine{104     System.out.println(\textcolor{stringliteral}{"{}First Name:"{}});}
+\DoxyCodeLine{105     String firstName = \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}{input}}.next();}
+\DoxyCodeLine{106     System.out.println(\textcolor{stringliteral}{"{}Last Name:"{}});}
+\DoxyCodeLine{107     String lastName = \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}{input}}.next();}
+\DoxyCodeLine{108     System.out.println(\textcolor{stringliteral}{"{}Username:"{}});}
+\DoxyCodeLine{109     String userName = \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}{input}}.next();}
+\DoxyCodeLine{110     System.out.println(\textcolor{stringliteral}{"{}Password:"{}});}
+\DoxyCodeLine{111     String password = \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}{input}}.next();}
+\DoxyCodeLine{112     System.out.println(\textcolor{stringliteral}{"{}Driver's license date:[yyyy-\/MM-\/dd]"{}});}
+\DoxyCodeLine{113     System.out.println(\textcolor{stringliteral}{"{}(Must be at least 2 years)"{}});}
+\DoxyCodeLine{114     String licenceObtained = \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}{input}}.next();}
+\DoxyCodeLine{115 }
+\DoxyCodeLine{116     \textcolor{keywordflow}{try} \{}
+\DoxyCodeLine{117       Date date = dateFormat.parse(String.valueOf(licenceObtained));}
+\DoxyCodeLine{118       dateFormat = \textcolor{keyword}{new} SimpleDateFormat(\textcolor{stringliteral}{"{}EEE, yyyy MMM d"{}});}
+\DoxyCodeLine{119       Date currentDate = \textcolor{keyword}{new} Date();}
+\DoxyCodeLine{120       DecimalFormat df = \textcolor{keyword}{new} DecimalFormat(\textcolor{stringliteral}{"{}\#.\#\#"{}});}
+\DoxyCodeLine{121       \textcolor{keywordtype}{long} diffInMillies = Math.abs(currentDate.getTime() -\/ date.getTime());}
+\DoxyCodeLine{122       \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0a151ee6184caa4a33e01aeec2390d73}{diff}} = (double) (diffInMillies / (1000 * 60 * 60 * 24 * 365.25));}
+\DoxyCodeLine{123       System.out.println(\textcolor{stringliteral}{"{}Licence usage time: "{}} + df.format(\mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0a151ee6184caa4a33e01aeec2390d73}{diff}}) + \textcolor{stringliteral}{"{} year"{}});}
+\DoxyCodeLine{124     \} \textcolor{keywordflow}{catch} (ParseException e) \{}
+\DoxyCodeLine{125       System.out.println(\textcolor{stringliteral}{"{}Parse Exception"{}});}
+\DoxyCodeLine{126     \}}
+\DoxyCodeLine{127 }
+\DoxyCodeLine{128     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a0a151ee6184caa4a33e01aeec2390d73}{diff}} < 2) \{}
+\DoxyCodeLine{129       System.out.println(\textcolor{stringliteral}{"{}License usage time is not enough"{}});}
+\DoxyCodeLine{130     \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{131       \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_aedcb509b9518b3559e13fe7eb467f163}{customerRegistration}}(\mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_a75edcca8db0ce412fa6429cc999a082b}{customerRegistrationForm}}(firstName, lastName, userName, password, licenceObtained));}
+\DoxyCodeLine{132     \}}
+\DoxyCodeLine{133   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+customer\+Registration(), ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+customer\+Registration\+Form(), ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+diff, ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+display\+Registration\+Menu(), and ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+input.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_a0a151ee6184caa4a33e01aeec2390d73}\label{classce204__hw4__library_1_1_registration_services_a0a151ee6184caa4a33e01aeec2390d73}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!diff@{diff}}
+\index{diff@{diff}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{diff}{diff}}
+{\footnotesize\ttfamily double ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+diff}
+
+
+
+Definition at line 36 of file Registration\+Services.\+java.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}\label{classce204__hw4__library_1_1_registration_services_ab9af16b7d6dfbd019edf6ce7f0f2a004}} 
+\index{ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}!input@{input}}
+\index{input@{input}!ce204\_hw4\_library.RegistrationServices@{ce204\_hw4\_library.RegistrationServices}}
+\doxysubsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily Scanner ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+input = new Scanner(System.\+in)}
+
+
+
+Definition at line 33 of file Registration\+Services.\+java.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_registration_services_8java}{Registration\+Services.\+java}}\end{DoxyCompactItemize}

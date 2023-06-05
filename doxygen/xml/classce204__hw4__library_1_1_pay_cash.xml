@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_pay_cash" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::PayCash</compoundname>
+    <basecompoundref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" prot="public" virt="non-virtual">ce204_hw4_library.CarPaymentStrategyPattern</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_cash_1ab3758120f4455c0b5a228497aeec6990" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.PayCash.PaymentDetails</definition>
+        <argsstring>()</argsstring>
+        <name>PaymentDetails</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157">PaymentDetails</reimplements>
+        <briefdescription>
+<para>Retrieves the payment details. This method retrieves the payment details for the cash payment strategy. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true, indicating that payment details are available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" line="28" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_cash_1a8ec1a1741628aeec7414a5d26f6f1363" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayCash.PaySystem</definition>
+        <argsstring>(int price)</argsstring>
+        <name>PaySystem</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371">PaySystem</reimplements>
+        <param>
+          <type>int</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>Performs the cash payment. This method performs the cash payment for the car rental. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of money used for the payment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" line="40" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_cash_1aa7a2ba816547da24423b0d4c24eb0c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayCash.CollectPaymentSystemDetails</definition>
+        <argsstring>()</argsstring>
+        <name>CollectPaymentSystemDetails</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7">CollectPaymentSystemDetails</reimplements>
+        <briefdescription>
+<para>Collects the payment system details. This method collects the necessary details for the cash payment system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" line="51" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" bodystart="51" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a cash payment strategy for car rentals. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   The PayCash class implements the CarPaymentStrategyPattern interface
+   and provides methods for handling cash payments
+
+   for car rentals. It allows users to pay for their car rental using
+   cash.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.PayCash</label>
+        <link refid="classce204__hw4__library_1_1_pay_cash"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.PayCash</label>
+        <link refid="classce204__hw4__library_1_1_pay_cash"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" line="20" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCash.java" bodystart="20" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_pay_cash_1aa7a2ba816547da24423b0d4c24eb0c83" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCash</scope><name>CollectPaymentSystemDetails</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_cash_1ab3758120f4455c0b5a228497aeec6990" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCash</scope><name>PaymentDetails</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_cash_1a8ec1a1741628aeec7414a5d26f6f1363" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCash</scope><name>PaySystem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

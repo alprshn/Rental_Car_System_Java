@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ce204-hw4-alper-sahin</a> &gt; <a href="index.source.html" class="el_package">ce204_hw4_app</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">/**
+ * @file Main.java
+ * @brief Contains the implementation of the Main class.
+ */
+package ce204_hw4_app;
+
+
+import ce204_hw4_library.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+/**
+ * @class Main
+ * @brief Represents the main application class.
+ *
+ * This class contains the main logic of the application and handles the different menus and user interactions.
+ */
+public class Main {
+
+<span class="fc" id="L20">  public List&lt;RentCarInterface&gt; rentalCars = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L21">  public Scanner INPUT = new Scanner(System.in);</span>
+<span class="fc" id="L22">  PaymentSystemService paymentSystemService = new PaymentSystemService();</span>
+<span class="fc" id="L23">  PayPayPal payPayPal = new PayPayPal();</span>
+<span class="fc" id="L24">  PayCreditCard payCreditCard = new PayCreditCard();</span>
+<span class="fc" id="L25">  PayCash payCash = new PayCash();</span>
+
+  private final MenuServices MENU_DISPLAY_SERVICES;
+
+  private LoginServices loginServices;
+  private RegistrationServices registrationServices;
+  /**
+     * @brief Constructs a new Main object.
+     *
+     * @param userList The list of users in the application.
+     * @param MENU_DISPLAY_SERVICES The menu display services.
+     * @param loginServices The login services.
+     * @param registrationServices The registration services.
+     */
+  public Main(List&lt;User&gt; userList, MenuServices MENU_DISPLAY_SERVICES, LoginServices loginServices,
+<span class="fc" id="L40">              RegistrationServices registrationServices) {</span>
+<span class="fc" id="L41">    this.MENU_DISPLAY_SERVICES = MENU_DISPLAY_SERVICES;</span>
+<span class="fc" id="L42">    this.loginServices = loginServices;</span>
+<span class="fc" id="L43">    this.registrationServices = registrationServices;</span>
+<span class="fc" id="L44">  }</span>
+  /**
+    * @brief Displays the admin menu and handles admin options.
+    */
+  public void AdminMenu() {
+<span class="fc" id="L49">    Scanner scanner = new Scanner(System.in);</span>
+
+    do {
+<span class="fc" id="L52">      System.out.println();</span>
+<span class="fc" id="L53">      MENU_DISPLAY_SERVICES.designAdminMenu();</span>
+<span class="fc" id="L54">      System.out.println(&quot;Please, choose your option from down below: &quot;);</span>
+<span class="fc" id="L55">      int option = INPUT.nextInt();</span>
+
+<span class="fc bfc" id="L57" title="All 6 branches covered.">      switch (option) {</span>
+        case 1: // List Car
+<span class="fc" id="L59">          System.out.println(&quot;\nRental Cars:\n&quot;);</span>
+<span class="fc" id="L60">          int i = 0;</span>
+
+<span class="fc bfc" id="L62" title="All 2 branches covered.">          if (rentalCars.isEmpty()) {</span>
+<span class="fc" id="L63">            System.out.println(&quot;No cars available.&quot;);</span>
+          } else {
+<span class="fc" id="L65">            System.out.println(</span>
+              &quot;+------Brand---------Model-------Car Year-----Fuel Type----Color----Price---Number of Seats-------+\n&quot;);
+
+<span class="fc bfc" id="L68" title="All 2 branches covered.">            for (RentCarInterface rentalCar : rentalCars) {</span>
+<span class="fc" id="L69">              i++;</span>
+<span class="fc" id="L70">              System.out.print(i + &quot;. =&gt;   &quot;);</span>
+<span class="fc" id="L71">              displayCar(rentalCar);</span>
+<span class="fc" id="L72">            }</span>
+          }
+
+<span class="fc" id="L75">          break;</span>
+
+        case 2: // Add Car
+<span class="fc" id="L78">          MENU_DISPLAY_SERVICES.designSelectCarType();</span>
+<span class="fc" id="L79">          String carType = &quot;&quot;;</span>
+<span class="fc" id="L80">          int selectCarType = Integer.parseInt(scanner.nextLine());</span>
+
+<span class="fc bfc" id="L82" title="All 7 branches covered.">          switch (selectCarType) {</span>
+            case 1: {
+<span class="fc" id="L84">              carType = &quot;modelsedan&quot;;</span>
+<span class="fc" id="L85">              break;</span>
+            }
+
+            case 2: {
+<span class="fc" id="L89">              carType = &quot;modelsuv&quot;;</span>
+<span class="fc" id="L90">              break;</span>
+            }
+
+            case 3: {
+<span class="fc" id="L94">              carType = &quot;modelstationwagon&quot;;</span>
+<span class="fc" id="L95">              break;</span>
+            }
+
+            case 4: {
+<span class="fc" id="L99">              carType = &quot;modelpickup&quot;;</span>
+<span class="fc" id="L100">              break;</span>
+            }
+
+            case 5: {
+<span class="fc" id="L104">              carType = &quot;modelhatchback&quot;;</span>
+<span class="fc" id="L105">              break;</span>
+            }
+
+            case 6: {
+<span class="fc" id="L109">              carType = &quot;modelcabrio&quot;;</span>
+<span class="fc" id="L110">              break;</span>
+            }
+
+            default:
+<span class="fc" id="L114">              System.out.println(&quot;Invalid choose only betwen displayed options!&quot;);</span>
+<span class="fc" id="L115">              return;</span>
+          }
+
+<span class="fc" id="L118">          System.out.print(&quot;Enter Brand: &quot;);</span>
+<span class="fc" id="L119">          String getBrand = scanner.nextLine();</span>
+<span class="fc" id="L120">          System.out.print(&quot;Enter Model: &quot;);</span>
+<span class="fc" id="L121">          String getModel = scanner.nextLine();</span>
+<span class="fc" id="L122">          System.out.print(&quot;Enter Car Year: &quot;);</span>
+<span class="fc" id="L123">          int getCarYear = Integer.parseInt(scanner.nextLine());</span>
+<span class="fc" id="L124">          System.out.print(&quot;Enter Fuel Type: &quot;);</span>
+<span class="fc" id="L125">          String getFuelType = scanner.nextLine();</span>
+<span class="fc" id="L126">          System.out.print(&quot;Enter Color: &quot;);</span>
+<span class="fc" id="L127">          String getColor = scanner.nextLine();</span>
+<span class="fc" id="L128">          System.out.print(&quot;Enter Price: &quot;);</span>
+<span class="fc" id="L129">          int getPrice = Integer.parseInt(scanner.nextLine());</span>
+<span class="fc" id="L130">          System.out.print(&quot;Enter Number of Seats: &quot;);</span>
+<span class="fc" id="L131">          int getSeatsNumber = Integer.parseInt(scanner.nextLine());</span>
+<span class="fc" id="L132">          RentCarInterface car = FactoryMethodPatternCar.createCar(carType, getSeatsNumber, getPrice, getColor,</span>
+                                 getModel, getBrand, getFuelType, getCarYear);
+<span class="fc" id="L134">          paymentSystemService.setMoney(getPrice);</span>
+<span class="fc" id="L135">          rentalCars.add(car);</span>
+<span class="fc" id="L136">          System.out.println(&quot;\nCar added successfully!&quot;);</span>
+<span class="fc" id="L137">          break;</span>
+
+        case 3: // Delete Car
+<span class="fc" id="L140">          System.out.print(&quot;\nEnter the index of the car to delete: &quot;);</span>
+<span class="fc" id="L141">          int index = Integer.parseInt(scanner.nextLine());</span>
+
+<span class="pc bpc" id="L143" title="1 of 4 branches missed.">          if (index &gt;= 0 &amp;&amp; index &lt; rentalCars.size() + 1) {</span>
+<span class="fc" id="L144">            rentalCars.remove(index - 1);</span>
+<span class="fc" id="L145">            System.out.println(&quot;Car deleted successfully!&quot;);</span>
+          } else {
+<span class="fc" id="L147">            System.out.println(&quot;Invalid index!&quot;);</span>
+          }
+
+<span class="fc" id="L150">          break;</span>
+
+        case 4: // Logout
+<span class="fc" id="L153">          LogOut();</span>
+<span class="fc" id="L154">          break;</span>
+
+        case 5: // Exit app
+<span class="fc" id="L157">          loginServices.exitApp();</span>
+<span class="fc" id="L158">          return;</span>
+
+        default: // In case of picking a wrong option
+<span class="fc" id="L161">          System.out.println(&quot;Invalid choice. Please, choose only between displayed options!&quot;);</span>
+          break;
+      }
+<span class="fc bfc" id="L164" title="All 2 branches covered.">    } while (loginServices.isLoggedInAsAdmin(loginServices.getLoggedInUser()));</span>
+<span class="fc" id="L165">  }</span>
+  /**
+     * @brief Displays the main menu and handles user options.
+     */
+  public void MainMenu() {
+    do {
+<span class="fc" id="L171">      System.out.println();</span>
+<span class="fc" id="L172">      MENU_DISPLAY_SERVICES.designMainMenu();</span>
+<span class="fc" id="L173">      System.out.println(&quot;Username for Admin: admin, password:0000 /// Username for Customer: ugur, password:1234&quot;);</span>
+<span class="fc" id="L174">      System.out.println(&quot;If you don't have an account yet, register now for free!&quot;);</span>
+<span class="fc" id="L175">      System.out.println(&quot;Please, choose your option from down below: &quot;);</span>
+<span class="fc" id="L176">      int option = INPUT.nextInt();</span>
+
+<span class="fc bfc" id="L178" title="All 4 branches covered.">      switch (option) {</span>
+        case 1: // Registration
+<span class="fc" id="L180">          registrationServices.initiateRegistration(loginServices);</span>
+<span class="fc" id="L181">          break;</span>
+
+        case 2: // Login
+<span class="fc" id="L184">          loginServices.initiateLogIn();</span>
+
+<span class="fc bfc" id="L186" title="All 2 branches covered.">          if (loginServices.isLoggedInAsAdmin(loginServices.getLoggedInUser())) {</span>
+<span class="fc" id="L187">            AdminMenu();</span>
+          } else {
+<span class="fc" id="L189">            CustomerMenu();</span>
+          }
+
+<span class="fc" id="L192">          break;</span>
+
+        case 3: // Exit app
+<span class="fc" id="L195">          loginServices.exitApp();</span>
+<span class="fc" id="L196">          return;</span>
+
+        default: // In case of picking a wrong option
+<span class="fc" id="L199">          System.out.println(&quot;Wrong option. Please, try again!&quot;);</span>
+          break;
+      }
+<span class="fc bfc" id="L202" title="All 2 branches covered.">    } while (!loginServices.isLoggedIn(loginServices.getLoggedInUser()));</span>
+<span class="fc" id="L203">  }</span>
+  /**
+     * @brief Displays the customer menu and handles customer options.
+     */
+  public void CustomerMenu() {
+    do {
+<span class="fc" id="L209">      System.out.println();</span>
+<span class="fc" id="L210">      MENU_DISPLAY_SERVICES.designCustomerMenu();</span>
+<span class="fc" id="L211">      System.out.println(&quot;Please, choose your option from down below: &quot;);</span>
+<span class="fc" id="L212">      int option = INPUT.nextInt();</span>
+
+<span class="fc bfc" id="L214" title="All 4 branches covered.">      switch (option) {</span>
+        case 1: // Rent a Car
+<span class="fc" id="L216">          System.out.println(&quot;\nRental Cars:\n&quot;);</span>
+<span class="fc" id="L217">          int i = 0;</span>
+
+<span class="fc bfc" id="L219" title="All 2 branches covered.">          if (rentalCars.isEmpty()) {</span>
+<span class="fc" id="L220">            System.out.println(&quot;No cars available.&quot;);</span>
+          } else {
+<span class="fc bfc" id="L222" title="All 2 branches covered.">            for (RentCarInterface rentalACar : rentalCars) {</span>
+<span class="fc" id="L223">              i++;</span>
+<span class="fc" id="L224">              System.out.println(</span>
+                &quot;+------Brand---------Model-------Car Year-----Fuel Type----Color----Price---Number of Seats-------+\n&quot;);
+<span class="fc" id="L226">              System.out.print(i + &quot;. =&gt;   &quot;);</span>
+<span class="fc" id="L227">              displayCar(rentalACar);</span>
+<span class="fc" id="L228">            }</span>
+
+<span class="fc" id="L230">            Scanner scanner = new Scanner(System.in);</span>
+            int index;
+
+            while (true) {
+<span class="fc" id="L234">              System.out.println(&quot;\nEnter the index of the car: &quot;);</span>
+<span class="fc" id="L235">              index = Integer.parseInt(scanner.nextLine());</span>
+
+<span class="pc bpc" id="L237" title="1 of 4 branches missed.">              if (index &gt;= 0 &amp;&amp; index &lt; rentalCars.size() + 1) {</span>
+<span class="fc" id="L238">                paymentSystemService.setSelectedCarIndex(index - 1);</span>
+<span class="fc" id="L239">                break;</span>
+              } else {
+<span class="fc" id="L241">                System.out.println(&quot;Invalid index!&quot;);</span>
+              }
+            }
+
+            int paymentType;
+
+            while (true) {
+<span class="fc" id="L248">              System.out.println(&quot;1 - Credit Card&quot;);</span>
+<span class="fc" id="L249">              System.out.println(&quot;2 - PayPal&quot;);</span>
+<span class="fc" id="L250">              System.out.println(&quot;3 - Cash&quot;);</span>
+<span class="fc" id="L251">              System.out.println(&quot;Choose the payment type:&quot;);</span>
+<span class="fc" id="L252">              paymentType = Integer.parseInt(scanner.next());</span>
+
+<span class="fc bfc" id="L254" title="All 2 branches covered.">              if (paymentType == 1) {</span>
+<span class="fc" id="L255">                paymentSystemService.setStrategyPattern(payCreditCard);</span>
+<span class="fc" id="L256">                Bill.displayBill(rentalCars.get(index - 1), &quot;Credit Cart&quot;);</span>
+<span class="fc" id="L257">                break;</span>
+<span class="fc bfc" id="L258" title="All 2 branches covered.">              } else if (paymentType == 2) {</span>
+<span class="fc" id="L259">                paymentSystemService.setStrategyPattern(payPayPal);</span>
+<span class="fc" id="L260">                Bill.displayBill(rentalCars.get(index - 1), &quot;PayPal&quot;);</span>
+<span class="fc" id="L261">                break;</span>
+<span class="fc bfc" id="L262" title="All 2 branches covered.">              } else if (paymentType == 3) {</span>
+<span class="fc" id="L263">                paymentSystemService.setStrategyPattern(payCash);</span>
+<span class="fc" id="L264">                Bill.displayBill(rentalCars.get(index - 1), &quot;Cash&quot;);</span>
+<span class="fc" id="L265">                break;</span>
+              } else {
+<span class="fc" id="L267">                return;</span>
+              }
+            }
+
+<span class="fc" id="L271">            paymentSystemService.proccessOrder();</span>
+<span class="fc" id="L272">            paymentSystemService.removeMoney(index - 1);</span>
+<span class="fc" id="L273">            rentalCars.remove(index - 1);</span>
+<span class="fc" id="L274">            System.out.println(&quot;Kaç gün sonra kiralaycaksınız:&quot;);</span>
+<span class="fc" id="L275">            int Rentindex = Integer.parseInt(scanner.next());</span>
+<span class="fc" id="L276">            System.out.print(&quot;Bildirim Almak ve Abone Olmak istiyorsanız 1'i tuşlayın&quot;);</span>
+<span class="fc" id="L277">            int selecetSubs = Integer.parseInt(scanner.next());</span>
+
+<span class="pc bpc" id="L279" title="1 of 2 branches missed.">            if (selecetSubs == 1) {</span>
+<span class="fc" id="L280">              NotificationTime timer = new NotificationTime(Rentindex, 2);</span>
+<span class="fc" id="L281">              CarCustomer customer = new CarCustomer(&quot;Customer&quot;);</span>
+<span class="fc" id="L282">              timer.addObserver(customer);</span>
+
+<span class="fc bfc" id="L284" title="All 2 branches covered.">              for (int a = timer.getRemainingNoti(); a &gt;= 0; a--) {</span>
+<span class="fc" id="L285">                timer.setRemainingNoti(a);</span>
+              }
+            }
+          }
+
+<span class="fc" id="L290">          break;</span>
+
+        case 2: // Logout
+<span class="fc" id="L293">          LogOut();</span>
+<span class="fc" id="L294">          break;</span>
+
+        case 3: // Exit app
+<span class="fc" id="L297">          loginServices.exitApp();</span>
+<span class="fc" id="L298">          return;</span>
+
+        default: // In case of picking a wrong option
+<span class="fc" id="L301">          System.out.println(&quot;Invalid choice. Please, choose only between displayed options!&quot;);</span>
+          break;
+      }
+<span class="pc bpc" id="L304" title="1 of 2 branches missed.">    } while (loginServices.isLoggedInAsCustomer(loginServices.getLoggedInUser()));</span>
+<span class="fc" id="L305">  }</span>
+  /**
+     * @brief Initializes the main car list with default cars.
+     */
+  public void DefaulMainCars() {
+<span class="fc" id="L310">    RentCarInterface carOne = FactoryMethodPatternCar.createCar(&quot;modelsedan&quot;, 1, 1, &quot;sedan&quot;, &quot;sedan&quot;, &quot;sedan&quot;,</span>
+                              &quot;sedan&quot;, 1);
+<span class="fc" id="L312">    rentalCars.add(carOne);</span>
+<span class="fc" id="L313">    paymentSystemService.setMoney(1);</span>
+<span class="fc" id="L314">  }</span>
+  /**
+     * @brief Displays the details of a car.
+     *
+     * @param car The car to display.
+     */
+
+  public void displayCar(RentCarInterface car) {
+<span class="fc" id="L322">    System.out.println(car.getCarBrand().toUpperCase() + &quot;   =&gt;   &quot; + car.getCarModel().toUpperCase() + &quot;   =&gt;   &quot;</span>
+<span class="fc" id="L323">                       + car.getCarColor() + &quot;   =&gt;   &quot; + car.getCarFuelType().toUpperCase() + &quot;   =&gt;   &quot;</span>
+<span class="fc" id="L324">                       + car.getCarColor().toUpperCase() + &quot;   =&gt;   &quot; + car.getCarPrice() + &quot;   =&gt;   &quot;</span>
+<span class="fc" id="L325">                       + car.getCarSeatsNumber() + &quot;\n&quot;);</span>
+<span class="fc" id="L326">  }</span>
+  /**
+   * @brief Logs out the user and returns to the main menu.
+   */
+  public void LogOut() {
+<span class="fc" id="L331">    System.out.println(&quot;Log-out successfully!&quot;);</span>
+<span class="fc" id="L332">    MainMenu();</span>
+<span class="fc" id="L333">  }</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

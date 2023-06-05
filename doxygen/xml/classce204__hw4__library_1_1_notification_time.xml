@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_notification_time" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::NotificationTime</compoundname>
+    <basecompoundref refid="classce204__hw4__library_1_1_customer_observerable" prot="public" virt="non-virtual">ce204_hw4_library.CustomerObserverable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_notification_time_1ae095a68998ec88005b65b7ef23b399b9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.NotificationTime.remainingNoti</definition>
+        <argsstring></argsstring>
+        <name>remainingNoti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="15" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_notification_time_1a848cbbce1ab7a128e6f4d717f12ae81d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.NotificationTime.reservationNoti</definition>
+        <argsstring></argsstring>
+        <name>reservationNoti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="16" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_notification_time_1a7f1de4cce2c770343b12c1c47cfa57c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.NotificationTime.getRemainingNoti</definition>
+        <argsstring>()</argsstring>
+        <name>getRemainingNoti</name>
+        <briefdescription>
+<para>Gets the remaining notification time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The remaining notification time. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="23" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="23" bodyend="25"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+        <referencedby refid="classce204__hw4__library_1_1_car_customer_1a5881c14c805dab3f18a26649c588b84f" compoundref="_car_customer_8java" startline="34" endline="39">ce204_hw4_library.CarCustomer.updateNoti</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_notification_time_1a99f0713b93e4349cb6a9a6ec982fc51d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.NotificationTime.setRemainingNoti</definition>
+        <argsstring>(int remainingTime)</argsstring>
+        <name>setRemainingNoti</name>
+        <param>
+          <type>int</type>
+          <declname>remainingTime</declname>
+        </param>
+        <briefdescription>
+<para>Sets the remaining notification time. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>remainingTime</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The remaining notification time to set. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="32" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="32" bodyend="41"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_notification_time_1a6feef7f47e4b44ca7962b1c8903ae5b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.NotificationTime.NotificationTime</definition>
+        <argsstring>(int remainingNoti, int reservationNoti)</argsstring>
+        <name>NotificationTime</name>
+        <param>
+          <type>int</type>
+          <declname>remainingNoti</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>reservationNoti</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classce204__hw4__library_1_1_notification_time" kindref="compound">NotificationTime</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>remainingNoti</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The remaining notification time. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reservationNoti</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The reservation notification time. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="61" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="61" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_notification_time_1a5fd0ee3d2103cba3a1add3cb1b2bd91a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.NotificationTime.checkRemainingNoti</definition>
+        <argsstring>()</argsstring>
+        <name>checkRemainingNoti</name>
+        <briefdescription>
+<para>Checks the remaining notification time and takes appropriate actions. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="47" column="16" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="47" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a class that manages notification times for a customer. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_library.NotificationTime</label>
+        <link refid="classce204__hw4__library_1_1_notification_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.CustomerObserverable</label>
+        <link refid="classce204__hw4__library_1_1_customer_observerable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ce204_hw4_library.NotificationTime</label>
+        <link refid="classce204__hw4__library_1_1_notification_time"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.CustomerObserverable</label>
+        <link refid="classce204__hw4__library_1_1_customer_observerable"/>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" line="14" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/NotificationTime.java" bodystart="14" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1af24ecae0e9a0192ee84ef66fee6b7602" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>addObserver</name></member>
+      <member refid="classce204__hw4__library_1_1_notification_time_1a5fd0ee3d2103cba3a1add3cb1b2bd91a" prot="private" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>checkRemainingNoti</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a5f6407294ce68f42a469fe35115ff181" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>CustomerObserverable</name></member>
+      <member refid="classce204__hw4__library_1_1_notification_time_1a7f1de4cce2c770343b12c1c47cfa57c1" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>getRemainingNoti</name></member>
+      <member refid="classce204__hw4__library_1_1_notification_time_1a6feef7f47e4b44ca7962b1c8903ae5b8" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>NotificationTime</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a731e171f4484769b5e05c56b457e4bfc" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>notifyObservers</name></member>
+      <member refid="classce204__hw4__library_1_1_notification_time_1ae095a68998ec88005b65b7ef23b399b9" prot="private" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>remainingNoti</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a38a2185d014b433e27d39fcbba1677b5" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>removeObserver</name></member>
+      <member refid="classce204__hw4__library_1_1_notification_time_1a848cbbce1ab7a128e6f4d717f12ae81d" prot="private" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>reservationNoti</name></member>
+      <member refid="classce204__hw4__library_1_1_notification_time_1a99f0713b93e4349cb6a9a6ec982fc51d" prot="public" virt="non-virtual"><scope>ce204_hw4_library::NotificationTime</scope><name>setRemainingNoti</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

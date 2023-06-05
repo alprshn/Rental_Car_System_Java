@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__app_1_1_customer" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_app::Customer</compoundname>
+    <basecompoundref refid="classce204__hw4__app_1_1_user" prot="public" virt="non-virtual">ce204_hw4_app.User</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_customer_1ac895d64245305ba5c3631e93998e42c6" prot="private" static="no" mutable="no">
+        <type>LocalDate</type>
+        <definition>LocalDate ce204_hw4_app.Customer.licenceObtained</definition>
+        <argsstring></argsstring>
+        <name>licenceObtained</name>
+        <briefdescription>
+<para>Gets the date when the customer obtained their driving license. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The date when the customer obtained their driving license. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" line="24" column="21" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__app_1_1_customer_1a2ed331cc82b7284f10fe32ff901514a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_app.Customer.Customer</definition>
+        <argsstring>()</argsstring>
+        <name>Customer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" line="26" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" bodystart="26" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_customer_1a6225f7e4555b79f7aec59da4ddf648ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_app.Customer.Customer</definition>
+        <argsstring>(String firstName, String lastName, String userName, String password, String licenceObtained)</argsstring>
+        <name>Customer</name>
+        <param>
+          <type>String</type>
+          <declname>firstName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>lastName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>licenceObtained</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This constructor creates a new <ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref> object with the specified first name, last name, username, password, and license obtained date.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first name of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last name of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password of the customer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>licenceObtained</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The date when the customer obtained their driving license. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" line="39" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" bodystart="39" bodyend="42"/>
+        <references refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" compoundref="_user_8java" startline="17">ce204_hw4_app.User.firstName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" compoundref="_user_8java" startline="18">ce204_hw4_app.User.lastName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" compoundref="_user_8java" startline="20">ce204_hw4_app.User.password</references>
+        <references refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" compoundref="_user_8java" startline="19">ce204_hw4_app.User.userName</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_customer_1a2f7a45292a62962d63879eefb48e1e4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>LocalDate</type>
+        <definition>LocalDate ce204_hw4_app.Customer.getLicenceObtained</definition>
+        <argsstring>()</argsstring>
+        <name>getLicenceObtained</name>
+        <briefdescription>
+<para>Gets the date when the customer obtained their driving license. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The date when the customer obtained their driving license. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" line="48" column="20" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__app_1_1_customer_1ad765e84fa3d694beb91488dcfbe0719b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_app.Customer.setLicenceObtained</definition>
+        <argsstring>(LocalDate licenceObtained)</argsstring>
+        <name>setLicenceObtained</name>
+        <param>
+          <type>LocalDate</type>
+          <declname>licenceObtained</declname>
+        </param>
+        <briefdescription>
+<para>Sets the date when the customer obtained their driving license. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>licenceObtained</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The date when the customer obtained their driving license. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" line="56" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a customer user. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class extends the <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> class and represents a customer user in the application. <ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref> users have additional properties related to their driving license. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_app.User</label>
+        <link refid="classce204__hw4__app_1_1_user"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_app.Customer</label>
+        <link refid="classce204__hw4__app_1_1_customer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ce204_hw4_app.User</label>
+        <link refid="classce204__hw4__app_1_1_user"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_app.Customer</label>
+        <link refid="classce204__hw4__app_1_1_customer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" line="18" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Customer.java" bodystart="18" bodyend="60"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__app_1_1_customer_1a2ed331cc82b7284f10fe32ff901514a8" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>Customer</name></member>
+      <member refid="classce204__hw4__app_1_1_customer_1a6225f7e4555b79f7aec59da4ddf648ea" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>Customer</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>firstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a733ca4a4a7066d4414ef5faebd76080a" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>getFirstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a7a0bd9210a587dd23246a728eabc71de" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>getLastName</name></member>
+      <member refid="classce204__hw4__app_1_1_customer_1a2f7a45292a62962d63879eefb48e1e4a" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>getLicenceObtained</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1aa2dc80c31875236d58cddb95a7961730" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>getPassword</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>getUserName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>lastName</name></member>
+      <member refid="classce204__hw4__app_1_1_customer_1ac895d64245305ba5c3631e93998e42c6" prot="private" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>licenceObtained</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>password</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a3b175faba6aadaebc25348a25bddf9b0" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>setFirstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a9a4ae72278c069615c9e5b266a6d2031" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>setLastName</name></member>
+      <member refid="classce204__hw4__app_1_1_customer_1ad765e84fa3d694beb91488dcfbe0719b" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>setLicenceObtained</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1ae895b2fd2c925adfa7fff444bb305b27" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>setPassword</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a616d6b8e085b6b88666827d496e39f3d" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>setUserName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>toString</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>User</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a2ea7d2982ba009a9305565129b6cf0eb" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>User</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Customer</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

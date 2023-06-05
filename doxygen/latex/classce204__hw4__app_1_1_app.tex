@@ -1,0 +1,79 @@
+\hypertarget{classce204__hw4__app_1_1_app}{}\doxysection{ce204\+\_\+hw4\+\_\+app.\+App Class Reference}
+\label{classce204__hw4__app_1_1_app}\index{ce204\_hw4\_app.App@{ce204\_hw4\_app.App}}
+
+
+Represents the main class of the application.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{classce204__hw4__app_1_1_app_a758024d731874432fb6ac980e1b486b7}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\begin{DoxyCompactList}\small\item\em The main method of the application. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the main class of the application. 
+
+\begin{DoxyVerb}   This class contains the main method and serves as the entry point of
+   the application. It initializes the necessary objects and starts the
+   main functionality of the application.
+\end{DoxyVerb}
+ 
+
+Definition at line 20 of file App.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__app_1_1_app_a758024d731874432fb6ac980e1b486b7}\label{classce204__hw4__app_1_1_app_a758024d731874432fb6ac980e1b486b7}} 
+\index{ce204\_hw4\_app.App@{ce204\_hw4\_app.App}!main@{main}}
+\index{main@{main}!ce204\_hw4\_app.App@{ce204\_hw4\_app.App}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void ce204\+\_\+hw4\+\_\+app.\+App.\+main (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The main method of the application. 
+
+\begin{DoxyVerb}   This method is the entry point of the application. It creates the
+   necessary objects, such as user lists, menu services, registration
+   services, and login services. It then initializes the main
+   functionality of the application by calling methods in the Main class.
+\end{DoxyVerb}
+ 
+\begin{DoxyParams}{Parameters}
+{\em args} & The command-\/line arguments (not used in this application). \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 31 of file App.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{31                                          \{}
+\DoxyCodeLine{32     \textcolor{comment}{// Initialize user lists}}
+\DoxyCodeLine{33     List<User> user = \textcolor{keyword}{new} ArrayList<>();}
+\DoxyCodeLine{34     user.addAll(UserDatabase.getAdminList());}
+\DoxyCodeLine{35     user.addAll(UserDatabase.getCustomerList());}
+\DoxyCodeLine{36     \textcolor{comment}{// Initialize menu services}}
+\DoxyCodeLine{37     \mbox{\hyperlink{classce204__hw4__library_1_1_menu_services}{MenuServices}} menuDisplayServices = \textcolor{keyword}{new} \mbox{\hyperlink{classce204__hw4__library_1_1_menu_services}{MenuServices}}();}
+\DoxyCodeLine{38     \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{RegistrationServices}} registrationServices = \textcolor{keyword}{new} \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{RegistrationServices}}(user);}
+\DoxyCodeLine{39     \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{LoginServices}} loginServices = \textcolor{keyword}{new} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{LoginServices}}(user);}
+\DoxyCodeLine{40     Main \mbox{\hyperlink{classce204__hw4__app_1_1_app_a758024d731874432fb6ac980e1b486b7}{main}} = \textcolor{keyword}{new} Main(user, menuDisplayServices, loginServices, registrationServices);}
+\DoxyCodeLine{41     \mbox{\hyperlink{classce204__hw4__app_1_1_app_a758024d731874432fb6ac980e1b486b7}{main}}.DefaulMainCars();}
+\DoxyCodeLine{42     \textcolor{comment}{// Display the main menu}}
+\DoxyCodeLine{43     \mbox{\hyperlink{classce204__hw4__app_1_1_app_a758024d731874432fb6ac980e1b486b7}{main}}.MainMenu();}
+\DoxyCodeLine{44   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Admin\+List(), and ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Customer\+List().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+app/\mbox{\hyperlink{_app_8java}{App.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,221 @@
+\hypertarget{classce204__hw4__library_1_1_pay_credit_card}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card Class Reference}
+\label{classce204__hw4__library_1_1_pay_credit_card}\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+
+
+Represents a credit card payment strategy for car rentals.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_pay_credit_card}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a128046bff50cf3ed09c9155701108244}{Payment\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the payment details. This method retrieves the payment details for the credit card payment strategy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a03bd8c1be12e2d1d6ad7c647ee95ad55}{Pay\+System}} (int price)
+\begin{DoxyCompactList}\small\item\em Performs the credit card payment. This method performs the credit card payment for the car rental. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a32824985c7d9e9065c8a6d246c17921d}{Collect\+Payment\+System\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Collects the payment system details. This method collects the necessary details for the credit card payment system. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a88fae000d2f09ffee6e8f3d036f3eafa}{get\+Price}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the total amount of money available in the credit card. This method retrieves the total amount of money available in the credit card. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a731f292ddb458892f9381e17d2b5246d}{set\+Price}} (int i)
+\begin{DoxyCompactList}\small\item\em Sets the total amount of money available in the credit card. This method sets the total amount of money available in the credit card. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_credit_card_system}{Credit\+Card\+System}} \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_aa30ef51be7b18c4ea840ae828afd1428}{Credit\+Card}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the credit card system. This method retrieves the credit card system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a credit card payment strategy for car rentals. 
+
+The \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card}{Pay\+Credit\+Card}} class implements the \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern}{Car\+Payment\+Strategy\+Pattern}} interface and provides methods for handling credit card
+
+payments for car rentals. It allows users to pay for their car rental using a credit card. 
+
+Definition at line 22 of file Pay\+Credit\+Card.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_credit_card_a32824985c7d9e9065c8a6d246c17921d}\label{classce204__hw4__library_1_1_pay_credit_card_a32824985c7d9e9065c8a6d246c17921d}} 
+\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}!CollectPaymentSystemDetails@{CollectPaymentSystemDetails}}
+\index{CollectPaymentSystemDetails@{CollectPaymentSystemDetails}!ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+\doxysubsubsection{\texorpdfstring{CollectPaymentSystemDetails()}{CollectPaymentSystemDetails()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+Collect\+Payment\+System\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Collects the payment system details. This method collects the necessary details for the credit card payment system. 
+
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 55 of file Pay\+Credit\+Card.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{55                                             \{}
+\DoxyCodeLine{56     creditCard = \textcolor{keyword}{new} CreditCardSystem(\textcolor{stringliteral}{"{}7845124233224471"{}}, \textcolor{stringliteral}{"{}08/24"{}}, \textcolor{stringliteral}{"{}778"{}});}
+\DoxyCodeLine{57   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_credit_card_aa30ef51be7b18c4ea840ae828afd1428}\label{classce204__hw4__library_1_1_pay_credit_card_aa30ef51be7b18c4ea840ae828afd1428}} 
+\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}!CreditCard@{CreditCard}}
+\index{CreditCard@{CreditCard}!ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+\doxysubsubsection{\texorpdfstring{CreditCard()}{CreditCard()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__library_1_1_credit_card_system}{Credit\+Card\+System}} ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+Credit\+Card (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the credit card system. This method retrieves the credit card system. 
+
+\begin{DoxyReturn}{Returns}
+The credit card system. 
+\end{DoxyReturn}
+
+
+Definition at line 84 of file Pay\+Credit\+Card.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{84                                        \{}
+\DoxyCodeLine{85     \textcolor{keywordflow}{return} creditCard;}
+\DoxyCodeLine{86   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_credit_card_a88fae000d2f09ffee6e8f3d036f3eafa}\label{classce204__hw4__library_1_1_pay_credit_card_a88fae000d2f09ffee6e8f3d036f3eafa}} 
+\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}!getPrice@{getPrice}}
+\index{getPrice@{getPrice}!ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+\doxysubsubsection{\texorpdfstring{getPrice()}{getPrice()}}
+{\footnotesize\ttfamily int ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+get\+Price (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the total amount of money available in the credit card. This method retrieves the total amount of money available in the credit card. 
+
+\begin{DoxyReturn}{Returns}
+The total amount of money available in the credit card. 
+\end{DoxyReturn}
+
+
+Definition at line 64 of file Pay\+Credit\+Card.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{64                         \{}
+\DoxyCodeLine{65     \textcolor{comment}{// TODO Auto-\/generated method stub}}
+\DoxyCodeLine{66     \textcolor{keywordflow}{return} totalMoney;}
+\DoxyCodeLine{67   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+Pay\+System().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_credit_card_a128046bff50cf3ed09c9155701108244}\label{classce204__hw4__library_1_1_pay_credit_card_a128046bff50cf3ed09c9155701108244}} 
+\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}!PaymentDetails@{PaymentDetails}}
+\index{PaymentDetails@{PaymentDetails}!ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+\doxysubsubsection{\texorpdfstring{PaymentDetails()}{PaymentDetails()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+Payment\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the payment details. This method retrieves the payment details for the credit card payment strategy. 
+
+\begin{DoxyReturn}{Returns}
+true, indicating that payment details are available. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 33 of file Pay\+Credit\+Card.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33                                   \{}
+\DoxyCodeLine{34     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{35   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_credit_card_a03bd8c1be12e2d1d6ad7c647ee95ad55}\label{classce204__hw4__library_1_1_pay_credit_card_a03bd8c1be12e2d1d6ad7c647ee95ad55}} 
+\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}!PaySystem@{PaySystem}}
+\index{PaySystem@{PaySystem}!ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+\doxysubsubsection{\texorpdfstring{PaySystem()}{PaySystem()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+Pay\+System (\begin{DoxyParamCaption}\item[{int}]{price }\end{DoxyParamCaption})}
+
+
+
+Performs the credit card payment. This method performs the credit card payment for the car rental. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em price} & The amount of money used for the payment. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 43 of file Pay\+Credit\+Card.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{43                                    \{}
+\DoxyCodeLine{44     System.out.println(\textcolor{stringliteral}{"{}Paying "{}} + price + \textcolor{stringliteral}{"{} using Credit Card."{}});}
+\DoxyCodeLine{45     \mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a731f292ddb458892f9381e17d2b5246d}{setPrice}}(\mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a88fae000d2f09ffee6e8f3d036f3eafa}{getPrice}}() -\/ price);}
+\DoxyCodeLine{46     System.out.println(\mbox{\hyperlink{classce204__hw4__library_1_1_pay_credit_card_a88fae000d2f09ffee6e8f3d036f3eafa}{getPrice}}() + \textcolor{stringliteral}{"{} remanined in the card."{}});}
+\DoxyCodeLine{47     System.out.println(\textcolor{stringliteral}{"{}You rented the car"{}});}
+\DoxyCodeLine{48   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+get\+Price(), and ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+set\+Price().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_credit_card_a731f292ddb458892f9381e17d2b5246d}\label{classce204__hw4__library_1_1_pay_credit_card_a731f292ddb458892f9381e17d2b5246d}} 
+\index{ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}!setPrice@{setPrice}}
+\index{setPrice@{setPrice}!ce204\_hw4\_library.PayCreditCard@{ce204\_hw4\_library.PayCreditCard}}
+\doxysubsubsection{\texorpdfstring{setPrice()}{setPrice()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+set\+Price (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Sets the total amount of money available in the credit card. This method sets the total amount of money available in the credit card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & The total amount of money to be set in the credit card. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 74 of file Pay\+Credit\+Card.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{74                               \{}
+\DoxyCodeLine{75     \textcolor{comment}{// TODO Auto-\/generated method stub}}
+\DoxyCodeLine{76     totalMoney = i;}
+\DoxyCodeLine{77   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Pay\+Credit\+Card.\+Pay\+System().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_pay_credit_card_8java}{Pay\+Credit\+Card.\+java}}\end{DoxyCompactItemize}

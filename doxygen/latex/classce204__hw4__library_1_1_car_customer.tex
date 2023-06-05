@@ -1,0 +1,130 @@
+\hypertarget{classce204__hw4__library_1_1_car_customer}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Car\+Customer Class Reference}
+\label{classce204__hw4__library_1_1_car_customer}\index{ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}}
+
+
+Represents a customer of a car rental service.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Car\+Customer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_car_customer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_car_customer_ad805bf26b40775a2cea703690d54e274}{Car\+Customer}} (String name)
+\begin{DoxyCompactList}\small\item\em Constructs a \mbox{\hyperlink{classce204__hw4__library_1_1_car_customer}{Car\+Customer}} object with the specified name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_car_customer_a5881c14c805dab3f18a26649c588b84f}{update\+Noti}} (\mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable}{Customer\+Observerable}} car\+Observable)
+\begin{DoxyCompactList}\small\item\em Updates the customer with a notification from the car rental service. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classce204__hw4__library_1_1_car_customer_a5ae4d5603fe31db92d7b01ca955d477f}{get\+Notification\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Returns the count of notifications received by the customer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a customer of a car rental service. 
+
+Definition at line 14 of file Car\+Customer.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_car_customer_ad805bf26b40775a2cea703690d54e274}\label{classce204__hw4__library_1_1_car_customer_ad805bf26b40775a2cea703690d54e274}} 
+\index{ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}!CarCustomer@{CarCustomer}}
+\index{CarCustomer@{CarCustomer}!ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}}
+\doxysubsubsection{\texorpdfstring{CarCustomer()}{CarCustomer()}}
+{\footnotesize\ttfamily ce204\+\_\+hw4\+\_\+library.\+Car\+Customer.\+Car\+Customer (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+
+
+Constructs a \mbox{\hyperlink{classce204__hw4__library_1_1_car_customer}{Car\+Customer}} object with the specified name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the customer. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 23 of file Car\+Customer.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                   \{}
+\DoxyCodeLine{24     this.name = name;}
+\DoxyCodeLine{25     this.notiCount = 0;}
+\DoxyCodeLine{26   \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_car_customer_a5ae4d5603fe31db92d7b01ca955d477f}\label{classce204__hw4__library_1_1_car_customer_a5ae4d5603fe31db92d7b01ca955d477f}} 
+\index{ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}!getNotificationCount@{getNotificationCount}}
+\index{getNotificationCount@{getNotificationCount}!ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}}
+\doxysubsubsection{\texorpdfstring{getNotificationCount()}{getNotificationCount()}}
+{\footnotesize\ttfamily int ce204\+\_\+hw4\+\_\+library.\+Car\+Customer.\+get\+Notification\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Returns the count of notifications received by the customer. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em \mbox{[}int\mbox{]}} & The count of notifications received by the customer. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 46 of file Car\+Customer.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{46                                     \{}
+\DoxyCodeLine{47     \textcolor{keywordflow}{return} notiCount;}
+\DoxyCodeLine{48   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_car_customer_a5881c14c805dab3f18a26649c588b84f}\label{classce204__hw4__library_1_1_car_customer_a5881c14c805dab3f18a26649c588b84f}} 
+\index{ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}!updateNoti@{updateNoti}}
+\index{updateNoti@{updateNoti}!ce204\_hw4\_library.CarCustomer@{ce204\_hw4\_library.CarCustomer}}
+\doxysubsubsection{\texorpdfstring{updateNoti()}{updateNoti()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Car\+Customer.\+update\+Noti (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable}{Customer\+Observerable}}}]{car\+Observable }\end{DoxyParamCaption})}
+
+
+
+Updates the customer with a notification from the car rental service. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car\+Observable} & The car rental service that sent the notification. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_rent_observer_interface_a37b9989bafd6825cd20993388123bd27}{ce204\+\_\+hw4\+\_\+library.\+Car\+Rent\+Observer\+Interface}}.
+
+
+
+Definition at line 34 of file Car\+Customer.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{34                                                              \{}
+\DoxyCodeLine{35     NotificationTime notificationtime = (NotificationTime) carObservable;}
+\DoxyCodeLine{36     System.out}
+\DoxyCodeLine{37     .println(\textcolor{stringliteral}{"{}Hello "{}} + name + \textcolor{stringliteral}{"{}, "{}} + notificationtime.getRemainingNoti() + \textcolor{stringliteral}{"{} days left for your delivery"{}});}
+\DoxyCodeLine{38     notiCount++;}
+\DoxyCodeLine{39   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Notification\+Time.\+get\+Remaining\+Noti().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_car_customer_8java}{Car\+Customer.\+java}}\end{DoxyCompactItemize}

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_customer_observerable" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::CustomerObserverable</compoundname>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_notification_time" prot="public" virt="non-virtual">ce204_hw4_library.NotificationTime</derivedcompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_customer_observerable_1a817a342fec0263a29d617efe207e981c" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" kindref="compound">CarRentObserverInterface</ref> &gt;</type>
+        <definition>List&lt;CarRentObserverInterface&gt; ce204_hw4_library.CustomerObserverable.carRentObserverList</definition>
+        <argsstring></argsstring>
+        <name>carRentObserverList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" line="18" column="16" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_customer_observerable_1a731e171f4484769b5e05c56b457e4bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.CustomerObserverable.notifyObservers</definition>
+        <argsstring>()</argsstring>
+        <name>notifyObservers</name>
+        <briefdescription>
+<para>Constructs a CustomerObservable object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" line="25" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" bodystart="25" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_customer_observerable_1a5f6407294ce68f42a469fe35115ff181" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.CustomerObserverable.CustomerObserverable</definition>
+        <argsstring>()</argsstring>
+        <name>CustomerObserverable</name>
+        <briefdescription>
+<para>Constructs a CustomerObservable object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" line="35" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_customer_observerable_1a38a2185d014b433e27d39fcbba1677b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.CustomerObserverable.removeObserver</definition>
+        <argsstring>(CarRentObserverInterface CarObserver)</argsstring>
+        <name>removeObserver</name>
+        <param>
+          <type><ref refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" kindref="compound">CarRentObserverInterface</ref></type>
+          <declname>CarObserver</declname>
+        </param>
+        <briefdescription>
+<para>Removes a car rent observer from the observer list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>carObserver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The car rent observer to remove. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" line="44" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_customer_observerable_1af24ecae0e9a0192ee84ef66fee6b7602" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.CustomerObserverable.addObserver</definition>
+        <argsstring>(CarRentObserverInterface CarObserver)</argsstring>
+        <name>addObserver</name>
+        <param>
+          <type><ref refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" kindref="compound">CarRentObserverInterface</ref></type>
+          <declname>CarObserver</declname>
+        </param>
+        <briefdescription>
+<para>Adds a car rent observer to the observer list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>carObserver</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The car rent observer to add. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" line="53" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" bodystart="53" bodyend="55"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_library.NotificationTime</label>
+        <link refid="classce204__hw4__library_1_1_notification_time"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.CustomerObserverable</label>
+        <link refid="classce204__hw4__library_1_1_customer_observerable"/>
+      </node>
+    </inheritancegraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" line="17" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CustomerObserverable.java" bodystart="17" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1af24ecae0e9a0192ee84ef66fee6b7602" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CustomerObserverable</scope><name>addObserver</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a817a342fec0263a29d617efe207e981c" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CustomerObserverable</scope><name>carRentObserverList</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a5f6407294ce68f42a469fe35115ff181" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CustomerObserverable</scope><name>CustomerObserverable</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a731e171f4484769b5e05c56b457e4bfc" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CustomerObserverable</scope><name>notifyObservers</name></member>
+      <member refid="classce204__hw4__library_1_1_customer_observerable_1a38a2185d014b433e27d39fcbba1677b5" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CustomerObserverable</scope><name>removeObserver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

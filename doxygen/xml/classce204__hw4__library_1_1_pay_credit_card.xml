@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_pay_credit_card" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::PayCreditCard</compoundname>
+    <basecompoundref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" prot="public" virt="non-virtual">ce204_hw4_library.CarPaymentStrategyPattern</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_pay_credit_card_1af43bea787d6db8c8f47859085656aaa1" prot="private" static="no" mutable="no">
+        <type><ref refid="classce204__hw4__library_1_1_credit_card_system" kindref="compound">CreditCardSystem</ref></type>
+        <definition>CreditCardSystem ce204_hw4_library.PayCreditCard.creditCard</definition>
+        <argsstring></argsstring>
+        <name>creditCard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="24" column="28" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_pay_credit_card_1a4813600e4c30858a41fe441ceaa54a08" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.PayCreditCard.totalMoney</definition>
+        <argsstring></argsstring>
+        <name>totalMoney</name>
+        <initializer>= 500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="25" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_credit_card_1a128046bff50cf3ed09c9155701108244" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.PayCreditCard.PaymentDetails</definition>
+        <argsstring>()</argsstring>
+        <name>PaymentDetails</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157">PaymentDetails</reimplements>
+        <briefdescription>
+<para>Retrieves the payment details. This method retrieves the payment details for the credit card payment strategy. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true, indicating that payment details are available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="33" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_credit_card_1a03bd8c1be12e2d1d6ad7c647ee95ad55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayCreditCard.PaySystem</definition>
+        <argsstring>(int price)</argsstring>
+        <name>PaySystem</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371">PaySystem</reimplements>
+        <param>
+          <type>int</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>Performs the credit card payment. This method performs the credit card payment for the car rental. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of money used for the payment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="43" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="43" bodyend="48"/>
+        <references refid="classce204__hw4__library_1_1_pay_credit_card_1a88fae000d2f09ffee6e8f3d036f3eafa" compoundref="_pay_credit_card_8java" startline="64" endline="67">ce204_hw4_library.PayCreditCard.getPrice</references>
+        <references refid="classce204__hw4__library_1_1_pay_credit_card_1a731f292ddb458892f9381e17d2b5246d" compoundref="_pay_credit_card_8java" startline="74" endline="77">ce204_hw4_library.PayCreditCard.setPrice</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_credit_card_1a32824985c7d9e9065c8a6d246c17921d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayCreditCard.CollectPaymentSystemDetails</definition>
+        <argsstring>()</argsstring>
+        <name>CollectPaymentSystemDetails</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7">CollectPaymentSystemDetails</reimplements>
+        <briefdescription>
+<para>Collects the payment system details. This method collects the necessary details for the credit card payment system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="55" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_credit_card_1a88fae000d2f09ffee6e8f3d036f3eafa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.PayCreditCard.getPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getPrice</name>
+        <briefdescription>
+<para>Retrieves the total amount of money available in the credit card. This method retrieves the total amount of money available in the credit card. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total amount of money available in the credit card. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="64" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="64" bodyend="67"/>
+        <referencedby refid="classce204__hw4__library_1_1_pay_credit_card_1a03bd8c1be12e2d1d6ad7c647ee95ad55" compoundref="_pay_credit_card_8java" startline="43" endline="48">ce204_hw4_library.PayCreditCard.PaySystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_credit_card_1a731f292ddb458892f9381e17d2b5246d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayCreditCard.setPrice</definition>
+        <argsstring>(int i)</argsstring>
+        <name>setPrice</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Sets the total amount of money available in the credit card. This method sets the total amount of money available in the credit card. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The total amount of money to be set in the credit card. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="74" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="74" bodyend="77"/>
+        <referencedby refid="classce204__hw4__library_1_1_pay_credit_card_1a03bd8c1be12e2d1d6ad7c647ee95ad55" compoundref="_pay_credit_card_8java" startline="43" endline="48">ce204_hw4_library.PayCreditCard.PaySystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_credit_card_1aa30ef51be7b18c4ea840ae828afd1428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classce204__hw4__library_1_1_credit_card_system" kindref="compound">CreditCardSystem</ref></type>
+        <definition>CreditCardSystem ce204_hw4_library.PayCreditCard.CreditCard</definition>
+        <argsstring>()</argsstring>
+        <name>CreditCard</name>
+        <briefdescription>
+<para>Retrieves the credit card system. This method retrieves the credit card system. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The credit card system. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="84" column="27" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a credit card payment strategy for car rentals. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>The <ref refid="classce204__hw4__library_1_1_pay_credit_card" kindref="compound">PayCreditCard</ref> class implements the <ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" kindref="compound">CarPaymentStrategyPattern</ref> interface and provides methods for handling credit card</para>
+<para>payments for car rentals. It allows users to pay for their car rental using a credit card. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.PayCreditCard</label>
+        <link refid="classce204__hw4__library_1_1_pay_credit_card"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.PayCreditCard</label>
+        <link refid="classce204__hw4__library_1_1_pay_credit_card"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" line="22" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayCreditCard.java" bodystart="22" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1a32824985c7d9e9065c8a6d246c17921d" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>CollectPaymentSystemDetails</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1af43bea787d6db8c8f47859085656aaa1" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>creditCard</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1aa30ef51be7b18c4ea840ae828afd1428" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>CreditCard</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1a88fae000d2f09ffee6e8f3d036f3eafa" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>getPrice</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1a128046bff50cf3ed09c9155701108244" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>PaymentDetails</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1a03bd8c1be12e2d1d6ad7c647ee95ad55" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>PaySystem</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1a731f292ddb458892f9381e17d2b5246d" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>setPrice</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_credit_card_1a4813600e4c30858a41fe441ceaa54a08" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PayCreditCard</scope><name>totalMoney</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

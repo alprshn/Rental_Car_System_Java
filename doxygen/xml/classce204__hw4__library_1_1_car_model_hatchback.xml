@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_car_model_hatchback" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::CarModelHatchback</compoundname>
+    <basecompoundref refid="interfacece204__hw4__library_1_1_rent_car_interface" prot="public" virt="non-virtual">ce204_hw4_library.RentCarInterface</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1af57fb2ed35a38bc2ffce5fb37a2c5c1d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.carBrand</definition>
+        <argsstring></argsstring>
+        <name>carBrand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="9" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1a6eb2a22373496315cad0c93cf37dd473" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.carModel</definition>
+        <argsstring></argsstring>
+        <name>carModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="10" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1abb6682725ec28f2671eca210d242b0c5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelHatchback.carModelYear</definition>
+        <argsstring></argsstring>
+        <name>carModelYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="11" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1a1d42dc18e1ea680d93bb7bba0fa42632" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.carFuelType</definition>
+        <argsstring></argsstring>
+        <name>carFuelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="12" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1ac2c9c68fc7db998878809ee75daa9c7d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.carColor</definition>
+        <argsstring></argsstring>
+        <name>carColor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="13" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1ad5d69a83f9f369b6e921f73caccbc713" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelHatchback.carPrice</definition>
+        <argsstring></argsstring>
+        <name>carPrice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="14" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_car_model_hatchback_1a9c43891aa9c8d6d6367aed0446d025e5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelHatchback.carSeatsNumber</definition>
+        <argsstring></argsstring>
+        <name>carSeatsNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="15" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1a13a6eae99e21f0b3a753926e38088f1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.CarModelHatchback.CarModelHatchback</definition>
+        <argsstring>(int carSeatsNumber, int carPrice, String carColor, String carModel, String carBrand, String carFuelType, int carModelYear)</argsstring>
+        <name>CarModelHatchback</name>
+        <param>
+          <type>int</type>
+          <declname>carSeatsNumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carPrice</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carColor</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carModel</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carBrand</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>carFuelType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>carModelYear</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a <ref refid="classce204__hw4__library_1_1_car_model_hatchback" kindref="compound">CarModelHatchback</ref> object with the specified details. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>carSeatsNumber</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of seats in the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carPrice</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The price of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carColor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carModel</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carBrand</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The brand of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carFuelType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fuel type of the car. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>carModelYear</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model year of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="28" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1a3643b2d2d3fb9c9b69a33818ab449b7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelHatchback.getCarSeatsNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getCarSeatsNumber</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a26d32e9379398c3b43d105ea7cde43a8">getCarSeatsNumber</reimplements>
+        <briefdescription>
+<para>Returns the number of seats in the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[int]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of seats in the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="44" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1a65d36a2078364612908bb40da44857a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.getCarBrand</definition>
+        <argsstring>()</argsstring>
+        <name>getCarBrand</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a0acb635682e51d740cb3238f244896ee">getCarBrand</reimplements>
+        <briefdescription>
+<para>Returns the brand of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The brand of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="55" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1a89cd79638061be09413428925814e297" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.getCarColor</definition>
+        <argsstring>()</argsstring>
+        <name>getCarColor</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1ae48e39e895a2d62845c8eeaf0d785102">getCarColor</reimplements>
+        <briefdescription>
+<para>Returns the color of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The color of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="65" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1a1ee8f88342bb9e7a4ec0a238cba65ce0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.getCarModel</definition>
+        <argsstring>()</argsstring>
+        <name>getCarModel</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1aaa166d195bd403eb697d5130c45300a6">getCarModel</reimplements>
+        <briefdescription>
+<para>Returns the model of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="75" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1ae344d84ac09e2fc3162920a3c7a9a939" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelHatchback.getCarPrice</definition>
+        <argsstring>()</argsstring>
+        <name>getCarPrice</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a3cba9efc4d5e729a60e23c3db9585d39">getCarPrice</reimplements>
+        <briefdescription>
+<para>Returns the price of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[int]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The price of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="85" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1aa62b71eadf09252fb4c4befad06207b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.CarModelHatchback.getCarModelYear</definition>
+        <argsstring>()</argsstring>
+        <name>getCarModelYear</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a766256574d0fb0a37264d078b981c400">getCarModelYear</reimplements>
+        <briefdescription>
+<para>Returns the model year of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[int]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The model year of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="95" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="95" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_car_model_hatchback_1a8828b477746e58119bbc31317a610eab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String ce204_hw4_library.CarModelHatchback.getCarFuelType</definition>
+        <argsstring>()</argsstring>
+        <name>getCarFuelType</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_rent_car_interface_1a4581ebeb91a0207e9b7a5dda6e067947">getCarFuelType</reimplements>
+        <briefdescription>
+<para>Returns the fuel type of the car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>[String]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The fuel type of the car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="105" column="17" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="105" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_library.CarModelHatchback</label>
+        <link refid="classce204__hw4__library_1_1_car_model_hatchback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.RentCarInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_rent_car_interface"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ce204_hw4_library.CarModelHatchback</label>
+        <link refid="classce204__hw4__library_1_1_car_model_hatchback"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.RentCarInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_rent_car_interface"/>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" line="8" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarModelHatchback.java" bodystart="8" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1af57fb2ed35a38bc2ffce5fb37a2c5c1d" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carBrand</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1ac2c9c68fc7db998878809ee75daa9c7d" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carColor</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a1d42dc18e1ea680d93bb7bba0fa42632" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carFuelType</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a6eb2a22373496315cad0c93cf37dd473" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carModel</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a13a6eae99e21f0b3a753926e38088f1b" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>CarModelHatchback</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1abb6682725ec28f2671eca210d242b0c5" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carModelYear</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1ad5d69a83f9f369b6e921f73caccbc713" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carPrice</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a9c43891aa9c8d6d6367aed0446d025e5" prot="private" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>carSeatsNumber</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a65d36a2078364612908bb40da44857a3" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarBrand</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a89cd79638061be09413428925814e297" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarColor</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a8828b477746e58119bbc31317a610eab" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarFuelType</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a1ee8f88342bb9e7a4ec0a238cba65ce0" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarModel</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1aa62b71eadf09252fb4c4befad06207b3" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarModelYear</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1ae344d84ac09e2fc3162920a3c7a9a939" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarPrice</name></member>
+      <member refid="classce204__hw4__library_1_1_car_model_hatchback_1a3643b2d2d3fb9c9b69a33818ab449b7b" prot="public" virt="non-virtual"><scope>ce204_hw4_library::CarModelHatchback</scope><name>getCarSeatsNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

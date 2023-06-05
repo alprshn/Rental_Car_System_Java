@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_registration_services_interface_8java" kind="file" language="Java">
+    <compoundname>RegistrationServicesInterface.java</compoundname>
+    <innerclass refid="interfacece204__hw4__library_1_1_registration_services_interface" prot="public">ce204_hw4_library::RegistrationServicesInterface</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the interface definition for the RegistrationServicesInterface. The RegistrationServicesInterface is a part of the CE204_HW4_Library package and provides the contract for the registration services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="namespacece204__hw4__app" kindref="compound">ce204_hw4_app</ref>.*;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="interfacece204__hw4__library_1_1_registration_services_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacece204__hw4__library_1_1_registration_services_interface" kindref="compound">RegistrationServicesInterface</ref><sp/>{</highlight></codeline>
+<codeline lineno="28" refid="interfacece204__hw4__library_1_1_registration_services_interface_1a0d0f48134278d17fdb5ac41753db49db" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_registration_services_interface_1a0d0f48134278d17fdb5ac41753db49db" kindref="member">displayRegistrationMenu</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="interfacece204__hw4__library_1_1_registration_services_interface_1a3565cddd3b1675fba5853117f98f9499" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_registration_services_interface_1a3565cddd3b1675fba5853117f98f9499" kindref="member">customerRegistration</ref>(<ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref><sp/>customer);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="interfacece204__hw4__library_1_1_registration_services_interface_1a15523bc8345af64a800fd1db362f68ed" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classce204__hw4__app_1_1_customer" kindref="compound">Customer</ref><sp/><ref refid="interfacece204__hw4__library_1_1_registration_services_interface_1a15523bc8345af64a800fd1db362f68ed" kindref="member">customerRegistrationForm</ref>(String<sp/>Name,<sp/>String<sp/>lastName,<sp/>String<sp/>userName,<sp/>String<sp/>password,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>String<sp/>licenceObtained);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="interfacece204__hw4__library_1_1_registration_services_interface_1acfd4590d0b6add1ddaddcfe555647fcb" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_registration_services_interface_1acfd4590d0b6add1ddaddcfe555647fcb" kindref="member">initiateRegistration</ref>(<ref refid="classce204__hw4__library_1_1_login_services" kindref="compound">LoginServices</ref><sp/>loginImpService);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/RegistrationServicesInterface.java"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+\hypertarget{classce204__hw4__app_1_1_user_database}{}\doxysection{ce204\+\_\+hw4\+\_\+app.\+User\+Database Class Reference}
+\label{classce204__hw4__app_1_1_user_database}\index{ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}}
+
+
+Represents a database of users in the application.  
+
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static long \mbox{\hyperlink{classce204__hw4__app_1_1_user_database_afcf211f5c90b8ab88180fa212aeed19d}{get\+Shop\+Balance}} ()
+\begin{DoxyCompactList}\small\item\em Returns the shop balance. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$ \mbox{\hyperlink{classce204__hw4__app_1_1_user_database_adbb4a89955c20900c0fc64af7ccb706d}{get\+Admin\+List}} ()
+\begin{DoxyCompactList}\small\item\em Returns a list of admin users. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$ \mbox{\hyperlink{classce204__hw4__app_1_1_user_database_a2722f7f4221eaddabc45b04db9e2a867}{get\+Customer\+List}} ()
+\begin{DoxyCompactList}\small\item\em Returns a list of customer users. \end{DoxyCompactList}\item 
+static List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$ \mbox{\hyperlink{classce204__hw4__app_1_1_user_database_a6427f6e0012fa27065cbe67ef78c583a}{get\+All\+User\+List}} ()
+\begin{DoxyCompactList}\small\item\em Returns a list of all users. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a database of users in the application. 
+
+Definition at line 17 of file User\+Database.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__app_1_1_user_database_adbb4a89955c20900c0fc64af7ccb706d}\label{classce204__hw4__app_1_1_user_database_adbb4a89955c20900c0fc64af7ccb706d}} 
+\index{ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}!getAdminList@{getAdminList}}
+\index{getAdminList@{getAdminList}!ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}}
+\doxysubsubsection{\texorpdfstring{getAdminList()}{getAdminList()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}$>$ ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Admin\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a list of admin users. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em \mbox{[}\+List$<$\+User$>$\mbox{]}} & A list of admin users. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 33 of file User\+Database.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{33                                           \{}
+\DoxyCodeLine{34     List<User> adminList = \textcolor{keyword}{new} ArrayList<>();}
+\DoxyCodeLine{35     adminList.add(\textcolor{keyword}{new} Admin(\textcolor{stringliteral}{"{}Admin"{}}, \textcolor{stringliteral}{"{}ADMIN"{}}, \textcolor{stringliteral}{"{}admin"{}}, \textcolor{stringliteral}{"{}0000"{}}));}
+\DoxyCodeLine{36     adminList.add(\textcolor{keyword}{new} Admin(\textcolor{stringliteral}{"{}Alper"{}}, \textcolor{stringliteral}{"{}alper"{}}, \textcolor{stringliteral}{"{}alper"{}}, \textcolor{stringliteral}{"{}admin"{}}));}
+\DoxyCodeLine{37     adminList.add(\textcolor{keyword}{new} Admin(\textcolor{stringliteral}{"{}Sahin"{}}, \textcolor{stringliteral}{"{}Sahin"{}}, \textcolor{stringliteral}{"{}alper"{}}, \textcolor{stringliteral}{"{}123"{}}));}
+\DoxyCodeLine{38     adminList.add(\textcolor{keyword}{new} Admin(\textcolor{stringliteral}{"{}Can"{}}, \textcolor{stringliteral}{"{}Alper"{}}, \textcolor{stringliteral}{"{}can"{}}, \textcolor{stringliteral}{"{}1234"{}}));}
+\DoxyCodeLine{39     \textcolor{keywordflow}{return} adminList;}
+\DoxyCodeLine{40   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+All\+User\+List(), and ce204\+\_\+hw4\+\_\+app.\+App.\+main().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_user_database_a6427f6e0012fa27065cbe67ef78c583a}\label{classce204__hw4__app_1_1_user_database_a6427f6e0012fa27065cbe67ef78c583a}} 
+\index{ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}!getAllUserList@{getAllUserList}}
+\index{getAllUserList@{getAllUserList}!ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}}
+\doxysubsubsection{\texorpdfstring{getAllUserList()}{getAllUserList()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}$>$ ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+All\+User\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a list of all users. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em \mbox{[}\+List$<$\+User$>$\mbox{]}} & A list of all users. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 61 of file User\+Database.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{61                                             \{}
+\DoxyCodeLine{62     List<User> userList = \mbox{\hyperlink{classce204__hw4__app_1_1_user_database_a2722f7f4221eaddabc45b04db9e2a867}{getCustomerList}}();}
+\DoxyCodeLine{63     userList.addAll(\mbox{\hyperlink{classce204__hw4__app_1_1_user_database_adbb4a89955c20900c0fc64af7ccb706d}{getAdminList}}());}
+\DoxyCodeLine{64     \textcolor{keywordflow}{return} userList;}
+\DoxyCodeLine{65   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Admin\+List(), and ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Customer\+List().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_user_database_a2722f7f4221eaddabc45b04db9e2a867}\label{classce204__hw4__app_1_1_user_database_a2722f7f4221eaddabc45b04db9e2a867}} 
+\index{ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}!getCustomerList@{getCustomerList}}
+\index{getCustomerList@{getCustomerList}!ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}}
+\doxysubsubsection{\texorpdfstring{getCustomerList()}{getCustomerList()}}
+{\footnotesize\ttfamily static List$<$\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}$>$ ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Customer\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns a list of customer users. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em \mbox{[}\+List$<$\+User$>$\mbox{]}} & A list of customer users. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 48 of file User\+Database.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                                              \{}
+\DoxyCodeLine{49     List<User> customerList = \textcolor{keyword}{new} ArrayList<>();}
+\DoxyCodeLine{50     customerList.add(\textcolor{keyword}{new} Customer(\textcolor{stringliteral}{"{}Ugur"{}}, \textcolor{stringliteral}{"{}Coruh"{}}, \textcolor{stringliteral}{"{}ugur"{}}, \textcolor{stringliteral}{"{}1234"{}}, \textcolor{stringliteral}{"{}2015-\/03-\/26"{}}));}
+\DoxyCodeLine{51     customerList.add(\textcolor{keyword}{new} Customer(\textcolor{stringliteral}{"{}Alper"{}}, \textcolor{stringliteral}{"{}Sahin"{}}, \textcolor{stringliteral}{"{}alper"{}}, \textcolor{stringliteral}{"{}1234"{}}, \textcolor{stringliteral}{"{}2017-\/01-\/12"{}}));}
+\DoxyCodeLine{52     \textcolor{keywordflow}{return} customerList;}
+\DoxyCodeLine{53   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+All\+User\+List(), and ce204\+\_\+hw4\+\_\+app.\+App.\+main().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_user_database_afcf211f5c90b8ab88180fa212aeed19d}\label{classce204__hw4__app_1_1_user_database_afcf211f5c90b8ab88180fa212aeed19d}} 
+\index{ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}!getShopBalance@{getShopBalance}}
+\index{getShopBalance@{getShopBalance}!ce204\_hw4\_app.UserDatabase@{ce204\_hw4\_app.UserDatabase}}
+\doxysubsubsection{\texorpdfstring{getShopBalance()}{getShopBalance()}}
+{\footnotesize\ttfamily static long ce204\+\_\+hw4\+\_\+app.\+User\+Database.\+get\+Shop\+Balance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Returns the shop balance. 
+
+
+\begin{DoxyRetVals}{Return values}
+{\em \mbox{[}long\mbox{]}} & The shop balance. \\
+\hline
+\end{DoxyRetVals}
+
+
+Definition at line 23 of file User\+Database.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{23                                       \{}
+\DoxyCodeLine{24     \textcolor{keywordflow}{return} 0;}
+\DoxyCodeLine{25   \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+app/\mbox{\hyperlink{_user_database_8java}{User\+Database.\+java}}\end{DoxyCompactItemize}

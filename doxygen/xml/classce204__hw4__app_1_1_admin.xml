@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__app_1_1_admin" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_app::Admin</compoundname>
+    <basecompoundref refid="classce204__hw4__app_1_1_user" prot="public" virt="non-virtual">ce204_hw4_app.User</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_app.Admin.Admin</definition>
+        <argsstring>(String firstName, String lastName, String userName, String password)</argsstring>
+        <name>Admin</name>
+        <param>
+          <type>String</type>
+          <declname>firstName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>lastName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="classce204__hw4__app_1_1_admin" kindref="compound">Admin</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>   This constructor creates a new Admin object with the specified first
+   name, last name, username, and password.
+</verbatim> <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>firstName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The first name of the admin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lastName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The last name of the admin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username of the admin. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password of the admin. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Admin.java" line="27" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Admin.java" bodystart="27" bodyend="29"/>
+        <references refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" compoundref="_user_8java" startline="17">ce204_hw4_app.User.firstName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" compoundref="_user_8java" startline="18">ce204_hw4_app.User.lastName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" compoundref="_user_8java" startline="20">ce204_hw4_app.User.password</references>
+        <references refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" compoundref="_user_8java" startline="19">ce204_hw4_app.User.userName</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents an admin user. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   This class extends the User class and represents an admin user in the
+   application. Admin users have additional privileges and capabilities
+   compared to regular users.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_app.User</label>
+        <link refid="classce204__hw4__app_1_1_user"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_app.Admin</label>
+        <link refid="classce204__hw4__app_1_1_admin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ce204_hw4_app.User</label>
+        <link refid="classce204__hw4__app_1_1_user"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_app.Admin</label>
+        <link refid="classce204__hw4__app_1_1_admin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Admin.java" line="15" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Admin.java" bodystart="15" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__app_1_1_admin_1a31648e4a8ab2bc032c5bef38d7c59368" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>Admin</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a8baf8fd3e98a3cd16eeab9edd0426cf6" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>firstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a733ca4a4a7066d4414ef5faebd76080a" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>getFirstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a7a0bd9210a587dd23246a728eabc71de" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>getLastName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1aa2dc80c31875236d58cddb95a7961730" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>getPassword</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>getUserName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a089cac05349f4125ae8e305c5c852ad7" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>lastName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a4adc7525ed1e14b663c11f3b6b15708c" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>password</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a3b175faba6aadaebc25348a25bddf9b0" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>setFirstName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a9a4ae72278c069615c9e5b266a6d2031" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>setLastName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1ae895b2fd2c925adfa7fff444bb305b27" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>setPassword</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a616d6b8e085b6b88666827d496e39f3d" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>setUserName</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1adbbf752117838bc6f524f1f44664b589" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>toString</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a648eb002f2dce695fd317d3eea066836" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>User</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a2ea7d2982ba009a9305565129b6cf0eb" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>User</name></member>
+      <member refid="classce204__hw4__app_1_1_user_1a08d968309f675a00b97e27587269a023" prot="protected" virt="non-virtual"><scope>ce204_hw4_app::Admin</scope><name>userName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

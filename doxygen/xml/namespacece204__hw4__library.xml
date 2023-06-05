@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacece204__hw4__library" kind="namespace" language="Java">
+    <compoundname>ce204_hw4_library</compoundname>
+    <innerclass refid="classce204__hw4__library_1_1_car_customer" prot="public">ce204_hw4_library::CarCustomer</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_car_model_cabrio" prot="public">ce204_hw4_library::CarModelCabrio</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_car_model_hatchback" prot="public">ce204_hw4_library::CarModelHatchback</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_car_model_pick_up" prot="public">ce204_hw4_library::CarModelPickUp</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_car_model_sedan" prot="public">ce204_hw4_library::CarModelSedan</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_car_model_station_wagon" prot="public">ce204_hw4_library::CarModelStationWagon</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_car_model_s_u_v" prot="public">ce204_hw4_library::CarModelSUV</innerclass>
+    <innerclass refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" prot="public">ce204_hw4_library::CarPaymentStrategyPattern</innerclass>
+    <innerclass refid="interfacece204__hw4__library_1_1_car_rent_observer_interface" prot="public">ce204_hw4_library::CarRentObserverInterface</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_credit_card_system" prot="public">ce204_hw4_library::CreditCardSystem</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_customer_observerable" prot="public">ce204_hw4_library::CustomerObserverable</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_factory_method_pattern_car" prot="public">ce204_hw4_library::FactoryMethodPatternCar</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_login_services" prot="public">ce204_hw4_library::LoginServices</innerclass>
+    <innerclass refid="interfacece204__hw4__library_1_1_login_services_interface" prot="public">ce204_hw4_library::LoginServicesInterface</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_menu_services" prot="public">ce204_hw4_library::MenuServices</innerclass>
+    <innerclass refid="interfacece204__hw4__library_1_1_menu_services_interface" prot="public">ce204_hw4_library::MenuServicesInterface</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_notification_time" prot="public">ce204_hw4_library::NotificationTime</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_pay_cash" prot="public">ce204_hw4_library::PayCash</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_pay_credit_card" prot="public">ce204_hw4_library::PayCreditCard</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_payment_system_service" prot="public">ce204_hw4_library::PaymentSystemService</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_pay_pal_system" prot="public">ce204_hw4_library::PayPalSystem</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_pay_pay_pal" prot="public">ce204_hw4_library::PayPayPal</innerclass>
+    <innerclass refid="classce204__hw4__library_1_1_registration_services" prot="public">ce204_hw4_library::RegistrationServices</innerclass>
+    <innerclass refid="interfacece204__hw4__library_1_1_registration_services_interface" prot="public">ce204_hw4_library::RegistrationServicesInterface</innerclass>
+    <innerclass refid="interfacece204__hw4__library_1_1_rent_car_interface" prot="public">ce204_hw4_library::RentCarInterface</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarCustomer.java" line="6" column="15"/>
+  </compounddef>
+</doxygen>

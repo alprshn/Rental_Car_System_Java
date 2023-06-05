@@ -1,0 +1,541 @@
+\hypertarget{classce204__hw4__app_1_1_main}{}\doxysection{ce204\+\_\+hw4\+\_\+app.\+Main Class Reference}
+\label{classce204__hw4__app_1_1_main}\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+
+
+Represents the main application class.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_main_a75ba773b8d410048330357dedd4a63ba}{Main}} (List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$ user\+List, \mbox{\hyperlink{classce204__hw4__library_1_1_menu_services}{Menu\+Services}} MENU\+\_\+\+DISPLAY\+\_\+\+SERVICES, \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} login\+Services, \mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{Registration\+Services}} registration\+Services)
+\begin{DoxyCompactList}\small\item\em Constructs a new \mbox{\hyperlink{classce204__hw4__app_1_1_main}{Main}} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__app_1_1_main_ac3d0a9e0c37cdab1480672de7e2f2dd6}{Admin\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the admin menu and handles admin options. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4f022e08bdd9b1d87e62de388d66ddd1}{Main\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the main menu and handles user options. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__app_1_1_main_a18d3c21e4e9173d9c986343dd1b4aa2a}{Customer\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the customer menu and handles customer options. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__app_1_1_main_ac0c2fd16fee2dd6f8a54a6d87af45d7a}{Defaul\+Main\+Cars}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the main car list with default cars. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__app_1_1_main_a388af9fa693998a8beafd6f2d8afad5c}{display\+Car}} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}} car)
+\begin{DoxyCompactList}\small\item\em Displays the details of a car. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__app_1_1_main_a0d13e8fd509b8dc135544852d4789fc7}{Log\+Out}} ()
+\begin{DoxyCompactList}\small\item\em Logs out the user and returns to the main menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}} $>$ \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rental\+Cars}} = new Array\+List$<$$>$()
+\item 
+Scanner \mbox{\hyperlink{classce204__hw4__app_1_1_main_abaf2dceee64aae76594866ad0a9819dd}{INPUT}} = new Scanner(System.\+in)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the main application class. 
+
+This class contains the main logic of the application and handles the different menus and user interactions. 
+
+Definition at line 18 of file Main.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_a75ba773b8d410048330357dedd4a63ba}\label{classce204__hw4__app_1_1_main_a75ba773b8d410048330357dedd4a63ba}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!Main@{Main}}
+\index{Main@{Main}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{Main()}{Main()}}
+{\footnotesize\ttfamily ce204\+\_\+hw4\+\_\+app.\+Main.\+Main (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$}]{user\+List,  }\item[{\mbox{\hyperlink{classce204__hw4__library_1_1_menu_services}{Menu\+Services}}}]{MENU\+\_\+\+DISPLAY\+\_\+\+SERVICES,  }\item[{\mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}}}]{login\+Services,  }\item[{\mbox{\hyperlink{classce204__hw4__library_1_1_registration_services}{Registration\+Services}}}]{registration\+Services }\end{DoxyParamCaption})}
+
+
+
+Constructs a new \mbox{\hyperlink{classce204__hw4__app_1_1_main}{Main}} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+List} & The list of users in the application. \\
+\hline
+{\em MENU\+\_\+\+DISPLAY\+\_\+\+SERVICES} & The menu display services. \\
+\hline
+{\em login\+Services} & The login services. \\
+\hline
+{\em registration\+Services} & The registration services. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 39 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{40                                                          \{}
+\DoxyCodeLine{41     this.MENU\_DISPLAY\_SERVICES = MENU\_DISPLAY\_SERVICES;}
+\DoxyCodeLine{42     this.loginServices = loginServices;}
+\DoxyCodeLine{43     this.registrationServices = registrationServices;}
+\DoxyCodeLine{44   \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_ac3d0a9e0c37cdab1480672de7e2f2dd6}\label{classce204__hw4__app_1_1_main_ac3d0a9e0c37cdab1480672de7e2f2dd6}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!AdminMenu@{AdminMenu}}
+\index{AdminMenu@{AdminMenu}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{AdminMenu()}{AdminMenu()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the admin menu and handles admin options. 
+
+
+
+Definition at line 48 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{48                           \{}
+\DoxyCodeLine{49     Scanner scanner = \textcolor{keyword}{new} Scanner(System.in);}
+\DoxyCodeLine{50 }
+\DoxyCodeLine{51     \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{52       System.out.println();}
+\DoxyCodeLine{53       MENU\_DISPLAY\_SERVICES.\mbox{\hyperlink{classce204__hw4__library_1_1_menu_services_a7e2660ba5ca8a668f17662a46b1044c6}{designAdminMenu}}();}
+\DoxyCodeLine{54       System.out.println(\textcolor{stringliteral}{"{}Please, choose your option from down below: "{}});}
+\DoxyCodeLine{55       \textcolor{keywordtype}{int} option = \mbox{\hyperlink{classce204__hw4__app_1_1_main_abaf2dceee64aae76594866ad0a9819dd}{INPUT}}.nextInt();}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57       \textcolor{keywordflow}{switch} (option) \{}
+\DoxyCodeLine{58         \textcolor{keywordflow}{case} 1: \textcolor{comment}{// List Car}}
+\DoxyCodeLine{59           System.out.println(\textcolor{stringliteral}{"{}\(\backslash\)nRental Cars:\(\backslash\)n"{}});}
+\DoxyCodeLine{60           \textcolor{keywordtype}{int} i = 0;}
+\DoxyCodeLine{61 }
+\DoxyCodeLine{62           \textcolor{keywordflow}{if} (\mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.isEmpty()) \{}
+\DoxyCodeLine{63             System.out.println(\textcolor{stringliteral}{"{}No cars available."{}});}
+\DoxyCodeLine{64           \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{65             System.out.println(}
+\DoxyCodeLine{66               \textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/Brand-\/-\/-\/-\/-\/-\/-\/-\/-\/Model-\/-\/-\/-\/-\/-\/-\/Car Year-\/-\/-\/-\/-\/Fuel Type-\/-\/-\/-\/Color-\/-\/-\/-\/Price-\/-\/-\/Number of Seats-\/-\/-\/-\/-\/-\/-\/+\(\backslash\)n"{}});}
+\DoxyCodeLine{67 }
+\DoxyCodeLine{68             \textcolor{keywordflow}{for} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{RentCarInterface}} rentalCar : \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}) \{}
+\DoxyCodeLine{69               i++;}
+\DoxyCodeLine{70               System.out.print(i + \textcolor{stringliteral}{"{}. =>   "{}});}
+\DoxyCodeLine{71               \mbox{\hyperlink{classce204__hw4__app_1_1_main_a388af9fa693998a8beafd6f2d8afad5c}{displayCar}}(rentalCar);}
+\DoxyCodeLine{72             \}}
+\DoxyCodeLine{73           \}}
+\DoxyCodeLine{74 }
+\DoxyCodeLine{75           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77         \textcolor{keywordflow}{case} 2: \textcolor{comment}{// Add Car}}
+\DoxyCodeLine{78           MENU\_DISPLAY\_SERVICES.\mbox{\hyperlink{classce204__hw4__library_1_1_menu_services_a78215ffe64e28b0cb787a30c65dbb976}{designSelectCarType}}();}
+\DoxyCodeLine{79           String carType = \textcolor{stringliteral}{"{}"{}};}
+\DoxyCodeLine{80           \textcolor{keywordtype}{int} selectCarType = Integer.parseInt(scanner.nextLine());}
+\DoxyCodeLine{81 }
+\DoxyCodeLine{82           \textcolor{keywordflow}{switch} (selectCarType) \{}
+\DoxyCodeLine{83             \textcolor{keywordflow}{case} 1: \{}
+\DoxyCodeLine{84               carType = \textcolor{stringliteral}{"{}modelsedan"{}};}
+\DoxyCodeLine{85               \textcolor{keywordflow}{break};}
+\DoxyCodeLine{86             \}}
+\DoxyCodeLine{87 }
+\DoxyCodeLine{88             \textcolor{keywordflow}{case} 2: \{}
+\DoxyCodeLine{89               carType = \textcolor{stringliteral}{"{}modelsuv"{}};}
+\DoxyCodeLine{90               \textcolor{keywordflow}{break};}
+\DoxyCodeLine{91             \}}
+\DoxyCodeLine{92 }
+\DoxyCodeLine{93             \textcolor{keywordflow}{case} 3: \{}
+\DoxyCodeLine{94               carType = \textcolor{stringliteral}{"{}modelstationwagon"{}};}
+\DoxyCodeLine{95               \textcolor{keywordflow}{break};}
+\DoxyCodeLine{96             \}}
+\DoxyCodeLine{97 }
+\DoxyCodeLine{98             \textcolor{keywordflow}{case} 4: \{}
+\DoxyCodeLine{99               carType = \textcolor{stringliteral}{"{}modelpickup"{}};}
+\DoxyCodeLine{100               \textcolor{keywordflow}{break};}
+\DoxyCodeLine{101             \}}
+\DoxyCodeLine{102 }
+\DoxyCodeLine{103             \textcolor{keywordflow}{case} 5: \{}
+\DoxyCodeLine{104               carType = \textcolor{stringliteral}{"{}modelhatchback"{}};}
+\DoxyCodeLine{105               \textcolor{keywordflow}{break};}
+\DoxyCodeLine{106             \}}
+\DoxyCodeLine{107 }
+\DoxyCodeLine{108             \textcolor{keywordflow}{case} 6: \{}
+\DoxyCodeLine{109               carType = \textcolor{stringliteral}{"{}modelcabrio"{}};}
+\DoxyCodeLine{110               \textcolor{keywordflow}{break};}
+\DoxyCodeLine{111             \}}
+\DoxyCodeLine{112 }
+\DoxyCodeLine{113             \textcolor{keywordflow}{default}:}
+\DoxyCodeLine{114               System.out.println(\textcolor{stringliteral}{"{}Invalid choose only betwen displayed options!"{}});}
+\DoxyCodeLine{115               \textcolor{keywordflow}{return};}
+\DoxyCodeLine{116           \}}
+\DoxyCodeLine{117 }
+\DoxyCodeLine{118           System.out.print(\textcolor{stringliteral}{"{}Enter Brand: "{}});}
+\DoxyCodeLine{119           String getBrand = scanner.nextLine();}
+\DoxyCodeLine{120           System.out.print(\textcolor{stringliteral}{"{}Enter Model: "{}});}
+\DoxyCodeLine{121           String getModel = scanner.nextLine();}
+\DoxyCodeLine{122           System.out.print(\textcolor{stringliteral}{"{}Enter Car Year: "{}});}
+\DoxyCodeLine{123           \textcolor{keywordtype}{int} getCarYear = Integer.parseInt(scanner.nextLine());}
+\DoxyCodeLine{124           System.out.print(\textcolor{stringliteral}{"{}Enter Fuel Type: "{}});}
+\DoxyCodeLine{125           String getFuelType = scanner.nextLine();}
+\DoxyCodeLine{126           System.out.print(\textcolor{stringliteral}{"{}Enter Color: "{}});}
+\DoxyCodeLine{127           String getColor = scanner.nextLine();}
+\DoxyCodeLine{128           System.out.print(\textcolor{stringliteral}{"{}Enter Price: "{}});}
+\DoxyCodeLine{129           \textcolor{keywordtype}{int} getPrice = Integer.parseInt(scanner.nextLine());}
+\DoxyCodeLine{130           System.out.print(\textcolor{stringliteral}{"{}Enter Number of Seats: "{}});}
+\DoxyCodeLine{131           \textcolor{keywordtype}{int} getSeatsNumber = Integer.parseInt(scanner.nextLine());}
+\DoxyCodeLine{132           \mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{RentCarInterface}} car = \mbox{\hyperlink{classce204__hw4__library_1_1_factory_method_pattern_car}{FactoryMethodPatternCar}}.\mbox{\hyperlink{classce204__hw4__library_1_1_factory_method_pattern_car_aaac436da79a643c9615029a4e9206c4e}{createCar}}(carType, getSeatsNumber, getPrice, getColor,}
+\DoxyCodeLine{133                                  getModel, getBrand, getFuelType, getCarYear);}
+\DoxyCodeLine{134           paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a072f84048f984f5a6111b2b4b8ae18c8}{setMoney}}(getPrice);}
+\DoxyCodeLine{135           \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.add(car);}
+\DoxyCodeLine{136           System.out.println(\textcolor{stringliteral}{"{}\(\backslash\)nCar added successfully!"{}});}
+\DoxyCodeLine{137           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{138 }
+\DoxyCodeLine{139         \textcolor{keywordflow}{case} 3: \textcolor{comment}{// Delete Car}}
+\DoxyCodeLine{140           System.out.print(\textcolor{stringliteral}{"{}\(\backslash\)nEnter the index of the car to delete: "{}});}
+\DoxyCodeLine{141           \textcolor{keywordtype}{int} index = Integer.parseInt(scanner.nextLine());}
+\DoxyCodeLine{142 }
+\DoxyCodeLine{143           \textcolor{keywordflow}{if} (index >= 0 \&\& index < \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.size() + 1) \{}
+\DoxyCodeLine{144             \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.remove(index -\/ 1);}
+\DoxyCodeLine{145             System.out.println(\textcolor{stringliteral}{"{}Car deleted successfully!"{}});}
+\DoxyCodeLine{146           \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{147             System.out.println(\textcolor{stringliteral}{"{}Invalid index!"{}});}
+\DoxyCodeLine{148           \}}
+\DoxyCodeLine{149 }
+\DoxyCodeLine{150           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{152         \textcolor{keywordflow}{case} 4: \textcolor{comment}{// Logout}}
+\DoxyCodeLine{153           \mbox{\hyperlink{classce204__hw4__app_1_1_main_a0d13e8fd509b8dc135544852d4789fc7}{LogOut}}();}
+\DoxyCodeLine{154           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{155 }
+\DoxyCodeLine{156         \textcolor{keywordflow}{case} 5: \textcolor{comment}{// Exit app}}
+\DoxyCodeLine{157           loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a2cc2d1c164542c836af9bba9279590b3}{exitApp}}();}
+\DoxyCodeLine{158           \textcolor{keywordflow}{return};}
+\DoxyCodeLine{159 }
+\DoxyCodeLine{160         \textcolor{keywordflow}{default}: \textcolor{comment}{// In case of picking a wrong option}}
+\DoxyCodeLine{161           System.out.println(\textcolor{stringliteral}{"{}Invalid choice. Please, choose only between displayed options!"{}});}
+\DoxyCodeLine{162           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{163       \}}
+\DoxyCodeLine{164     \} \textcolor{keywordflow}{while} (loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_ae3cf24605716cd3fad778c8198934aec}{isLoggedInAsAdmin}}(loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}{getLoggedInUser}}()));}
+\DoxyCodeLine{165   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Factory\+Method\+Pattern\+Car.\+create\+Car(), ce204\+\_\+hw4\+\_\+library.\+Menu\+Services.\+design\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+library.\+Menu\+Services.\+design\+Select\+Car\+Type(), ce204\+\_\+hw4\+\_\+app.\+Main.\+display\+Car(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+exit\+App(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+get\+Logged\+In\+User(), ce204\+\_\+hw4\+\_\+app.\+Main.\+INPUT, ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Admin(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Log\+Out(), ce204\+\_\+hw4\+\_\+app.\+Main.\+rental\+Cars, and ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Money().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_a18d3c21e4e9173d9c986343dd1b4aa2a}\label{classce204__hw4__app_1_1_main_a18d3c21e4e9173d9c986343dd1b4aa2a}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!CustomerMenu@{CustomerMenu}}
+\index{CustomerMenu@{CustomerMenu}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{CustomerMenu()}{CustomerMenu()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the customer menu and handles customer options. 
+
+
+
+Definition at line 207 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{207                              \{}
+\DoxyCodeLine{208     \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{209       System.out.println();}
+\DoxyCodeLine{210       MENU\_DISPLAY\_SERVICES.\mbox{\hyperlink{classce204__hw4__library_1_1_menu_services_a1016966e34beaaab8ac798ec8fb4ec3c}{designCustomerMenu}}();}
+\DoxyCodeLine{211       System.out.println(\textcolor{stringliteral}{"{}Please, choose your option from down below: "{}});}
+\DoxyCodeLine{212       \textcolor{keywordtype}{int} option = \mbox{\hyperlink{classce204__hw4__app_1_1_main_abaf2dceee64aae76594866ad0a9819dd}{INPUT}}.nextInt();}
+\DoxyCodeLine{213 }
+\DoxyCodeLine{214       \textcolor{keywordflow}{switch} (option) \{}
+\DoxyCodeLine{215         \textcolor{keywordflow}{case} 1: \textcolor{comment}{// Rent a Car}}
+\DoxyCodeLine{216           System.out.println(\textcolor{stringliteral}{"{}\(\backslash\)nRental Cars:\(\backslash\)n"{}});}
+\DoxyCodeLine{217           \textcolor{keywordtype}{int} i = 0;}
+\DoxyCodeLine{218 }
+\DoxyCodeLine{219           \textcolor{keywordflow}{if} (\mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.isEmpty()) \{}
+\DoxyCodeLine{220             System.out.println(\textcolor{stringliteral}{"{}No cars available."{}});}
+\DoxyCodeLine{221           \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{222             \textcolor{keywordflow}{for} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{RentCarInterface}} rentalACar : \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}) \{}
+\DoxyCodeLine{223               i++;}
+\DoxyCodeLine{224               System.out.println(}
+\DoxyCodeLine{225                 \textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/Brand-\/-\/-\/-\/-\/-\/-\/-\/-\/Model-\/-\/-\/-\/-\/-\/-\/Car Year-\/-\/-\/-\/-\/Fuel Type-\/-\/-\/-\/Color-\/-\/-\/-\/Price-\/-\/-\/Number of Seats-\/-\/-\/-\/-\/-\/-\/+\(\backslash\)n"{}});}
+\DoxyCodeLine{226               System.out.print(i + \textcolor{stringliteral}{"{}. =>   "{}});}
+\DoxyCodeLine{227               \mbox{\hyperlink{classce204__hw4__app_1_1_main_a388af9fa693998a8beafd6f2d8afad5c}{displayCar}}(rentalACar);}
+\DoxyCodeLine{228             \}}
+\DoxyCodeLine{229 }
+\DoxyCodeLine{230             Scanner scanner = \textcolor{keyword}{new} Scanner(System.in);}
+\DoxyCodeLine{231             \textcolor{keywordtype}{int} index;}
+\DoxyCodeLine{232 }
+\DoxyCodeLine{233             \textcolor{keywordflow}{while} (\textcolor{keyword}{true}) \{}
+\DoxyCodeLine{234               System.out.println(\textcolor{stringliteral}{"{}\(\backslash\)nEnter the index of the car: "{}});}
+\DoxyCodeLine{235               index = Integer.parseInt(scanner.nextLine());}
+\DoxyCodeLine{236 }
+\DoxyCodeLine{237               \textcolor{keywordflow}{if} (index >= 0 \&\& index < \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.size() + 1) \{}
+\DoxyCodeLine{238                 paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_aa1b175418e429a60f2785c317cd64752}{setSelectedCarIndex}}(index -\/ 1);}
+\DoxyCodeLine{239                 \textcolor{keywordflow}{break};}
+\DoxyCodeLine{240               \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{241                 System.out.println(\textcolor{stringliteral}{"{}Invalid index!"{}});}
+\DoxyCodeLine{242               \}}
+\DoxyCodeLine{243             \}}
+\DoxyCodeLine{244 }
+\DoxyCodeLine{245             \textcolor{keywordtype}{int} paymentType;}
+\DoxyCodeLine{246 }
+\DoxyCodeLine{247             \textcolor{keywordflow}{while} (\textcolor{keyword}{true}) \{}
+\DoxyCodeLine{248               System.out.println(\textcolor{stringliteral}{"{}1 -\/ Credit Card"{}});}
+\DoxyCodeLine{249               System.out.println(\textcolor{stringliteral}{"{}2 -\/ PayPal"{}});}
+\DoxyCodeLine{250               System.out.println(\textcolor{stringliteral}{"{}3 -\/ Cash"{}});}
+\DoxyCodeLine{251               System.out.println(\textcolor{stringliteral}{"{}Choose the payment type:"{}});}
+\DoxyCodeLine{252               paymentType = Integer.parseInt(scanner.next());}
+\DoxyCodeLine{253 }
+\DoxyCodeLine{254               \textcolor{keywordflow}{if} (paymentType == 1) \{}
+\DoxyCodeLine{255                 paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a6f624d1d6f354a076f0ea9b3120cd2b4}{setStrategyPattern}}(payCreditCard);}
+\DoxyCodeLine{256                 Bill.displayBill(\mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.get(index -\/ 1), \textcolor{stringliteral}{"{}Credit Cart"{}});}
+\DoxyCodeLine{257                 \textcolor{keywordflow}{break};}
+\DoxyCodeLine{258               \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (paymentType == 2) \{}
+\DoxyCodeLine{259                 paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a6f624d1d6f354a076f0ea9b3120cd2b4}{setStrategyPattern}}(payPayPal);}
+\DoxyCodeLine{260                 Bill.displayBill(\mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.get(index -\/ 1), \textcolor{stringliteral}{"{}PayPal"{}});}
+\DoxyCodeLine{261                 \textcolor{keywordflow}{break};}
+\DoxyCodeLine{262               \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (paymentType == 3) \{}
+\DoxyCodeLine{263                 paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a6f624d1d6f354a076f0ea9b3120cd2b4}{setStrategyPattern}}(payCash);}
+\DoxyCodeLine{264                 Bill.displayBill(\mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.get(index -\/ 1), \textcolor{stringliteral}{"{}Cash"{}});}
+\DoxyCodeLine{265                 \textcolor{keywordflow}{break};}
+\DoxyCodeLine{266               \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{267                 \textcolor{keywordflow}{return};}
+\DoxyCodeLine{268               \}}
+\DoxyCodeLine{269             \}}
+\DoxyCodeLine{270 }
+\DoxyCodeLine{271             paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a5d1d8a03798a78d5ca9509f192c6ffd7}{proccessOrder}}();}
+\DoxyCodeLine{272             paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a6cf3a9a6fa5ef985dd11b50c2ff53522}{removeMoney}}(index -\/ 1);}
+\DoxyCodeLine{273             \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.remove(index -\/ 1);}
+\DoxyCodeLine{274             System.out.println(\textcolor{stringliteral}{"{}Kaç gün sonra kiralaycaksınız:"{}});}
+\DoxyCodeLine{275             \textcolor{keywordtype}{int} Rentindex = Integer.parseInt(scanner.next());}
+\DoxyCodeLine{276             System.out.print(\textcolor{stringliteral}{"{}Bildirim Almak ve Abone Olmak istiyorsanız 1'i tuşlayın"{}});}
+\DoxyCodeLine{277             \textcolor{keywordtype}{int} selecetSubs = Integer.parseInt(scanner.next());}
+\DoxyCodeLine{278 }
+\DoxyCodeLine{279             \textcolor{keywordflow}{if} (selecetSubs == 1) \{}
+\DoxyCodeLine{280               \mbox{\hyperlink{classce204__hw4__library_1_1_notification_time}{NotificationTime}} timer = \textcolor{keyword}{new} \mbox{\hyperlink{classce204__hw4__library_1_1_notification_time}{NotificationTime}}(Rentindex, 2);}
+\DoxyCodeLine{281               \mbox{\hyperlink{classce204__hw4__library_1_1_car_customer}{CarCustomer}} customer = \textcolor{keyword}{new} \mbox{\hyperlink{classce204__hw4__library_1_1_car_customer}{CarCustomer}}(\textcolor{stringliteral}{"{}Customer"{}});}
+\DoxyCodeLine{282               timer.\mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable_af24ecae0e9a0192ee84ef66fee6b7602}{addObserver}}(customer);}
+\DoxyCodeLine{283 }
+\DoxyCodeLine{284               \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} a = timer.\mbox{\hyperlink{classce204__hw4__library_1_1_notification_time_a7f1de4cce2c770343b12c1c47cfa57c1}{getRemainingNoti}}(); a >= 0; a-\/-\/) \{}
+\DoxyCodeLine{285                 timer.\mbox{\hyperlink{classce204__hw4__library_1_1_notification_time_a99f0713b93e4349cb6a9a6ec982fc51d}{setRemainingNoti}}(a);}
+\DoxyCodeLine{286               \}}
+\DoxyCodeLine{287             \}}
+\DoxyCodeLine{288           \}}
+\DoxyCodeLine{289 }
+\DoxyCodeLine{290           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{291 }
+\DoxyCodeLine{292         \textcolor{keywordflow}{case} 2: \textcolor{comment}{// Logout}}
+\DoxyCodeLine{293           \mbox{\hyperlink{classce204__hw4__app_1_1_main_a0d13e8fd509b8dc135544852d4789fc7}{LogOut}}();}
+\DoxyCodeLine{294           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{295 }
+\DoxyCodeLine{296         \textcolor{keywordflow}{case} 3: \textcolor{comment}{// Exit app}}
+\DoxyCodeLine{297           loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a2cc2d1c164542c836af9bba9279590b3}{exitApp}}();}
+\DoxyCodeLine{298           \textcolor{keywordflow}{return};}
+\DoxyCodeLine{299 }
+\DoxyCodeLine{300         \textcolor{keywordflow}{default}: \textcolor{comment}{// In case of picking a wrong option}}
+\DoxyCodeLine{301           System.out.println(\textcolor{stringliteral}{"{}Invalid choice. Please, choose only between displayed options!"{}});}
+\DoxyCodeLine{302           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{303       \}}
+\DoxyCodeLine{304     \} \textcolor{keywordflow}{while} (loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4e9ee6eac328bbbd30b17d16d1baa712}{isLoggedInAsCustomer}}(loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}{getLoggedInUser}}()));}
+\DoxyCodeLine{305   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable.\+add\+Observer(), ce204\+\_\+hw4\+\_\+library.\+Menu\+Services.\+design\+Customer\+Menu(), ce204\+\_\+hw4\+\_\+app.\+Bill.\+display\+Bill(), ce204\+\_\+hw4\+\_\+app.\+Main.\+display\+Car(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+exit\+App(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+get\+Logged\+In\+User(), ce204\+\_\+hw4\+\_\+library.\+Notification\+Time.\+get\+Remaining\+Noti(), ce204\+\_\+hw4\+\_\+app.\+Main.\+INPUT, ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Customer(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Log\+Out(), ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+proccess\+Order(), ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+remove\+Money(), ce204\+\_\+hw4\+\_\+app.\+Main.\+rental\+Cars, ce204\+\_\+hw4\+\_\+library.\+Notification\+Time.\+set\+Remaining\+Noti(), ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Selected\+Car\+Index(), and ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Strategy\+Pattern().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_ac0c2fd16fee2dd6f8a54a6d87af45d7a}\label{classce204__hw4__app_1_1_main_ac0c2fd16fee2dd6f8a54a6d87af45d7a}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!DefaulMainCars@{DefaulMainCars}}
+\index{DefaulMainCars@{DefaulMainCars}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{DefaulMainCars()}{DefaulMainCars()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+app.\+Main.\+Defaul\+Main\+Cars (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the main car list with default cars. 
+
+
+
+Definition at line 309 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{309                                \{}
+\DoxyCodeLine{310     \mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{RentCarInterface}} carOne = \mbox{\hyperlink{classce204__hw4__library_1_1_factory_method_pattern_car}{FactoryMethodPatternCar}}.\mbox{\hyperlink{classce204__hw4__library_1_1_factory_method_pattern_car_aaac436da79a643c9615029a4e9206c4e}{createCar}}(\textcolor{stringliteral}{"{}modelsedan"{}}, 1, 1, \textcolor{stringliteral}{"{}sedan"{}}, \textcolor{stringliteral}{"{}sedan"{}}, \textcolor{stringliteral}{"{}sedan"{}},}
+\DoxyCodeLine{311                               \textcolor{stringliteral}{"{}sedan"{}}, 1);}
+\DoxyCodeLine{312     \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}{rentalCars}}.add(carOne);}
+\DoxyCodeLine{313     paymentSystemService.\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a072f84048f984f5a6111b2b4b8ae18c8}{setMoney}}(1);}
+\DoxyCodeLine{314   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Factory\+Method\+Pattern\+Car.\+create\+Car(), ce204\+\_\+hw4\+\_\+app.\+Main.\+rental\+Cars, and ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Money().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_a388af9fa693998a8beafd6f2d8afad5c}\label{classce204__hw4__app_1_1_main_a388af9fa693998a8beafd6f2d8afad5c}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!displayCar@{displayCar}}
+\index{displayCar@{displayCar}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{displayCar()}{displayCar()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+app.\+Main.\+display\+Car (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}}}]{car }\end{DoxyParamCaption})}
+
+
+
+Displays the details of a car. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car} & The car to display. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 321 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{321                                                \{}
+\DoxyCodeLine{322     System.out.println(car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_a0acb635682e51d740cb3238f244896ee}{getCarBrand}}().toUpperCase() + \textcolor{stringliteral}{"{}   =>   "{}} + car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_aaa166d195bd403eb697d5130c45300a6}{getCarModel}}().toUpperCase() + \textcolor{stringliteral}{"{}   =>   "{}}}
+\DoxyCodeLine{323                        + car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_ae48e39e895a2d62845c8eeaf0d785102}{getCarColor}}() + \textcolor{stringliteral}{"{}   =>   "{}} + car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_a4581ebeb91a0207e9b7a5dda6e067947}{getCarFuelType}}().toUpperCase() + \textcolor{stringliteral}{"{}   =>   "{}}}
+\DoxyCodeLine{324                        + car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_ae48e39e895a2d62845c8eeaf0d785102}{getCarColor}}().toUpperCase() + \textcolor{stringliteral}{"{}   =>   "{}} + car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_a3cba9efc4d5e729a60e23c3db9585d39}{getCarPrice}}() + \textcolor{stringliteral}{"{}   =>   "{}}}
+\DoxyCodeLine{325                        + car.\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface_a26d32e9379398c3b43d105ea7cde43a8}{getCarSeatsNumber}}() + \textcolor{stringliteral}{"{}\(\backslash\)n"{}});}
+\DoxyCodeLine{326   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Brand(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Color(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Fuel\+Type(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Model(), ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Price(), and ce204\+\_\+hw4\+\_\+library.\+Rent\+Car\+Interface.\+get\+Car\+Seats\+Number().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_a0d13e8fd509b8dc135544852d4789fc7}\label{classce204__hw4__app_1_1_main_a0d13e8fd509b8dc135544852d4789fc7}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!LogOut@{LogOut}}
+\index{LogOut@{LogOut}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{LogOut()}{LogOut()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+app.\+Main.\+Log\+Out (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Logs out the user and returns to the main menu. 
+
+
+
+Definition at line 330 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{330                        \{}
+\DoxyCodeLine{331     System.out.println(\textcolor{stringliteral}{"{}Log-\/out successfully!"{}});}
+\DoxyCodeLine{332     \mbox{\hyperlink{classce204__hw4__app_1_1_main_a4f022e08bdd9b1d87e62de388d66ddd1}{MainMenu}}();}
+\DoxyCodeLine{333   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_a4f022e08bdd9b1d87e62de388d66ddd1}\label{classce204__hw4__app_1_1_main_a4f022e08bdd9b1d87e62de388d66ddd1}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!MainMenu@{MainMenu}}
+\index{MainMenu@{MainMenu}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{MainMenu()}{MainMenu()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the main menu and handles user options. 
+
+
+
+Definition at line 169 of file Main.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{169                          \{}
+\DoxyCodeLine{170     \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{171       System.out.println();}
+\DoxyCodeLine{172       MENU\_DISPLAY\_SERVICES.\mbox{\hyperlink{classce204__hw4__library_1_1_menu_services_a3997e60ddc36923876c2ae0e506a9065}{designMainMenu}}();}
+\DoxyCodeLine{173       System.out.println(\textcolor{stringliteral}{"{}Username for Admin: admin, password:0000 /// Username for Customer: ugur, password:1234"{}});}
+\DoxyCodeLine{174       System.out.println(\textcolor{stringliteral}{"{}If you don't have an account yet, register now for free!"{}});}
+\DoxyCodeLine{175       System.out.println(\textcolor{stringliteral}{"{}Please, choose your option from down below: "{}});}
+\DoxyCodeLine{176       \textcolor{keywordtype}{int} option = \mbox{\hyperlink{classce204__hw4__app_1_1_main_abaf2dceee64aae76594866ad0a9819dd}{INPUT}}.nextInt();}
+\DoxyCodeLine{177 }
+\DoxyCodeLine{178       \textcolor{keywordflow}{switch} (option) \{}
+\DoxyCodeLine{179         \textcolor{keywordflow}{case} 1: \textcolor{comment}{// Registration}}
+\DoxyCodeLine{180           registrationServices.\mbox{\hyperlink{classce204__hw4__library_1_1_registration_services_aec01823a9f1440aa1e989e28c7eef942}{initiateRegistration}}(loginServices);}
+\DoxyCodeLine{181           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{182 }
+\DoxyCodeLine{183         \textcolor{keywordflow}{case} 2: \textcolor{comment}{// Login}}
+\DoxyCodeLine{184           loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a7a0c51ea111ddd19af3deb90e5aca9d5}{initiateLogIn}}();}
+\DoxyCodeLine{185 }
+\DoxyCodeLine{186           \textcolor{keywordflow}{if} (loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_ae3cf24605716cd3fad778c8198934aec}{isLoggedInAsAdmin}}(loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}{getLoggedInUser}}())) \{}
+\DoxyCodeLine{187             \mbox{\hyperlink{classce204__hw4__app_1_1_main_ac3d0a9e0c37cdab1480672de7e2f2dd6}{AdminMenu}}();}
+\DoxyCodeLine{188           \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{189             \mbox{\hyperlink{classce204__hw4__app_1_1_main_a18d3c21e4e9173d9c986343dd1b4aa2a}{CustomerMenu}}();}
+\DoxyCodeLine{190           \}}
+\DoxyCodeLine{191 }
+\DoxyCodeLine{192           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{193 }
+\DoxyCodeLine{194         \textcolor{keywordflow}{case} 3: \textcolor{comment}{// Exit app}}
+\DoxyCodeLine{195           loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a2cc2d1c164542c836af9bba9279590b3}{exitApp}}();}
+\DoxyCodeLine{196           \textcolor{keywordflow}{return};}
+\DoxyCodeLine{197 }
+\DoxyCodeLine{198         \textcolor{keywordflow}{default}: \textcolor{comment}{// In case of picking a wrong option}}
+\DoxyCodeLine{199           System.out.println(\textcolor{stringliteral}{"{}Wrong option. Please, try again!"{}});}
+\DoxyCodeLine{200           \textcolor{keywordflow}{break};}
+\DoxyCodeLine{201       \}}
+\DoxyCodeLine{202     \} \textcolor{keywordflow}{while} (!loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}{isLoggedIn}}(loginServices.\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}{getLoggedInUser}}()));}
+\DoxyCodeLine{203   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), ce204\+\_\+hw4\+\_\+library.\+Menu\+Services.\+design\+Main\+Menu(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+exit\+App(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+get\+Logged\+In\+User(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In(), ce204\+\_\+hw4\+\_\+library.\+Registration\+Services.\+initiate\+Registration(), ce204\+\_\+hw4\+\_\+app.\+Main.\+INPUT, ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In(), and ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Admin().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Log\+Out().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_abaf2dceee64aae76594866ad0a9819dd}\label{classce204__hw4__app_1_1_main_abaf2dceee64aae76594866ad0a9819dd}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!INPUT@{INPUT}}
+\index{INPUT@{INPUT}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{INPUT}{INPUT}}
+{\footnotesize\ttfamily Scanner ce204\+\_\+hw4\+\_\+app.\+Main.\+INPUT = new Scanner(System.\+in)}
+
+
+
+Definition at line 21 of file Main.\+java.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}\label{classce204__hw4__app_1_1_main_a4d8655d1b66764b5f60ada6797e6f6d3}} 
+\index{ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}!rentalCars@{rentalCars}}
+\index{rentalCars@{rentalCars}!ce204\_hw4\_app.Main@{ce204\_hw4\_app.Main}}
+\doxysubsubsection{\texorpdfstring{rentalCars}{rentalCars}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{interfacece204__hw4__library_1_1_rent_car_interface}{Rent\+Car\+Interface}}$>$ ce204\+\_\+hw4\+\_\+app.\+Main.\+rental\+Cars = new Array\+List$<$$>$()}
+
+
+
+Definition at line 20 of file Main.\+java.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Defaul\+Main\+Cars().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+app/\mbox{\hyperlink{_main_8java}{Main.\+java}}\end{DoxyCompactItemize}

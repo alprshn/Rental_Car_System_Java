@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_payment_system_service" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::PaymentSystemService</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_payment_system_service_1ab69c77e9ca773b02aaa59ca455818a3a" prot="private" static="no" mutable="no">
+        <type>List&lt; Integer &gt;</type>
+        <definition>List&lt;Integer&gt; ce204_hw4_library.PaymentSystemService.money</definition>
+        <argsstring></argsstring>
+        <name>money</name>
+        <initializer>= new ArrayList&lt;&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="25" column="16" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_payment_system_service_1a18bab12591c8883818b2496bad92b118" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.PaymentSystemService.carIndex</definition>
+        <argsstring></argsstring>
+        <name>carIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="26" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_payment_system_service_1a6724de41d4bd7aac3ec220936d9456a1" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" kindref="compound">CarPaymentStrategyPattern</ref></type>
+        <definition>CarPaymentStrategyPattern ce204_hw4_library.PaymentSystemService.strategyPattern</definition>
+        <argsstring></argsstring>
+        <name>strategyPattern</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="27" column="37" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1a5d1d8a03798a78d5ca9509f192c6ffd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PaymentSystemService.proccessOrder</definition>
+        <argsstring>()</argsstring>
+        <name>proccessOrder</name>
+        <briefdescription>
+<para>Processes the car rental order. This method processes the car rental order by collecting the payment system details and performing the payment using the selected payment strategy. It checks if payment details are available before making the payment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="36" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="36" bodyend="42"/>
+        <references refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7">ce204_hw4_library.CarPaymentStrategyPattern.CollectPaymentSystemDetails</references>
+        <references refid="classce204__hw4__library_1_1_payment_system_service_1a8794da7c389a2361e3001cece696e24a" compoundref="_payment_system_service_8java" startline="71" endline="73">ce204_hw4_library.PaymentSystemService.getTotalMoney</references>
+        <references refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157">ce204_hw4_library.CarPaymentStrategyPattern.PaymentDetails</references>
+        <references refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371">ce204_hw4_library.CarPaymentStrategyPattern.PaySystem</references>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1a072f84048f984f5a6111b2b4b8ae18c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PaymentSystemService.setMoney</definition>
+        <argsstring>(int costInput)</argsstring>
+        <name>setMoney</name>
+        <param>
+          <type>int</type>
+          <declname>costInput</declname>
+        </param>
+        <briefdescription>
+<para>Sets the amount of money for a car rental. This method sets the amount of money for a car rental by adding it to the list of money amounts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>costInput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of money for the car rental. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="50" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="50" bodyend="52"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac3d0a9e0c37cdab1480672de7e2f2dd6" compoundref="_main_8java" startline="48" endline="165">ce204_hw4_app.Main.AdminMenu</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac0c2fd16fee2dd6f8a54a6d87af45d7a" compoundref="_main_8java" startline="309" endline="314">ce204_hw4_app.Main.DefaulMainCars</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1a6cf3a9a6fa5ef985dd11b50c2ff53522" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PaymentSystemService.removeMoney</definition>
+        <argsstring>(int costInput)</argsstring>
+        <name>removeMoney</name>
+        <param>
+          <type>int</type>
+          <declname>costInput</declname>
+        </param>
+        <briefdescription>
+<para>Removes the amount of money for a car rental. This method removes the amount of money for a car rental from the list of money amounts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>costInput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of money to be removed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="60" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="60" bodyend="62"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1a8794da7c389a2361e3001cece696e24a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.PaymentSystemService.getTotalMoney</definition>
+        <argsstring>()</argsstring>
+        <name>getTotalMoney</name>
+        <briefdescription>
+<para>Retrieves the total amount of money for the selected car rental. This method retrieves the total amount of money for the selected car rental based on the car index. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total amount of money for the selected car rental. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="71" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="71" bodyend="73"/>
+        <referencedby refid="classce204__hw4__library_1_1_payment_system_service_1a5d1d8a03798a78d5ca9509f192c6ffd7" compoundref="_payment_system_service_8java" startline="36" endline="42">ce204_hw4_library.PaymentSystemService.proccessOrder</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1aa1b175418e429a60f2785c317cd64752" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PaymentSystemService.setSelectedCarIndex</definition>
+        <argsstring>(int carIndexInput)</argsstring>
+        <name>setSelectedCarIndex</name>
+        <param>
+          <type>int</type>
+          <declname>carIndexInput</declname>
+        </param>
+        <briefdescription>
+<para>Sets the index of the selected car. This method sets the index of the selected car in the carIndex variable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>carIndexInput</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the selected car. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="81" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="81" bodyend="83"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1a6f624d1d6f354a076f0ea9b3120cd2b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PaymentSystemService.setStrategyPattern</definition>
+        <argsstring>(CarPaymentStrategyPattern strategyPatternSelected)</argsstring>
+        <name>setStrategyPattern</name>
+        <param>
+          <type><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" kindref="compound">CarPaymentStrategyPattern</ref></type>
+          <declname>strategyPatternSelected</declname>
+        </param>
+        <briefdescription>
+<para>Sets the payment strategy pattern. This method sets the payment strategy pattern to be used for the car rental payment. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>strategyPatternSelected</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The selected payment strategy pattern. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="91" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="91" bodyend="93"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_payment_system_service_1aa731aa9da067fd2c2c4364b108ad1949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Integer &gt;</type>
+        <definition>List&lt;Integer&gt; ce204_hw4_library.PaymentSystemService.getMoney</definition>
+        <argsstring>()</argsstring>
+        <name>getMoney</name>
+        <briefdescription>
+<para>Retrieves the list of money amounts. This method retrieves the list of money amounts. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The list of money amounts. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="101" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="101" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a payment system service for car rentals. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   The PaymentSystemService class provides methods for processing car
+   rental payments using different payment strategies.
+
+   It manages the payment process and keeps track of the total money
+   available for each car rental.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" line="24" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PaymentSystemService.java" bodystart="24" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a18bab12591c8883818b2496bad92b118" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>carIndex</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1aa731aa9da067fd2c2c4364b108ad1949" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>getMoney</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a8794da7c389a2361e3001cece696e24a" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>getTotalMoney</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1ab69c77e9ca773b02aaa59ca455818a3a" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>money</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a5d1d8a03798a78d5ca9509f192c6ffd7" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>proccessOrder</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a6cf3a9a6fa5ef985dd11b50c2ff53522" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>removeMoney</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a072f84048f984f5a6111b2b4b8ae18c8" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>setMoney</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1aa1b175418e429a60f2785c317cd64752" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>setSelectedCarIndex</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a6f624d1d6f354a076f0ea9b3120cd2b4" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>setStrategyPattern</name></member>
+      <member refid="classce204__hw4__library_1_1_payment_system_service_1a6724de41d4bd7aac3ec220936d9456a1" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PaymentSystemService</scope><name>strategyPattern</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

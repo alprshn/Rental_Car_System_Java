@@ -1,0 +1,137 @@
+\hypertarget{classce204__hw4__library_1_1_customer_observerable}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable Class Reference}
+\label{classce204__hw4__library_1_1_customer_observerable}\index{ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}}
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_customer_observerable}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable_a731e171f4484769b5e05c56b457e4bfc}{notify\+Observers}} ()
+\begin{DoxyCompactList}\small\item\em Constructs a Customer\+Observable object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable_a5f6407294ce68f42a469fe35115ff181}{Customer\+Observerable}} ()
+\begin{DoxyCompactList}\small\item\em Constructs a Customer\+Observable object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable_a38a2185d014b433e27d39fcbba1677b5}{remove\+Observer}} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_rent_observer_interface}{Car\+Rent\+Observer\+Interface}} Car\+Observer)
+\begin{DoxyCompactList}\small\item\em Removes a car rent observer from the observer list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_customer_observerable_af24ecae0e9a0192ee84ef66fee6b7602}{add\+Observer}} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_rent_observer_interface}{Car\+Rent\+Observer\+Interface}} Car\+Observer)
+\begin{DoxyCompactList}\small\item\em Adds a car rent observer to the observer list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 17 of file Customer\+Observerable.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_customer_observerable_a5f6407294ce68f42a469fe35115ff181}\label{classce204__hw4__library_1_1_customer_observerable_a5f6407294ce68f42a469fe35115ff181}} 
+\index{ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}!CustomerObserverable@{CustomerObserverable}}
+\index{CustomerObserverable@{CustomerObserverable}!ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}}
+\doxysubsubsection{\texorpdfstring{CustomerObserverable()}{CustomerObserverable()}}
+{\footnotesize\ttfamily ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable.\+Customer\+Observerable (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructs a Customer\+Observable object. 
+
+
+
+Definition at line 35 of file Customer\+Observerable.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{35                                 \{}
+\DoxyCodeLine{36     carRentObserverList = \textcolor{keyword}{new} ArrayList<>();}
+\DoxyCodeLine{37   \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_customer_observerable_af24ecae0e9a0192ee84ef66fee6b7602}\label{classce204__hw4__library_1_1_customer_observerable_af24ecae0e9a0192ee84ef66fee6b7602}} 
+\index{ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}!addObserver@{addObserver}}
+\index{addObserver@{addObserver}!ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}}
+\doxysubsubsection{\texorpdfstring{addObserver()}{addObserver()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable.\+add\+Observer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_rent_observer_interface}{Car\+Rent\+Observer\+Interface}}}]{Car\+Observer }\end{DoxyParamCaption})}
+
+
+
+Adds a car rent observer to the observer list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car\+Observer} & The car rent observer to add. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 53 of file Customer\+Observerable.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{53                                                                 \{}
+\DoxyCodeLine{54     carRentObserverList.add(CarObserver);}
+\DoxyCodeLine{55   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_customer_observerable_a731e171f4484769b5e05c56b457e4bfc}\label{classce204__hw4__library_1_1_customer_observerable_a731e171f4484769b5e05c56b457e4bfc}} 
+\index{ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}!notifyObservers@{notifyObservers}}
+\index{notifyObservers@{notifyObservers}!ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}}
+\doxysubsubsection{\texorpdfstring{notifyObservers()}{notifyObservers()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable.\+notify\+Observers (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructs a Customer\+Observable object. 
+
+
+
+Definition at line 25 of file Customer\+Observerable.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{25                                 \{}
+\DoxyCodeLine{26     \textcolor{keywordflow}{for} (CarRentObserverInterface CarObserver : carRentObserverList) \{}
+\DoxyCodeLine{27       CarObserver.updateNoti(\textcolor{keyword}{this});}
+\DoxyCodeLine{28     \}}
+\DoxyCodeLine{29   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_customer_observerable_a38a2185d014b433e27d39fcbba1677b5}\label{classce204__hw4__library_1_1_customer_observerable_a38a2185d014b433e27d39fcbba1677b5}} 
+\index{ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}!removeObserver@{removeObserver}}
+\index{removeObserver@{removeObserver}!ce204\_hw4\_library.CustomerObserverable@{ce204\_hw4\_library.CustomerObserverable}}
+\doxysubsubsection{\texorpdfstring{removeObserver()}{removeObserver()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Customer\+Observerable.\+remove\+Observer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_rent_observer_interface}{Car\+Rent\+Observer\+Interface}}}]{Car\+Observer }\end{DoxyParamCaption})}
+
+
+
+Removes a car rent observer from the observer list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car\+Observer} & The car rent observer to remove. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 44 of file Customer\+Observerable.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{44                                                                    \{}
+\DoxyCodeLine{45     carRentObserverList.remove(CarObserver);}
+\DoxyCodeLine{46   \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_customer_observerable_8java}{Customer\+Observerable.\+java}}\end{DoxyCompactItemize}

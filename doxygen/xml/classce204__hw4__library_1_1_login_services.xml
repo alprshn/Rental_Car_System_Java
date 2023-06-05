@@ -1,0 +1,431 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_login_services" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::LoginServices</compoundname>
+    <basecompoundref refid="interfacece204__hw4__library_1_1_login_services_interface" prot="public" virt="non-virtual">ce204_hw4_library.LoginServicesInterface</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_login_services_1aec00a2c68a51b035276fff88eb5a17ca" prot="public" static="no" mutable="no">
+        <type>Scanner</type>
+        <definition>Scanner ce204_hw4_library.LoginServices.input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <initializer>= new Scanner(System.in)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="21" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" compoundref="_login_services_8java" startline="133" endline="153">ce204_hw4_library.LoginServices.initiateLogIn</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_login_services_1a65f5a58fd82f6c52b26450d31359536a" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>List&lt;User&gt; ce204_hw4_library.LoginServices.userList</definition>
+        <argsstring></argsstring>
+        <name>userList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="22" column="16" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_login_services_1a3a38fe77f5cfed79f8574f76d3435a4f" prot="private" static="no" mutable="no">
+        <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+        <definition>User ce204_hw4_library.LoginServices.loggedInUser</definition>
+        <argsstring></argsstring>
+        <name>loggedInUser</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="23" column="16" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a280f31733b95a936de59db4fad01e7e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ce204_hw4_library.LoginServices.LoginServices</definition>
+        <argsstring>(List&lt; User &gt; userList)</argsstring>
+        <name>LoginServices</name>
+        <param>
+          <type>List&lt; <ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref> &gt;</type>
+          <declname>userList</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="classce204__hw4__library_1_1_login_services" kindref="compound">LoginServices</ref> object with the specified user list. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userList</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The list of users in the system. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="30" column="10" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a4a747f0be4e884d68fae8d05b4f74b2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+        <definition>User ce204_hw4_library.LoginServices.getLoggedInUser</definition>
+        <argsstring>()</argsstring>
+        <name>getLoggedInUser</name>
+        <briefdescription>
+<para>Gets the currently logged in user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The currently logged in user. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="39" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="39" bodyend="41"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac3d0a9e0c37cdab1480672de7e2f2dd6" compoundref="_main_8java" startline="48" endline="165">ce204_hw4_app.Main.AdminMenu</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a4f022e08bdd9b1d87e62de388d66ddd1" compoundref="_main_8java" startline="169" endline="203">ce204_hw4_app.Main.MainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a9cc7e8c528116c07d33c1b9d6684b547" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+        <definition>User ce204_hw4_library.LoginServices.validateLogIn</definition>
+        <argsstring>(String userName, String password)</argsstring>
+        <name>validateLogIn</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Validates the login credentials. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username provided by the user. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password provided by the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The User object if the credentials are valid, null otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="50" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="50" bodyend="58"/>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1aef8c11ee92f7698e35b0c7784ba60e1c" compoundref="_login_services_8java" startline="68" endline="78">ce204_hw4_library.LoginServices.doLogIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1aef8c11ee92f7698e35b0c7784ba60e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+        <definition>User ce204_hw4_library.LoginServices.doLogIn</definition>
+        <argsstring>(String userName, String password)</argsstring>
+        <name>doLogIn</name>
+        <param>
+          <type>String</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+<para>Performs the login process. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The username provided by the user. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>password</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The password provided by the user. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The logged in User object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="68" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="68" bodyend="78"/>
+        <references refid="classce204__hw4__app_1_1_user_1a733ca4a4a7066d4414ef5faebd76080a" compoundref="_user_8java" startline="49" endline="51">ce204_hw4_app.User.getFirstName</references>
+        <references refid="classce204__hw4__app_1_1_user_1a7a0bd9210a587dd23246a728eabc71de" compoundref="_user_8java" startline="67" endline="69">ce204_hw4_app.User.getLastName</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1a9cc7e8c528116c07d33c1b9d6684b547" compoundref="_login_services_8java" startline="50" endline="58">ce204_hw4_library.LoginServices.validateLogIn</references>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" compoundref="_login_services_8java" startline="133" endline="153">ce204_hw4_library.LoginServices.initiateLogIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a2cc2d1c164542c836af9bba9279590b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.LoginServices.exitApp</definition>
+        <argsstring>()</argsstring>
+        <name>exitApp</name>
+        <briefdescription>
+<para>Exits the application. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="84" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="84" bodyend="86"/>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac3d0a9e0c37cdab1480672de7e2f2dd6" compoundref="_main_8java" startline="48" endline="165">ce204_hw4_app.Main.AdminMenu</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a4f022e08bdd9b1d87e62de388d66ddd1" compoundref="_main_8java" startline="169" endline="203">ce204_hw4_app.Main.MainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a947e9871866b6c6c46c57a4f6d5da6ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.LoginServices.isLoggedIn</definition>
+        <argsstring>(User loggedInUser)</argsstring>
+        <name>isLoggedIn</name>
+        <param>
+          <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+          <declname>loggedInUser</declname>
+        </param>
+        <briefdescription>
+<para>Checks if a user is logged in. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loggedInUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user to check. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the user is logged in, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="94" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="94" bodyend="96"/>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" compoundref="_login_services_8java" startline="133" endline="153">ce204_hw4_library.LoginServices.initiateLogIn</referencedby>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1ae3cf24605716cd3fad778c8198934aec" compoundref="_login_services_8java" startline="115" endline="117">ce204_hw4_library.LoginServices.isLoggedInAsAdmin</referencedby>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a4e9ee6eac328bbbd30b17d16d1baa712" compoundref="_login_services_8java" startline="105" endline="107">ce204_hw4_library.LoginServices.isLoggedInAsCustomer</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a4f022e08bdd9b1d87e62de388d66ddd1" compoundref="_main_8java" startline="169" endline="203">ce204_hw4_app.Main.MainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a4e9ee6eac328bbbd30b17d16d1baa712" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.LoginServices.isLoggedInAsCustomer</definition>
+        <argsstring>(User loggedInUser)</argsstring>
+        <name>isLoggedInAsCustomer</name>
+        <param>
+          <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+          <declname>loggedInUser</declname>
+        </param>
+        <briefdescription>
+<para>Checks if a user is logged in as a customer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loggedInUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user to check. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the user is logged in as a customer, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="105" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="105" bodyend="107"/>
+        <references refid="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" compoundref="_user_8java" startline="85" endline="87">ce204_hw4_app.User.getUserName</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1a947e9871866b6c6c46c57a4f6d5da6ed" compoundref="_login_services_8java" startline="94" endline="96">ce204_hw4_library.LoginServices.isLoggedIn</references>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" compoundref="_login_services_8java" startline="133" endline="153">ce204_hw4_library.LoginServices.initiateLogIn</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1ae3cf24605716cd3fad778c8198934aec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.LoginServices.isLoggedInAsAdmin</definition>
+        <argsstring>(User loggedInUser)</argsstring>
+        <name>isLoggedInAsAdmin</name>
+        <param>
+          <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+          <declname>loggedInUser</declname>
+        </param>
+        <briefdescription>
+<para>Checks if a user is logged in as an admin. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loggedInUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user to check. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true if the user is logged in as an admin, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="115" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="115" bodyend="117"/>
+        <references refid="classce204__hw4__app_1_1_user_1a20c88dd8ce8e249fddf939ee2b5ac4ad" compoundref="_user_8java" startline="85" endline="87">ce204_hw4_app.User.getUserName</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1a947e9871866b6c6c46c57a4f6d5da6ed" compoundref="_login_services_8java" startline="94" endline="96">ce204_hw4_library.LoginServices.isLoggedIn</references>
+        <referencedby refid="classce204__hw4__app_1_1_main_1ac3d0a9e0c37cdab1480672de7e2f2dd6" compoundref="_main_8java" startline="48" endline="165">ce204_hw4_app.Main.AdminMenu</referencedby>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" compoundref="_login_services_8java" startline="133" endline="153">ce204_hw4_library.LoginServices.initiateLogIn</referencedby>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a4f022e08bdd9b1d87e62de388d66ddd1" compoundref="_main_8java" startline="169" endline="203">ce204_hw4_app.Main.MainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a564a6421f83f4f748e9f9b91c56e8c5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.LoginServices.setLoggedInUser</definition>
+        <argsstring>(User loggedInUser)</argsstring>
+        <name>setLoggedInUser</name>
+        <param>
+          <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+          <declname>loggedInUser</declname>
+        </param>
+        <briefdescription>
+<para>Sets the logged in user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>loggedInUser</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The user to set as loggedinUser. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="124" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="124" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classce204__hw4__app_1_1_user" kindref="compound">User</ref></type>
+        <definition>User ce204_hw4_library.LoginServices.initiateLogIn</definition>
+        <argsstring>()</argsstring>
+        <name>initiateLogIn</name>
+        <briefdescription>
+<para>Initiates the login process. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The logged in User object. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="133" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="133" bodyend="153"/>
+        <references refid="classce204__hw4__library_1_1_login_services_1a04747bf8e77d76de1300b673c328bdff" compoundref="_login_services_8java" startline="158" endline="162">ce204_hw4_library.LoginServices.displayLogInMenu</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1aef8c11ee92f7698e35b0c7784ba60e1c" compoundref="_login_services_8java" startline="68" endline="78">ce204_hw4_library.LoginServices.doLogIn</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1aec00a2c68a51b035276fff88eb5a17ca" compoundref="_login_services_8java" startline="21">ce204_hw4_library.LoginServices.input</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1a947e9871866b6c6c46c57a4f6d5da6ed" compoundref="_login_services_8java" startline="94" endline="96">ce204_hw4_library.LoginServices.isLoggedIn</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1ae3cf24605716cd3fad778c8198934aec" compoundref="_login_services_8java" startline="115" endline="117">ce204_hw4_library.LoginServices.isLoggedInAsAdmin</references>
+        <references refid="classce204__hw4__library_1_1_login_services_1a4e9ee6eac328bbbd30b17d16d1baa712" compoundref="_login_services_8java" startline="105" endline="107">ce204_hw4_library.LoginServices.isLoggedInAsCustomer</references>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a4f022e08bdd9b1d87e62de388d66ddd1" compoundref="_main_8java" startline="169" endline="203">ce204_hw4_app.Main.MainMenu</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_login_services_1a04747bf8e77d76de1300b673c328bdff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.LoginServices.displayLogInMenu</definition>
+        <argsstring>()</argsstring>
+        <name>displayLogInMenu</name>
+        <briefdescription>
+<para>Displays the login menu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="158" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="158" bodyend="162"/>
+        <referencedby refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" compoundref="_login_services_8java" startline="133" endline="153">ce204_hw4_library.LoginServices.initiateLogIn</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents the login services for the application. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ce204_hw4_library.LoginServicesInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_login_services_interface"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.LoginServices</label>
+        <link refid="classce204__hw4__library_1_1_login_services"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Scanner</label>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.LoginServicesInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_login_services_interface"/>
+      </node>
+      <node id="1">
+        <label>ce204_hw4_library.LoginServices</label>
+        <link refid="classce204__hw4__library_1_1_login_services"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>input</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" line="19" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/LoginServices.java" bodystart="19" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_login_services_1a04747bf8e77d76de1300b673c328bdff" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>displayLogInMenu</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1aef8c11ee92f7698e35b0c7784ba60e1c" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>doLogIn</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a2cc2d1c164542c836af9bba9279590b3" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>exitApp</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a4a747f0be4e884d68fae8d05b4f74b2a" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>getLoggedInUser</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a7a0c51ea111ddd19af3deb90e5aca9d5" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>initiateLogIn</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1aec00a2c68a51b035276fff88eb5a17ca" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>input</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a947e9871866b6c6c46c57a4f6d5da6ed" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>isLoggedIn</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1ae3cf24605716cd3fad778c8198934aec" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>isLoggedInAsAdmin</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a4e9ee6eac328bbbd30b17d16d1baa712" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>isLoggedInAsCustomer</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a3a38fe77f5cfed79f8574f76d3435a4f" prot="private" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>loggedInUser</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a280f31733b95a936de59db4fad01e7e2" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>LoginServices</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a564a6421f83f4f748e9f9b91c56e8c5b" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>setLoggedInUser</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a65f5a58fd82f6c52b26450d31359536a" prot="private" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>userList</name></member>
+      <member refid="classce204__hw4__library_1_1_login_services_1a9cc7e8c528116c07d33c1b9d6684b547" prot="public" virt="non-virtual"><scope>ce204_hw4_library::LoginServices</scope><name>validateLogIn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

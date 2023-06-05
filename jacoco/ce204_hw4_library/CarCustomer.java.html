@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CarCustomer.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ce204-hw4-alper-sahin</a> &gt; <a href="index.source.html" class="el_package">ce204_hw4_library</a> &gt; <span class="el_source">CarCustomer.java</span></div><h1>CarCustomer.java</h1><pre class="source lang-java linenums">/**
+
+@file CarCustomer.java
+@brief This file contains the implementation of the CarCustomer class.
+*/
+package ce204_hw4_library;
+
+/**
+ *
+ * @class CarCustomer
+ *
+ * @brief Represents a customer of a car rental service.
+ */
+public class CarCustomer implements CarRentObserverInterface {
+  private String name;
+  private int notiCount;
+
+  /**
+   *
+   * @brief Constructs a CarCustomer object with the specified name.
+   * @param name The name of the customer.
+   */
+<span class="fc" id="L23">  public CarCustomer(String name) {</span>
+<span class="fc" id="L24">    this.name = name;</span>
+<span class="fc" id="L25">    this.notiCount = 0;</span>
+<span class="fc" id="L26">  }</span>
+
+  /**
+   *
+   * @brief Updates the customer with a notification from the car rental service.
+   * @param carObservable The car rental service that sent the notification.
+   */
+  @Override
+  public void updateNoti(CustomerObserverable carObservable) {
+<span class="fc" id="L35">    NotificationTime notificationtime = (NotificationTime) carObservable;</span>
+<span class="fc" id="L36">    System.out</span>
+<span class="fc" id="L37">    .println(&quot;Hello &quot; + name + &quot;, &quot; + notificationtime.getRemainingNoti() + &quot; days left for your delivery&quot;);</span>
+<span class="fc" id="L38">    notiCount++;</span>
+<span class="fc" id="L39">  }</span>
+
+  /**
+   *
+   * @brief Returns the count of notifications received by the customer.
+   * @retval [int] The count of notifications received by the customer.
+   */
+  public int getNotificationCount() {
+<span class="fc" id="L47">    return notiCount;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

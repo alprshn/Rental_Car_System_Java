@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_car_payment_strategy_pattern_8java" kind="file" language="Java">
+    <compoundname>CarPaymentStrategyPattern.java</compoundname>
+    <innerclass refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" prot="public">ce204_hw4_library::CarPaymentStrategyPattern</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the declaration of the CarPaymentStrategyPattern interface. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" kindref="compound">CarPaymentStrategyPattern</ref><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157" kindref="member">PaymentDetails</ref>();</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371" kindref="member">PaySystem</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>price);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7" kindref="member">CollectPaymentSystemDetails</ref>();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/CarPaymentStrategyPattern.java"/>
+  </compounddef>
+</doxygen>

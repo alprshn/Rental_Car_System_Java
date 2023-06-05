@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>CreditCardSystem.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">ce204-hw4-alper-sahin</a> &gt; <a href="index.source.html" class="el_package">ce204_hw4_library</a> &gt; <span class="el_source">CreditCardSystem.java</span></div><h1>CreditCardSystem.java</h1><pre class="source lang-java linenums">/**
+
+@file CreditCardSystem.java
+@brief This file contains the implementation of the CreditCardSystem class.
+*/
+package ce204_hw4_library;
+
+/**
+ *
+ * @class CreditCardSystem
+ *
+ * @brief Represents the credit card payment system.
+ */
+public class CreditCardSystem {
+  private String cardNumberSystem;
+  private String Date;
+  private String cvvSystem;
+
+  /**
+   *
+   * @brief Constructs a CreditCardSystem object.
+   * @param cardNumberInput The credit card number.
+   * @param expiryDateInput The expiry date of the credit card.
+   * @param cvvInput        The CVV code of the credit card.
+   */
+<span class="fc" id="L26">  public CreditCardSystem(String cardNumberInput, String expiryDateInput, String cvvInput) {</span>
+    // TODO Auto-generated constructor stub
+<span class="fc" id="L28">    cardNumberSystem = cardNumberInput;</span>
+<span class="fc" id="L29">    Date = expiryDateInput;</span>
+<span class="fc" id="L30">    cvvSystem = cvvInput;</span>
+<span class="fc" id="L31">  }</span>
+
+  /**
+   *
+   * @brief Retrieves the expiry date of the credit card.
+   * @return The expiry date.
+   */
+  public String getDate() {
+<span class="fc" id="L39">    return Date;</span>
+  }
+
+  /**
+   *
+   * @brief Retrieves the CVV code of the credit card.
+   * @return The CVV code.
+   */
+  public String getCvvSystem() {
+<span class="fc" id="L48">    return cvvSystem;</span>
+  }
+
+  /**
+   *
+   * @brief Retrieves the credit card number.
+   * @return The credit card number.
+   */
+  public String getCardNumberSystem() {
+<span class="fc" id="L57">    return cardNumberSystem;</span>
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>

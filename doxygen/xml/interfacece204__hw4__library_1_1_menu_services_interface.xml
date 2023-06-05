@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="interfacece204__hw4__library_1_1_menu_services_interface" kind="interface" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::MenuServicesInterface</compoundname>
+    <derivedcompoundref refid="classce204__hw4__library_1_1_menu_services" prot="public" virt="non-virtual">ce204_hw4_library.MenuServices</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_menu_services_interface_1a55f5dfb11ac1d69265024cac94b16c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.MenuServicesInterface.designCustomerMenu</definition>
+        <argsstring>()</argsstring>
+        <name>designCustomerMenu</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_menu_services_1a1016966e34beaaab8ac798ec8fb4ec3c">designCustomerMenu</reimplementedby>
+        <briefdescription>
+<para>Designs the customer menu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java" line="19" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_menu_services_interface_1adb9c09705e6fcbf5c4a06aacf6f77668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.MenuServicesInterface.designSelectCarType</definition>
+        <argsstring>()</argsstring>
+        <name>designSelectCarType</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_menu_services_1a78215ffe64e28b0cb787a30c65dbb976">designSelectCarType</reimplementedby>
+        <briefdescription>
+<para>Designs the car type selection menu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java" line="25" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_menu_services_interface_1a997d040d59a818c10f2f37bcde7fc141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.MenuServicesInterface.designMainMenu</definition>
+        <argsstring>()</argsstring>
+        <name>designMainMenu</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_menu_services_1a3997e60ddc36923876c2ae0e506a9065">designMainMenu</reimplementedby>
+        <briefdescription>
+<para>Designs the main menu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java" line="31" column="8"/>
+      </memberdef>
+      <memberdef kind="function" id="interfacece204__hw4__library_1_1_menu_services_interface_1a1a98702341a8e082d6b3b55fba4cfd92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.MenuServicesInterface.designAdminMenu</definition>
+        <argsstring>()</argsstring>
+        <name>designAdminMenu</name>
+        <reimplementedby refid="classce204__hw4__library_1_1_menu_services_1a7e2660ba5ca8a668f17662a46b1044c6">designAdminMenu</reimplementedby>
+        <briefdescription>
+<para>Designs the admin menu. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java" line="37" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents an interface for menu services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_library.MenuServicesInterface</label>
+        <link refid="interfacece204__hw4__library_1_1_menu_services_interface"/>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.MenuServices</label>
+        <link refid="classce204__hw4__library_1_1_menu_services"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java" line="14" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java" bodystart="14" bodyend="38"/>
+    <listofallmembers>
+      <member refid="interfacece204__hw4__library_1_1_menu_services_interface_1a1a98702341a8e082d6b3b55fba4cfd92" prot="public" virt="non-virtual"><scope>ce204_hw4_library::MenuServicesInterface</scope><name>designAdminMenu</name></member>
+      <member refid="interfacece204__hw4__library_1_1_menu_services_interface_1a55f5dfb11ac1d69265024cac94b16c0a" prot="public" virt="non-virtual"><scope>ce204_hw4_library::MenuServicesInterface</scope><name>designCustomerMenu</name></member>
+      <member refid="interfacece204__hw4__library_1_1_menu_services_interface_1a997d040d59a818c10f2f37bcde7fc141" prot="public" virt="non-virtual"><scope>ce204_hw4_library::MenuServicesInterface</scope><name>designMainMenu</name></member>
+      <member refid="interfacece204__hw4__library_1_1_menu_services_interface_1adb9c09705e6fcbf5c4a06aacf6f77668" prot="public" virt="non-virtual"><scope>ce204_hw4_library::MenuServicesInterface</scope><name>designSelectCarType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

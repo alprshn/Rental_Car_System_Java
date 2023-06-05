@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__app_1_1_bill" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_app::Bill</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_bill_1a985a921367b434d59dd1c2abb7adcb2a" prot="private" static="no" mutable="no">
+        <type><ref refid="interfacece204__hw4__library_1_1_rent_car_interface" kindref="compound">RentCarInterface</ref></type>
+        <definition>RentCarInterface ce204_hw4_app.Bill.carFeatures</definition>
+        <argsstring></argsstring>
+        <name>carFeatures</name>
+        <briefdescription>
+<para>Displays the bill for a rented car. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This method displays the details of a rented car and the payment information in a formatted bill format.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>car</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rented car object. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>paymentsystemType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type of payment system used for the car rental. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>void</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" line="26" column="28" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__app_1_1_bill_1a313a77858b0a9c32329ce4d1dac5a8f5" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String ce204_hw4_app.Bill.paymentsystemType</definition>
+        <argsstring></argsstring>
+        <name>paymentsystemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" line="27" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classce204__hw4__app_1_1_bill_1a65caf1282b397d671feae7eb3f0143be" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ce204_hw4_app.Bill.displayBill</definition>
+        <argsstring>(RentCarInterface car, String paymentsystemType)</argsstring>
+        <name>displayBill</name>
+        <param>
+          <type><ref refid="interfacece204__hw4__library_1_1_rent_car_interface" kindref="compound">RentCarInterface</ref></type>
+          <declname>car</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>paymentsystemType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" line="30" column="22" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" bodystart="30" bodyend="44"/>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1a0acb635682e51d740cb3238f244896ee">ce204_hw4_library.RentCarInterface.getCarBrand</references>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1ae48e39e895a2d62845c8eeaf0d785102">ce204_hw4_library.RentCarInterface.getCarColor</references>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1a4581ebeb91a0207e9b7a5dda6e067947">ce204_hw4_library.RentCarInterface.getCarFuelType</references>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1aaa166d195bd403eb697d5130c45300a6">ce204_hw4_library.RentCarInterface.getCarModel</references>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1a766256574d0fb0a37264d078b981c400">ce204_hw4_library.RentCarInterface.getCarModelYear</references>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1a3cba9efc4d5e729a60e23c3db9585d39">ce204_hw4_library.RentCarInterface.getCarPrice</references>
+        <references refid="interfacece204__hw4__library_1_1_rent_car_interface_1a26d32e9379398c3b43d105ea7cde43a8">ce204_hw4_library.RentCarInterface.getCarSeatsNumber</references>
+        <referencedby refid="classce204__hw4__app_1_1_main_1a18d3c21e4e9173d9c986343dd1b4aa2a" compoundref="_main_8java" startline="207" endline="305">ce204_hw4_app.Main.CustomerMenu</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a bill for a rented car. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is responsible for displaying the bill details for a rented car, including its features and payment information. </para>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" line="14" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Bill.java" bodystart="14" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__app_1_1_bill_1a985a921367b434d59dd1c2abb7adcb2a" prot="private" virt="non-virtual"><scope>ce204_hw4_app::Bill</scope><name>carFeatures</name></member>
+      <member refid="classce204__hw4__app_1_1_bill_1a65caf1282b397d671feae7eb3f0143be" prot="public" virt="non-virtual"><scope>ce204_hw4_app::Bill</scope><name>displayBill</name></member>
+      <member refid="classce204__hw4__app_1_1_bill_1a313a77858b0a9c32329ce4d1dac5a8f5" prot="private" virt="non-virtual"><scope>ce204_hw4_app::Bill</scope><name>paymentsystemType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

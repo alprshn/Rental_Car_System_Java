@@ -1,0 +1,252 @@
+\hypertarget{classce204__hw4__library_1_1_payment_system_service}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service Class Reference}
+\label{classce204__hw4__library_1_1_payment_system_service}\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+
+
+Represents a payment system service for car rentals.  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a5d1d8a03798a78d5ca9509f192c6ffd7}{proccess\+Order}} ()
+\begin{DoxyCompactList}\small\item\em Processes the car rental order. This method processes the car rental order by collecting the payment system details and performing the payment using the selected payment strategy. It checks if payment details are available before making the payment. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a072f84048f984f5a6111b2b4b8ae18c8}{set\+Money}} (int cost\+Input)
+\begin{DoxyCompactList}\small\item\em Sets the amount of money for a car rental. This method sets the amount of money for a car rental by adding it to the list of money amounts. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a6cf3a9a6fa5ef985dd11b50c2ff53522}{remove\+Money}} (int cost\+Input)
+\begin{DoxyCompactList}\small\item\em Removes the amount of money for a car rental. This method removes the amount of money for a car rental from the list of money amounts. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a8794da7c389a2361e3001cece696e24a}{get\+Total\+Money}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the total amount of money for the selected car rental. This method retrieves the total amount of money for the selected car rental based on the car index. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_aa1b175418e429a60f2785c317cd64752}{set\+Selected\+Car\+Index}} (int car\+Index\+Input)
+\begin{DoxyCompactList}\small\item\em Sets the index of the selected car. This method sets the index of the selected car in the car\+Index variable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a6f624d1d6f354a076f0ea9b3120cd2b4}{set\+Strategy\+Pattern}} (\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern}{Car\+Payment\+Strategy\+Pattern}} strategy\+Pattern\+Selected)
+\begin{DoxyCompactList}\small\item\em Sets the payment strategy pattern. This method sets the payment strategy pattern to be used for the car rental payment. \end{DoxyCompactList}\item 
+List$<$ Integer $>$ \mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_aa731aa9da067fd2c2c4364b108ad1949}{get\+Money}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the list of money amounts. This method retrieves the list of money amounts. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a payment system service for car rentals. 
+
+\begin{DoxyVerb}   The PaymentSystemService class provides methods for processing car
+   rental payments using different payment strategies.
+
+   It manages the payment process and keeps track of the total money
+   available for each car rental.
+\end{DoxyVerb}
+ 
+
+Definition at line 24 of file Payment\+System\+Service.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_aa731aa9da067fd2c2c4364b108ad1949}\label{classce204__hw4__library_1_1_payment_system_service_aa731aa9da067fd2c2c4364b108ad1949}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!getMoney@{getMoney}}
+\index{getMoney@{getMoney}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{getMoney()}{getMoney()}}
+{\footnotesize\ttfamily List$<$Integer$>$ ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+get\+Money (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the list of money amounts. This method retrieves the list of money amounts. 
+
+\begin{DoxyReturn}{Returns}
+The list of money amounts. 
+\end{DoxyReturn}
+
+
+Definition at line 101 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{101                                   \{}
+\DoxyCodeLine{102     \textcolor{keywordflow}{return} money;}
+\DoxyCodeLine{103   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_a8794da7c389a2361e3001cece696e24a}\label{classce204__hw4__library_1_1_payment_system_service_a8794da7c389a2361e3001cece696e24a}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!getTotalMoney@{getTotalMoney}}
+\index{getTotalMoney@{getTotalMoney}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{getTotalMoney()}{getTotalMoney()}}
+{\footnotesize\ttfamily int ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+get\+Total\+Money (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the total amount of money for the selected car rental. This method retrieves the total amount of money for the selected car rental based on the car index. 
+
+\begin{DoxyReturn}{Returns}
+The total amount of money for the selected car rental. 
+\end{DoxyReturn}
+
+
+Definition at line 71 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{71                              \{}
+\DoxyCodeLine{72     \textcolor{keywordflow}{return} money.get(carIndex);}
+\DoxyCodeLine{73   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+proccess\+Order().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_a5d1d8a03798a78d5ca9509f192c6ffd7}\label{classce204__hw4__library_1_1_payment_system_service_a5d1d8a03798a78d5ca9509f192c6ffd7}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!proccessOrder@{proccessOrder}}
+\index{proccessOrder@{proccessOrder}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{proccessOrder()}{proccessOrder()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+proccess\+Order (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Processes the car rental order. This method processes the car rental order by collecting the payment system details and performing the payment using the selected payment strategy. It checks if payment details are available before making the payment. 
+
+
+
+Definition at line 36 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{36                               \{}
+\DoxyCodeLine{37     strategyPattern.\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}{CollectPaymentSystemDetails}}();}
+\DoxyCodeLine{38 }
+\DoxyCodeLine{39     \textcolor{keywordflow}{if} (strategyPattern.\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}{PaymentDetails}}()) \{}
+\DoxyCodeLine{40       strategyPattern.\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}{PaySystem}}(\mbox{\hyperlink{classce204__hw4__library_1_1_payment_system_service_a8794da7c389a2361e3001cece696e24a}{getTotalMoney}}());}
+\DoxyCodeLine{41     \}}
+\DoxyCodeLine{42   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern.\+Collect\+Payment\+System\+Details(), ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+get\+Total\+Money(), ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern.\+Payment\+Details(), and ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern.\+Pay\+System().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_a6cf3a9a6fa5ef985dd11b50c2ff53522}\label{classce204__hw4__library_1_1_payment_system_service_a6cf3a9a6fa5ef985dd11b50c2ff53522}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!removeMoney@{removeMoney}}
+\index{removeMoney@{removeMoney}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{removeMoney()}{removeMoney()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+remove\+Money (\begin{DoxyParamCaption}\item[{int}]{cost\+Input }\end{DoxyParamCaption})}
+
+
+
+Removes the amount of money for a car rental. This method removes the amount of money for a car rental from the list of money amounts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cost\+Input} & The amount of money to be removed. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 60 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{60                                          \{}
+\DoxyCodeLine{61     money.remove(costInput);}
+\DoxyCodeLine{62   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_a072f84048f984f5a6111b2b4b8ae18c8}\label{classce204__hw4__library_1_1_payment_system_service_a072f84048f984f5a6111b2b4b8ae18c8}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!setMoney@{setMoney}}
+\index{setMoney@{setMoney}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{setMoney()}{setMoney()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Money (\begin{DoxyParamCaption}\item[{int}]{cost\+Input }\end{DoxyParamCaption})}
+
+
+
+Sets the amount of money for a car rental. This method sets the amount of money for a car rental by adding it to the list of money amounts. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em cost\+Input} & The amount of money for the car rental. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 50 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50                                       \{}
+\DoxyCodeLine{51     money.add(costInput);}
+\DoxyCodeLine{52   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Defaul\+Main\+Cars().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_aa1b175418e429a60f2785c317cd64752}\label{classce204__hw4__library_1_1_payment_system_service_aa1b175418e429a60f2785c317cd64752}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!setSelectedCarIndex@{setSelectedCarIndex}}
+\index{setSelectedCarIndex@{setSelectedCarIndex}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{setSelectedCarIndex()}{setSelectedCarIndex()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Selected\+Car\+Index (\begin{DoxyParamCaption}\item[{int}]{car\+Index\+Input }\end{DoxyParamCaption})}
+
+
+
+Sets the index of the selected car. This method sets the index of the selected car in the car\+Index variable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em car\+Index\+Input} & The index of the selected car. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 81 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{81                                                      \{}
+\DoxyCodeLine{82     carIndex = carIndexInput;}
+\DoxyCodeLine{83   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_payment_system_service_a6f624d1d6f354a076f0ea9b3120cd2b4}\label{classce204__hw4__library_1_1_payment_system_service_a6f624d1d6f354a076f0ea9b3120cd2b4}} 
+\index{ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}!setStrategyPattern@{setStrategyPattern}}
+\index{setStrategyPattern@{setStrategyPattern}!ce204\_hw4\_library.PaymentSystemService@{ce204\_hw4\_library.PaymentSystemService}}
+\doxysubsubsection{\texorpdfstring{setStrategyPattern()}{setStrategyPattern()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Payment\+System\+Service.\+set\+Strategy\+Pattern (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern}{Car\+Payment\+Strategy\+Pattern}}}]{strategy\+Pattern\+Selected }\end{DoxyParamCaption})}
+
+
+
+Sets the payment strategy pattern. This method sets the payment strategy pattern to be used for the car rental payment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em strategy\+Pattern\+Selected} & The selected payment strategy pattern. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 91 of file Payment\+System\+Service.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{91                                                                                     \{}
+\DoxyCodeLine{92     strategyPattern = strategyPatternSelected;}
+\DoxyCodeLine{93   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_payment_system_service_8java}{Payment\+System\+Service.\+java}}\end{DoxyCompactItemize}

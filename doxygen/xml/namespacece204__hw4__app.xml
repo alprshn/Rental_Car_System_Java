@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacece204__hw4__app" kind="namespace" language="Java">
+    <compoundname>ce204_hw4_app</compoundname>
+    <innerclass refid="classce204__hw4__app_1_1_admin" prot="public">ce204_hw4_app::Admin</innerclass>
+    <innerclass refid="classce204__hw4__app_1_1_app" prot="public">ce204_hw4_app::App</innerclass>
+    <innerclass refid="classce204__hw4__app_1_1_bill" prot="public">ce204_hw4_app::Bill</innerclass>
+    <innerclass refid="classce204__hw4__app_1_1_customer" prot="public">ce204_hw4_app::Customer</innerclass>
+    <innerclass refid="classce204__hw4__app_1_1_main" prot="public">ce204_hw4_app::Main</innerclass>
+    <innerclass refid="classce204__hw4__app_1_1_user" prot="public">ce204_hw4_app::User</innerclass>
+    <innerclass refid="classce204__hw4__app_1_1_user_database" prot="public">ce204_hw4_app::UserDatabase</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_app/Admin.java" line="5" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="class_pay_pay_pal" kind="class" language="Java" prot="package">
+    <compoundname>PayPayPal</compoundname>
+    <briefdescription>
+<para>Represents a PayPal payment strategy for car rentals. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>   The PayPayPal class implements the CarPaymentStrategyPattern interface
+   and provides methods for handling PayPal
+
+   payments for car rentals. It allows users to pay for their car rental
+   using a PayPal account.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="14" column="1"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

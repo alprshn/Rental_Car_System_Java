@@ -1,0 +1,128 @@
+\hypertarget{classce204__hw4__library_1_1_pay_cash}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash Class Reference}
+\label{classce204__hw4__library_1_1_pay_cash}\index{ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}}
+
+
+Represents a cash payment strategy for car rentals.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_pay_cash}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean \mbox{\hyperlink{classce204__hw4__library_1_1_pay_cash_ab3758120f4455c0b5a228497aeec6990}{Payment\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Retrieves the payment details. This method retrieves the payment details for the cash payment strategy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_cash_a8ec1a1741628aeec7414a5d26f6f1363}{Pay\+System}} (int price)
+\begin{DoxyCompactList}\small\item\em Performs the cash payment. This method performs the cash payment for the car rental. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_pay_cash_aa7a2ba816547da24423b0d4c24eb0c83}{Collect\+Payment\+System\+Details}} ()
+\begin{DoxyCompactList}\small\item\em Collects the payment system details. This method collects the necessary details for the cash payment system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a cash payment strategy for car rentals. 
+
+\begin{DoxyVerb}   The PayCash class implements the CarPaymentStrategyPattern interface
+   and provides methods for handling cash payments
+
+   for car rentals. It allows users to pay for their car rental using
+   cash.
+\end{DoxyVerb}
+ 
+
+Definition at line 20 of file Pay\+Cash.\+java.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_cash_aa7a2ba816547da24423b0d4c24eb0c83}\label{classce204__hw4__library_1_1_pay_cash_aa7a2ba816547da24423b0d4c24eb0c83}} 
+\index{ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}!CollectPaymentSystemDetails@{CollectPaymentSystemDetails}}
+\index{CollectPaymentSystemDetails@{CollectPaymentSystemDetails}!ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}}
+\doxysubsubsection{\texorpdfstring{CollectPaymentSystemDetails()}{CollectPaymentSystemDetails()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash.\+Collect\+Payment\+System\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Collects the payment system details. This method collects the necessary details for the cash payment system. 
+
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_ad0795b1e2edad8bdab7a11fabcc4c8c7}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 51 of file Pay\+Cash.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{51                                             \{}
+\DoxyCodeLine{52   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_cash_ab3758120f4455c0b5a228497aeec6990}\label{classce204__hw4__library_1_1_pay_cash_ab3758120f4455c0b5a228497aeec6990}} 
+\index{ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}!PaymentDetails@{PaymentDetails}}
+\index{PaymentDetails@{PaymentDetails}!ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}}
+\doxysubsubsection{\texorpdfstring{PaymentDetails()}{PaymentDetails()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash.\+Payment\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Retrieves the payment details. This method retrieves the payment details for the cash payment strategy. 
+
+\begin{DoxyReturn}{Returns}
+true, indicating that payment details are available. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_aba5bac38d6e3d2db2c53b9337d2b4157}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 28 of file Pay\+Cash.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{28                                   \{}
+\DoxyCodeLine{29     \textcolor{keywordflow}{return} \textcolor{keyword}{true};}
+\DoxyCodeLine{30   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_pay_cash_a8ec1a1741628aeec7414a5d26f6f1363}\label{classce204__hw4__library_1_1_pay_cash_a8ec1a1741628aeec7414a5d26f6f1363}} 
+\index{ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}!PaySystem@{PaySystem}}
+\index{PaySystem@{PaySystem}!ce204\_hw4\_library.PayCash@{ce204\_hw4\_library.PayCash}}
+\doxysubsubsection{\texorpdfstring{PaySystem()}{PaySystem()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Pay\+Cash.\+Pay\+System (\begin{DoxyParamCaption}\item[{int}]{price }\end{DoxyParamCaption})}
+
+
+
+Performs the cash payment. This method performs the cash payment for the car rental. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em price} & The amount of money used for the payment. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interfacece204__hw4__library_1_1_car_payment_strategy_pattern_a770e120c575b361777b9a231b5597371}{ce204\+\_\+hw4\+\_\+library.\+Car\+Payment\+Strategy\+Pattern}}.
+
+
+
+Definition at line 40 of file Pay\+Cash.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{40                                    \{}
+\DoxyCodeLine{41     System.out.println(price + \textcolor{stringliteral}{"{}money used."{}});}
+\DoxyCodeLine{42     System.out.println(\textcolor{stringliteral}{"{}You rented the car"{}});}
+\DoxyCodeLine{43   \}}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_pay_cash_8java}{Pay\+Cash.\+java}}\end{DoxyCompactItemize}

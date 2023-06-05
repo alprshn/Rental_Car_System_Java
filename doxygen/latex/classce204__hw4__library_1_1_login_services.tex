@@ -1,0 +1,455 @@
+\hypertarget{classce204__hw4__library_1_1_login_services}{}\doxysection{ce204\+\_\+hw4\+\_\+library.\+Login\+Services Class Reference}
+\label{classce204__hw4__library_1_1_login_services}\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+
+
+Represents the login services for the application.  
+
+
+Inheritance diagram for ce204\+\_\+hw4\+\_\+library.\+Login\+Services\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classce204__hw4__library_1_1_login_services}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a280f31733b95a936de59db4fad01e7e2}{Login\+Services}} (List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$ user\+List)
+\begin{DoxyCompactList}\small\item\em Constructs a new \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} object with the specified user list. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}{get\+Logged\+In\+User}} ()
+\begin{DoxyCompactList}\small\item\em Gets the currently logged in user. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}{validate\+Log\+In}} (String user\+Name, String password)
+\begin{DoxyCompactList}\small\item\em Validates the login credentials. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_aef8c11ee92f7698e35b0c7784ba60e1c}{do\+Log\+In}} (String user\+Name, String password)
+\begin{DoxyCompactList}\small\item\em Performs the login process. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a2cc2d1c164542c836af9bba9279590b3}{exit\+App}} ()
+\begin{DoxyCompactList}\small\item\em Exits the application. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}{is\+Logged\+In}} (\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} logged\+In\+User)
+\begin{DoxyCompactList}\small\item\em Checks if a user is logged in. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4e9ee6eac328bbbd30b17d16d1baa712}{is\+Logged\+In\+As\+Customer}} (\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} logged\+In\+User)
+\begin{DoxyCompactList}\small\item\em Checks if a user is logged in as a customer. \end{DoxyCompactList}\item 
+boolean \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_ae3cf24605716cd3fad778c8198934aec}{is\+Logged\+In\+As\+Admin}} (\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} logged\+In\+User)
+\begin{DoxyCompactList}\small\item\em Checks if a user is logged in as an admin. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a564a6421f83f4f748e9f9b91c56e8c5b}{set\+Logged\+In\+User}} (\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} logged\+In\+User)
+\begin{DoxyCompactList}\small\item\em Sets the logged in user. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a7a0c51ea111ddd19af3deb90e5aca9d5}{initiate\+Log\+In}} ()
+\begin{DoxyCompactList}\small\item\em Initiates the login process. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a04747bf8e77d76de1300b673c328bdff}{display\+Log\+In\+Menu}} ()
+\begin{DoxyCompactList}\small\item\em Displays the login menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Scanner \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_aec00a2c68a51b035276fff88eb5a17ca}{input}} = new Scanner(System.\+in)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the login services for the application. 
+
+Definition at line 19 of file Login\+Services.\+java.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a280f31733b95a936de59db4fad01e7e2}\label{classce204__hw4__library_1_1_login_services_a280f31733b95a936de59db4fad01e7e2}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!LoginServices@{LoginServices}}
+\index{LoginServices@{LoginServices}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{LoginServices()}{LoginServices()}}
+{\footnotesize\ttfamily ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+Login\+Services (\begin{DoxyParamCaption}\item[{List$<$ \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} $>$}]{user\+List }\end{DoxyParamCaption})}
+
+
+
+Constructs a new \mbox{\hyperlink{classce204__hw4__library_1_1_login_services}{Login\+Services}} object with the specified user list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+List} & The list of users in the system. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 30 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{30                                             \{}
+\DoxyCodeLine{31     this.userList = userList;}
+\DoxyCodeLine{32   \}}
+
+\end{DoxyCode}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a04747bf8e77d76de1300b673c328bdff}\label{classce204__hw4__library_1_1_login_services_a04747bf8e77d76de1300b673c328bdff}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!displayLogInMenu@{displayLogInMenu}}
+\index{displayLogInMenu@{displayLogInMenu}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{displayLogInMenu()}{displayLogInMenu()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+display\+Log\+In\+Menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Displays the login menu. 
+
+
+
+Definition at line 158 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{158                                  \{}
+\DoxyCodeLine{159     System.out.println(\textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+"{}});}
+\DoxyCodeLine{160     System.out.println(\textcolor{stringliteral}{"{}|                     LOGIN:                   |"{}});}
+\DoxyCodeLine{161     System.out.println(\textcolor{stringliteral}{"{}+-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/+"{}});}
+\DoxyCodeLine{162   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_aef8c11ee92f7698e35b0c7784ba60e1c}\label{classce204__hw4__library_1_1_login_services_aef8c11ee92f7698e35b0c7784ba60e1c}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!doLogIn@{doLogIn}}
+\index{doLogIn@{doLogIn}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{doLogIn()}{doLogIn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+do\+Log\+In (\begin{DoxyParamCaption}\item[{String}]{user\+Name,  }\item[{String}]{password }\end{DoxyParamCaption})}
+
+
+
+Performs the login process. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & The username provided by the user. \\
+\hline
+{\em password} & The password provided by the user. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The logged in User object. 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{68                                                         \{}
+\DoxyCodeLine{69     \textcolor{keywordflow}{if} (\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}{validateLogIn}}(userName, password) instanceof \mbox{\hyperlink{classce204__hw4__app_1_1_customer}{Customer}}) \{}
+\DoxyCodeLine{70       loggedInUser = \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}{validateLogIn}}(userName, password);}
+\DoxyCodeLine{71       System.out.println(\textcolor{stringliteral}{"{}Welcome "{}} + loggedInUser.\mbox{\hyperlink{classce204__hw4__app_1_1_user_a733ca4a4a7066d4414ef5faebd76080a}{getFirstName}}() + \textcolor{stringliteral}{"{} "{}} + loggedInUser.\mbox{\hyperlink{classce204__hw4__app_1_1_user_a7a0bd9210a587dd23246a728eabc71de}{getLastName}}() + \textcolor{stringliteral}{"{}!"{}});}
+\DoxyCodeLine{72     \} \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}{validateLogIn}}(userName, password) instanceof \mbox{\hyperlink{classce204__hw4__app_1_1_admin}{Admin}}) \{}
+\DoxyCodeLine{73       loggedInUser = \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}{validateLogIn}}(userName, password);}
+\DoxyCodeLine{74       System.out.println(\textcolor{stringliteral}{"{}Welcome "{}} + loggedInUser.\mbox{\hyperlink{classce204__hw4__app_1_1_user_a733ca4a4a7066d4414ef5faebd76080a}{getFirstName}}() + \textcolor{stringliteral}{"{} "{}} + loggedInUser.\mbox{\hyperlink{classce204__hw4__app_1_1_user_a7a0bd9210a587dd23246a728eabc71de}{getLastName}}() + \textcolor{stringliteral}{"{}!"{}});}
+\DoxyCodeLine{75     \}}
+\DoxyCodeLine{76 }
+\DoxyCodeLine{77     \textcolor{keywordflow}{return} loggedInUser;}
+\DoxyCodeLine{78   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+User.\+get\+First\+Name(), ce204\+\_\+hw4\+\_\+app.\+User.\+get\+Last\+Name(), and ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+validate\+Log\+In().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a2cc2d1c164542c836af9bba9279590b3}\label{classce204__hw4__library_1_1_login_services_a2cc2d1c164542c836af9bba9279590b3}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!exitApp@{exitApp}}
+\index{exitApp@{exitApp}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{exitApp()}{exitApp()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+exit\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Exits the application. 
+
+
+
+Definition at line 84 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{84                         \{}
+\DoxyCodeLine{85     System.out.println(\textcolor{stringliteral}{"{}Hope you'll be back soon!"{}});}
+\DoxyCodeLine{86   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}\label{classce204__hw4__library_1_1_login_services_a4a747f0be4e884d68fae8d05b4f74b2a}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!getLoggedInUser@{getLoggedInUser}}
+\index{getLoggedInUser@{getLoggedInUser}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{getLoggedInUser()}{getLoggedInUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+get\+Logged\+In\+User (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the currently logged in user. 
+
+\begin{DoxyReturn}{Returns}
+The currently logged in user. 
+\end{DoxyReturn}
+
+
+Definition at line 39 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{39                                 \{}
+\DoxyCodeLine{40     \textcolor{keywordflow}{return} loggedInUser;}
+\DoxyCodeLine{41   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a7a0c51ea111ddd19af3deb90e5aca9d5}\label{classce204__hw4__library_1_1_login_services_a7a0c51ea111ddd19af3deb90e5aca9d5}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!initiateLogIn@{initiateLogIn}}
+\index{initiateLogIn@{initiateLogIn}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{initiateLogIn()}{initiateLogIn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initiates the login process. 
+
+\begin{DoxyReturn}{Returns}
+The logged in User object. 
+\end{DoxyReturn}
+
+
+Definition at line 133 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{133                               \{}
+\DoxyCodeLine{134     \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} loggedIn;}
+\DoxyCodeLine{135 }
+\DoxyCodeLine{136     \textcolor{keywordflow}{do} \{}
+\DoxyCodeLine{137       System.out.println();}
+\DoxyCodeLine{138       \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a04747bf8e77d76de1300b673c328bdff}{displayLogInMenu}}();}
+\DoxyCodeLine{139       System.out.println(\textcolor{stringliteral}{"{}Username:"{}});}
+\DoxyCodeLine{140       String userName = \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_aec00a2c68a51b035276fff88eb5a17ca}{input}}.nextLine();}
+\DoxyCodeLine{141       System.out.println(\textcolor{stringliteral}{"{}Password:"{}});}
+\DoxyCodeLine{142       String password = \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_aec00a2c68a51b035276fff88eb5a17ca}{input}}.nextLine();}
+\DoxyCodeLine{143       loggedIn = \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_aef8c11ee92f7698e35b0c7784ba60e1c}{doLogIn}}(userName, password);}
+\DoxyCodeLine{144 }
+\DoxyCodeLine{145       \textcolor{keywordflow}{if} (\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a4e9ee6eac328bbbd30b17d16d1baa712}{isLoggedInAsCustomer}}(loggedIn) || \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_ae3cf24605716cd3fad778c8198934aec}{isLoggedInAsAdmin}}(loggedIn)) \{}
+\DoxyCodeLine{146         System.out.println(\textcolor{stringliteral}{"{}Login successfully!!!"{}});}
+\DoxyCodeLine{147       \} \textcolor{keywordflow}{else} \{}
+\DoxyCodeLine{148         System.out.println(\textcolor{stringliteral}{"{}Wrong credentials! Please, try again!"{}});}
+\DoxyCodeLine{149       \}}
+\DoxyCodeLine{150     \} \textcolor{keywordflow}{while} (!\mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}{isLoggedIn}}(loggedIn));}
+\DoxyCodeLine{151 }
+\DoxyCodeLine{152     \textcolor{keywordflow}{return} loggedIn;}
+\DoxyCodeLine{153   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+display\+Log\+In\+Menu(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+do\+Log\+In(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+input, ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Admin(), and ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Customer().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}\label{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!isLoggedIn@{isLoggedIn}}
+\index{isLoggedIn@{isLoggedIn}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{isLoggedIn()}{isLoggedIn()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}}]{logged\+In\+User }\end{DoxyParamCaption})}
+
+
+
+Checks if a user is logged in. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em logged\+In\+User} & The user to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the user is logged in, false otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 94 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{94                                                \{}
+\DoxyCodeLine{95     \textcolor{keywordflow}{return} loggedInUser != \textcolor{keyword}{null};}
+\DoxyCodeLine{96   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Admin(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Customer(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_ae3cf24605716cd3fad778c8198934aec}\label{classce204__hw4__library_1_1_login_services_ae3cf24605716cd3fad778c8198934aec}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!isLoggedInAsAdmin@{isLoggedInAsAdmin}}
+\index{isLoggedInAsAdmin@{isLoggedInAsAdmin}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{isLoggedInAsAdmin()}{isLoggedInAsAdmin()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Admin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}}]{logged\+In\+User }\end{DoxyParamCaption})}
+
+
+
+Checks if a user is logged in as an admin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em logged\+In\+User} & The user to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the user is logged in as an admin, false otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 115 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{115                                                       \{}
+\DoxyCodeLine{116     \textcolor{keywordflow}{return} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}{isLoggedIn}}(loggedInUser) \&\& loggedInUser.\mbox{\hyperlink{classce204__hw4__app_1_1_user_a20c88dd8ce8e249fddf939ee2b5ac4ad}{getUserName}}().equals(\textcolor{stringliteral}{"{}admin"{}});}
+\DoxyCodeLine{117   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+User.\+get\+User\+Name(), and ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Admin\+Menu(), ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In(), and ce204\+\_\+hw4\+\_\+app.\+Main.\+Main\+Menu().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a4e9ee6eac328bbbd30b17d16d1baa712}\label{classce204__hw4__library_1_1_login_services_a4e9ee6eac328bbbd30b17d16d1baa712}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!isLoggedInAsCustomer@{isLoggedInAsCustomer}}
+\index{isLoggedInAsCustomer@{isLoggedInAsCustomer}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{isLoggedInAsCustomer()}{isLoggedInAsCustomer()}}
+{\footnotesize\ttfamily boolean ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In\+As\+Customer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}}]{logged\+In\+User }\end{DoxyParamCaption})}
+
+
+
+Checks if a user is logged in as a customer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em logged\+In\+User} & The user to check. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the user is logged in as a customer, false otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 105 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{105                                                          \{}
+\DoxyCodeLine{106     \textcolor{keywordflow}{return} \mbox{\hyperlink{classce204__hw4__library_1_1_login_services_a947e9871866b6c6c46c57a4f6d5da6ed}{isLoggedIn}}(loggedInUser) \&\& !loggedInUser.\mbox{\hyperlink{classce204__hw4__app_1_1_user_a20c88dd8ce8e249fddf939ee2b5ac4ad}{getUserName}}().equals(\textcolor{stringliteral}{"{}customer"{}});}
+\DoxyCodeLine{107   \}}
+
+\end{DoxyCode}
+
+
+References ce204\+\_\+hw4\+\_\+app.\+User.\+get\+User\+Name(), and ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+is\+Logged\+In().
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+app.\+Main.\+Customer\+Menu(), and ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In().
+
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a564a6421f83f4f748e9f9b91c56e8c5b}\label{classce204__hw4__library_1_1_login_services_a564a6421f83f4f748e9f9b91c56e8c5b}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!setLoggedInUser@{setLoggedInUser}}
+\index{setLoggedInUser@{setLoggedInUser}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{setLoggedInUser()}{setLoggedInUser()}}
+{\footnotesize\ttfamily void ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+set\+Logged\+In\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}}}]{logged\+In\+User }\end{DoxyParamCaption})}
+
+
+
+Sets the logged in user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em logged\+In\+User} & The user to set as loggedin\+User. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 124 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{124                                                  \{}
+\DoxyCodeLine{125     this.loggedInUser = loggedInUser;}
+\DoxyCodeLine{126   \}}
+
+\end{DoxyCode}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}\label{classce204__hw4__library_1_1_login_services_a9cc7e8c528116c07d33c1b9d6684b547}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!validateLogIn@{validateLogIn}}
+\index{validateLogIn@{validateLogIn}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{validateLogIn()}{validateLogIn()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+validate\+Log\+In (\begin{DoxyParamCaption}\item[{String}]{user\+Name,  }\item[{String}]{password }\end{DoxyParamCaption})}
+
+
+
+Validates the login credentials. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user\+Name} & The username provided by the user. \\
+\hline
+{\em password} & The password provided by the user. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The User object if the credentials are valid, null otherwise. 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Login\+Services.\+java.
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{50                                                               \{}
+\DoxyCodeLine{51     \textcolor{keywordflow}{for} (\mbox{\hyperlink{classce204__hw4__app_1_1_user}{User}} currentUser : userList) \{}
+\DoxyCodeLine{52       \textcolor{keywordflow}{if} (userName.equals(currentUser.getUserName()) \&\& password.equals(currentUser.getPassword())) \{}
+\DoxyCodeLine{53         \textcolor{keywordflow}{return} currentUser;}
+\DoxyCodeLine{54       \}}
+\DoxyCodeLine{55     \}}
+\DoxyCodeLine{56 }
+\DoxyCodeLine{57     \textcolor{keywordflow}{return} \textcolor{keyword}{null};}
+\DoxyCodeLine{58   \}}
+
+\end{DoxyCode}
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+do\+Log\+In().
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classce204__hw4__library_1_1_login_services_aec00a2c68a51b035276fff88eb5a17ca}\label{classce204__hw4__library_1_1_login_services_aec00a2c68a51b035276fff88eb5a17ca}} 
+\index{ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}!input@{input}}
+\index{input@{input}!ce204\_hw4\_library.LoginServices@{ce204\_hw4\_library.LoginServices}}
+\doxysubsubsection{\texorpdfstring{input}{input}}
+{\footnotesize\ttfamily Scanner ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+input = new Scanner(System.\+in)}
+
+
+
+Definition at line 21 of file Login\+Services.\+java.
+
+
+
+Referenced by ce204\+\_\+hw4\+\_\+library.\+Login\+Services.\+initiate\+Log\+In().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ce204-\/hw4-\/alper-\/sahin/src/main/java/ce204\+\_\+hw4\+\_\+library/\mbox{\hyperlink{_login_services_8java}{Login\+Services.\+java}}\end{DoxyCompactItemize}

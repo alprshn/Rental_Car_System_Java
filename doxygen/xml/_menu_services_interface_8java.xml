@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_menu_services_interface_8java" kind="file" language="Java">
+    <compoundname>MenuServicesInterface.java</compoundname>
+    <innerclass refid="interfacece204__hw4__library_1_1_menu_services_interface" prot="public">ce204_hw4_library::MenuServicesInterface</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the interface definition for menu services. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="interfacece204__hw4__library_1_1_menu_services_interface" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interfacece204__hw4__library_1_1_menu_services_interface" kindref="compound">MenuServicesInterface</ref><sp/>{</highlight></codeline>
+<codeline lineno="19" refid="interfacece204__hw4__library_1_1_menu_services_interface_1a55f5dfb11ac1d69265024cac94b16c0a" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_menu_services_interface_1a55f5dfb11ac1d69265024cac94b16c0a" kindref="member">designCustomerMenu</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="interfacece204__hw4__library_1_1_menu_services_interface_1adb9c09705e6fcbf5c4a06aacf6f77668" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_menu_services_interface_1adb9c09705e6fcbf5c4a06aacf6f77668" kindref="member">designSelectCarType</ref>();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="interfacece204__hw4__library_1_1_menu_services_interface_1a997d040d59a818c10f2f37bcde7fc141" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_menu_services_interface_1a997d040d59a818c10f2f37bcde7fc141" kindref="member">designMainMenu</ref>();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="interfacece204__hw4__library_1_1_menu_services_interface_1a1a98702341a8e082d6b3b55fba4cfd92" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_menu_services_interface_1a1a98702341a8e082d6b3b55fba4cfd92" kindref="member">designAdminMenu</ref>();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/MenuServicesInterface.java"/>
+  </compounddef>
+</doxygen>

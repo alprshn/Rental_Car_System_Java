@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classce204__hw4__library_1_1_pay_pay_pal" kind="class" language="Java" prot="public">
+    <compoundname>ce204_hw4_library::PayPayPal</compoundname>
+    <basecompoundref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" prot="public" virt="non-virtual">ce204_hw4_library.CarPaymentStrategyPattern</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_pay_pay_pal_1a2eafd75245a403470c75b89f56f7dd5e" prot="private" static="no" mutable="no">
+        <type><ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref></type>
+        <definition>PayPalSystem ce204_hw4_library.PayPayPal.payPal</definition>
+        <argsstring></argsstring>
+        <name>payPal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="24" column="24" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classce204__hw4__library_1_1_pay_pay_pal_1a0169d28fd0f4173c3367cc726b016ca1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ce204_hw4_library.PayPayPal.totalMoney</definition>
+        <argsstring></argsstring>
+        <name>totalMoney</name>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="25" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pay_pal_1a05177243ef2fb150773456b3a04b06f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean ce204_hw4_library.PayPayPal.PaymentDetails</definition>
+        <argsstring>()</argsstring>
+        <name>PaymentDetails</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1aba5bac38d6e3d2db2c53b9337d2b4157">PaymentDetails</reimplements>
+        <briefdescription>
+<para>Retrieves the payment details. This method retrieves the payment details for the PayPal payment strategy. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true, indicating that payment details are available. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="34" column="18" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayPayPal.PaySystem</definition>
+        <argsstring>(int price)</argsstring>
+        <name>PaySystem</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1a770e120c575b361777b9a231b5597371">PaySystem</reimplements>
+        <param>
+          <type>int</type>
+          <declname>price</declname>
+        </param>
+        <briefdescription>
+<para>Performs the PayPal payment. This method performs the PayPal payment for the car rental. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>price</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The amount of money used for the payment. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="45" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="45" bodyend="50"/>
+        <references refid="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" compoundref="_pay_pay_pal_8java" startline="69" endline="71">ce204_hw4_library.PayPayPal.getMoney</references>
+        <references refid="classce204__hw4__library_1_1_pay_pay_pal_1a6e268acd6241c5e5b13b3b5d4ea5a941" compoundref="_pay_pay_pal_8java" startline="79" endline="82">ce204_hw4_library.PayPayPal.setMoney</references>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pay_pal_1a610a2e857c2fae3ca0d65d108cb5e54b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayPayPal.CollectPaymentSystemDetails</definition>
+        <argsstring>()</argsstring>
+        <name>CollectPaymentSystemDetails</name>
+        <reimplements refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern_1ad0795b1e2edad8bdab7a11fabcc4c8c7">CollectPaymentSystemDetails</reimplements>
+        <briefdescription>
+<para>Collects the payment system details. This method collects the necessary details for the PayPal payment system. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="58" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ce204_hw4_library.PayPayPal.getMoney</definition>
+        <argsstring>()</argsstring>
+        <name>getMoney</name>
+        <briefdescription>
+<para>Retrieves the total amount of money available in the PayPal account. This method retrieves the total amount of money available in the PayPal account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total amount of money available in the PayPal account. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="69" column="14" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="69" bodyend="71"/>
+        <referencedby refid="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987" compoundref="_pay_pay_pal_8java" startline="45" endline="50">ce204_hw4_library.PayPayPal.PaySystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pay_pal_1a6e268acd6241c5e5b13b3b5d4ea5a941" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ce204_hw4_library.PayPayPal.setMoney</definition>
+        <argsstring>(int i)</argsstring>
+        <name>setMoney</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Sets the total amount of money available in the PayPal account. This method sets the total amount of money available in the PayPal account. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The total amount of money to be set in the PayPal account. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="79" column="15" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="79" bodyend="82"/>
+        <referencedby refid="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987" compoundref="_pay_pay_pal_8java" startline="45" endline="50">ce204_hw4_library.PayPayPal.PaySystem</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classce204__hw4__library_1_1_pay_pay_pal_1a686e720b83bebacf3aa5fd8336eb223c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref></type>
+        <definition>PayPalSystem ce204_hw4_library.PayPayPal.getPayPalCard</definition>
+        <argsstring>()</argsstring>
+        <name>getPayPalCard</name>
+        <briefdescription>
+<para>Retrieves the PayPal system. This method retrieves the PayPal system. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The PayPal system. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="89" column="23" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>ce204_hw4_library.PayPayPal</label>
+        <link refid="classce204__hw4__library_1_1_pay_pay_pal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>ce204_hw4_library.PayPayPal</label>
+        <link refid="classce204__hw4__library_1_1_pay_pay_pal"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ce204_hw4_library.CarPaymentStrategyPattern</label>
+        <link refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern"/>
+      </node>
+    </collaborationgraph>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" line="11" column="7" bodyfile="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java" bodystart="11" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a610a2e857c2fae3ca0d65d108cb5e54b" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>CollectPaymentSystemDetails</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>getMoney</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a686e720b83bebacf3aa5fd8336eb223c" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>getPayPalCard</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a05177243ef2fb150773456b3a04b06f1" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>PaymentDetails</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a2eafd75245a403470c75b89f56f7dd5e" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>payPal</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>PaySystem</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a6e268acd6241c5e5b13b3b5d4ea5a941" prot="public" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>setMoney</name></member>
+      <member refid="classce204__hw4__library_1_1_pay_pay_pal_1a0169d28fd0f4173c3367cc726b016ca1" prot="private" virt="non-virtual"><scope>ce204_hw4_library::PayPayPal</scope><name>totalMoney</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

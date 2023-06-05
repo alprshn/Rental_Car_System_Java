@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="_pay_pay_pal_8java" kind="file" language="Java">
+    <compoundname>PayPayPal.java</compoundname>
+    <innerclass refid="classce204__hw4__library_1_1_pay_pay_pal" prot="public">ce204_hw4_library::PayPayPal</innerclass>
+    <innernamespace refid="namespacece204__hw4__library">ce204_hw4_library</innernamespace>
+    <briefdescription>
+<para>This file contains the implementation of the PayPayPal class. The PayPayPal class is a part of the CE204_HW4_Library package and implements the CarPaymentStrategyPattern interface. It provides methods for handling PayPal payments for car rentals. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">package<sp/></highlight><highlight class="normal">ce204_hw4_library;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classce204__hw4__library_1_1_pay_pay_pal" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classce204__hw4__library_1_1_pay_pay_pal" kindref="compound">PayPayPal</ref><sp/></highlight><highlight class="keyword">implements</highlight><highlight class="normal"><sp/><ref refid="interfacece204__hw4__library_1_1_car_payment_strategy_pattern" kindref="compound">CarPaymentStrategyPattern</ref><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref><sp/>payPal;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>totalMoney<sp/>=<sp/>10000;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="34" refid="classce204__hw4__library_1_1_pay_pay_pal_1a05177243ef2fb150773456b3a04b06f1" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">boolean</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a05177243ef2fb150773456b3a04b06f1" kindref="member">PaymentDetails</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="45" refid="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a3105fe05c02e2bb09383b6373c4fd987" kindref="member">PaySystem</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>price)<sp/>{</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>System.out.println(</highlight><highlight class="stringliteral">&quot;Paying<sp/>&quot;</highlight><highlight class="normal"><sp/>+<sp/>price<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>using<sp/>Credit<sp/>Card.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a6e268acd6241c5e5b13b3b5d4ea5a941" kindref="member">setMoney</ref>(<ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" kindref="member">getMoney</ref>()<sp/>-<sp/>price);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>System.out.println(<ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" kindref="member">getMoney</ref>()<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;<sp/>remanined<sp/>in<sp/>the<sp/>card.&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>System.out.println(</highlight><highlight class="stringliteral">&quot;You<sp/>rented<sp/>the<sp/>car&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>@Override</highlight></codeline>
+<codeline lineno="58" refid="classce204__hw4__library_1_1_pay_pay_pal_1a610a2e857c2fae3ca0d65d108cb5e54b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a610a2e857c2fae3ca0d65d108cb5e54b" kindref="member">CollectPaymentSystemDetails</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>payPal<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref>(</highlight><highlight class="stringliteral">&quot;abc@gmail.com&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;password123&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a317ffd4bdaecfb20c4b0904c197b4cc5" kindref="member">getMoney</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>totalMoney;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="classce204__hw4__library_1_1_pay_pay_pal_1a6e268acd6241c5e5b13b3b5d4ea5a941" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a6e268acd6241c5e5b13b3b5d4ea5a941" kindref="member">setMoney</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i)<sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO<sp/>Auto-generated<sp/>method<sp/>stub</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>totalMoney<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classce204__hw4__library_1_1_pay_pay_pal_1a686e720b83bebacf3aa5fd8336eb223c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classce204__hw4__library_1_1_pay_pal_system" kindref="compound">PayPalSystem</ref><sp/><ref refid="classce204__hw4__library_1_1_pay_pay_pal_1a686e720b83bebacf3aa5fd8336eb223c" kindref="member">getPayPalCard</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>payPal;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="ce204-hw4-alper-sahin/src/main/java/ce204_hw4_library/PayPayPal.java"/>
+  </compounddef>
+</doxygen>
