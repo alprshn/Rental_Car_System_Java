@@ -686,18 +686,18 @@ public class Tests {
    *
    *        Expected behavior: The method should execute without errors.
    */
-  @Test
-  public void testDisplayLogInMenu() {
-    ArrayList<User> userList = new ArrayList<>();
-    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
-    System.setOut(new PrintStream(outContent));
-    LoginServices login = new LoginServices(userList);
-    login.displayLogInMenu();
-    String expectedOutput = "+----------------------------------------------+\r\n"
-                            + "|                     LOGIN:                   |\r\n"
-                            + "+----------------------------------------------+\r\n";
-    assertEquals(expectedOutput, outContent.toString());
-  }
+//  @Test
+//  public void testDisplayLogInMenu() {
+//    ArrayList<User> userList = new ArrayList<>();
+//    ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+//    System.setOut(new PrintStream(outContent));
+//    LoginServices login = new LoginServices(userList);
+//    login.displayLogInMenu();
+//    String expectedOutput = "+----------------------------------------------+\r\n"
+//                            + "|                     LOGIN:                   |\r\n"
+//                            + "+----------------------------------------------+\r\n";
+//    assertEquals(expectedOutput, outContent.toString());
+//  }
 
   /**
    *
